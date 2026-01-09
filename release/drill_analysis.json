@@ -1,0 +1,56 @@
+{
+  "notes": [
+    "Hole categories inferred by diameter thresholds; verify in CAM."
+  ],
+  "tools": {
+    "1": {
+      "count": 0,
+      "diameter_mm": 0.2
+    },
+    "10": {
+      "count": 29,
+      "diameter_mm": 0.8128
+    },
+    "11": {
+      "count": 2,
+      "diameter_mm": 1.02
+    },
+    "12": {
+      "count": 4,
+      "diameter_mm": 2.2352
+    },
+    "13": {
+      "count": 2,
+      "diameter_mm": 2.54
+    },
+    "2": {
+      "count": 0,
+      "diameter_mm": 0.2032
+    },
+    "3": {
+      "count": 0,
+      "diameter_mm": 0.2032
+    },
+    "4": {
+      "count": 0,
+      "diameter_mm": 0.6
+    },
+    "6": {
+      "count": 0,
+      "diameter_mm": 0.7
+    },
+    "7": {
+      "count": 0,
+      "diameter_mm": 0.85
+    },
+    "8": {
+      "count": 0,
+      "diameter_mm": 1.016
+    },
+    "9": {
+      "count": 0,
+      "diameter_mm": 1.65
+    }
+  },
+  "total_holes": 37
+}

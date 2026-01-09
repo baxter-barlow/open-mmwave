@@ -1,0 +1,231 @@
+<html><body><h1>open_mmwave Rev G Report</h1>
+<h2>Hardware Reference</h2>
+<pre>
+# Hardware Reference - open_mmwave Rev G
+
+Sources: `docs/power_tree_revG.md`, `docs/interface_map_revG.md`, `data/netlist_revG.json`, `docs/boot_modes.md`.
+
+## Power Tree Summary
+| Rail | Source | Evidence |
+|---|---|---|
+| 5V_IN | USB J1 via D1 or U19 (TPS2115A) output via D2 | `docs/power_tree_revG.md` |
+| PMIC_3V3 | U1 SW0 -> L2 | `docs/power_tree_revG.md` |
+| PMIC_1V8 | U1 SW3 -> L5 | `docs/power_tree_revG.md` |
+| PMIC_1V2 | U1 SW1 -> L3 | `docs/power_tree_revG.md` |
+| PMIC_1V0 | U1 SW2 -> L4 | `docs/power_tree_revG.md` |
+
+## Connector Quick Reference
+### J1 (USB, Main)
+| Pin | Net |
+|---|---|
+| 1 | USB_5V |
+| 2 | USB_DM |
+| 3 | USB_DP |
+| 5 | GND |
+
+### J5 (USB, Breakaway Power-Only)
+| Pin | Net |
+|---|---|
+| 1 | USB_5V_B |
+| 2 | NC |
+| 3 | NC |
+| 4 | NC |
+| 5 | GND |
+
+### J2 (HD Connector)
+Key pins only. Full map: `docs/interface_map_revG.md`.
+
+| Pin | Net |
+|---|---|
+| 2 | 5V_HD_IN |
+| 8 | HD_AR_DMM_SYNC |
+| 10 | HD_AR_DMM_CLK |
+| 16 | HD_AR_HOSTINTR1 |
+| 43 | HD_AR_BSS_LOGGER |
+| 45 | HD_AR_OSC_CLKOUT |
+| 47 | HD_AR_MCUCLKOUT |
+| 49 | HD_AR_PMIC_CLKOUT_SOP2 |
+
+### J11 (Breakaway)
+Key pins only. Full map: `docs/interface_map_revG.md`.
+
+| Pin | Net |
+|---|---|
+| 1-3 | 5V_HD_IN (via FL4) |
+| 15 | AR_DMM_CLK |
+| 17 | AR_DMM_SYNC |
+| 19-33 | AR_DP0–AR_DP7 |
+| 26/28 | AR_LVDS_FRCLK_P/N |
+| 44/46 | AR_LVDS_CLK_P/N |
+| 50/52 | AR_LVDS_1_P/N |
+| 56/58 | AR_LVDS_0_P/N |
+| 51/53 | AR_SDA / AR_SCL |
+| 55/57 | CONN_AR_RS232RX/TX |
+| 59 | AR_NRST_1 |
+
+## Test Points (IPC Netlist)
+| TP | Net |
+|---|---|
+| TP4 | 5V_IN_B |
+| TP5 | PMIC_3V3 |
+| TP13 | VCC_BA_3V3 |
+| TP14 | AR_NRST |
+| TP17 | AR_OSC_CLKOUT |
+| TP18 | BREAK_RS232TX |
+| TP19 | BREAK_RS232RX |
+| TP26 | NetTP26_1 |
+
+## Boot Modes
+See `docs/boot_modes.md` for SOP strap network and switch positions.
+
+## Key Components
+| Refdes | Function | Evidence |
+|---|---|---|
+| U1 | LP87524 PMIC | `docs/power_tree_revG.md` |
+| U2 | radar SoC | `docs/power_tree_revG.md` |
+| U3 | CP2105 USB-UART | `docs/uart_setup.md` |
+| U16 | SN74LVC1G11 reset gate | `docs/power_tree_revG.md` |
+| U19 | TPS2115A power mux | `docs/power_tree_revG.md` |
+
+</pre>
+<h2>Bring-up Checklist</h2>
+<pre>
+# Bring-up Checklist - open_mmwave Rev G
+
+Sources: component datasheet, BOM, IPC netlist.
+
+## Visual and Continuity
+- Verify U1 (LP87524JRNFRQ1), U19 (TPS2115ADRBR), U3 (CP2105) are populated and oriented.
+- Verify inductors L2-L5 (470 nH) and ferrites L11-L15 (RF rails) are populated per BOM.
+- Verify D1 and D2 Schottky diodes (NSR20F30NXT5G) orientation.
+- Check for solder shorts on U2 BGA (XI6843ARQGALP) and around L2-L5.
+
+## Power-Up (Current-Limited)
+
+Set bench supply to 5.0 V with a conservative current limit (TBD). Apply power through a single source only (J1, J5, or J2) to avoid ORing ambiguity.
+
+### Stage 1: Input Power
+- J1: check USB_5V and 5V_IN via D1.
+- J5: check USB_5V_B and 5V_IN_B at TP4.
+- J2: check 5V_HD_IN at J2 pin 2.
+
+### Stage 2: Power Mux and ORing
+- With J2 or J5 input, check 5V_IN_SW at U19 output and 5V_IN after D2.
+- With J1 input, check 5V_IN after D1.
+
+### Stage 3: PMIC Outputs
+- Measure PMIC_3V3 at TP5.
+- Measure PMIC_1V8 / PMIC_1V2 / PMIC_1V0 at output caps (C131/C133/C135 etc on PMIC sheet 5).
+- Check PMIC_PGOOD net state (logic high expected after stable rails).
+
+### PMIC Enable/Reset Sequencing (Connectivity-Verified)
+- PMIC_EN1 pulled up to PMICVIO_3V3 via R34 (4.99 k); only connected to U1 pin 7 and R34. Evidence: IPC netlist (`PMIC_EN1`, `R34`, `U1`).
+- PMIC_EN2 pulled up to PMICVIO_3V3 via R35 (10 k); only connected to U1 pin 15 and R35. Evidence: IPC netlist.
+- PMIC_EN3 pulled up to PMICVIO_3V3 via R36 (10 k); only connected to U1 pin 2 and R36. Evidence: IPC netlist.
+- PMIC_NRST pulled up to PMICVIO_3V3 via R33 (4.99 k); only connected to U1 pin 20 and R33. Evidence: IPC netlist.
+- PMIC_PGOOD is pulled up to PMICVIO_3V3 via R25 (4.99 k); only connected to U1 pin 16 and R25. Evidence: IPC netlist.
+- PMIC_CLK is sourced from NET3 through R103 (0 ohm) into U1 pin 3; NET3 connects to U2 pin V10 (PMIC_CLKOUT). Evidence: IPC netlist; U2 pin V10 function from schematic source strings.
+
+If PMIC_PGOOD never asserts:
+- Verify PMICVIO_3V3 at R33/R34/R35/R36/R25 (pullup node). Check R50 (1.0 k) to 5V_IN and R52 (1.96 k) to GND (PMICVIO_3V3 divider). Evidence: IPC netlist (`R50`, `R52`, `PMICVIO_3V3`).
+- Verify PMIC_CLK present at U1 pin 3 (PMIC_CLK) and that U2 is powered.
+
+### AR_NRST Gating (Connectivity-Verified)
+- U16 (SN74LVC1G11) is a 3-input AND gate: A pin1 = AR_NRST_1, B pin3 = NetR178_2, C pin6 = AR_NRST_2, Y pin4 = AR_NRST, VCC pin5 = VCC_BA_3V3, GND pin2 = GND. Evidence: schematic source pin names for U16 + IPC netlist U16 pin nets.
+- NetR178_2 is pulled up to VCC_BA_3V3 via R178 (10k). Evidence: IPC netlist (`R178`).
+
+### Stage 4: AOP Rails
+- Measure AR_1V8 after L11, AR_1P2 after L13, AR_1P0_RF1 after L12, AR_1P0_RF2 after L14.
+
+## PCB Stackup (ODB Extract)
+- Board thickness: 0.059155 in from the fabrication package.
+- Layer order (top to bottom): TOP_LAYER, GND1, SIG1, PWR1, PWR2, SIG2, GND2, BOTTOM_LAYER (from the fabrication package).
+- Dielectric thickness per layer recorded in `data/stackup_revG.json` (from ODB layer attrlists).
+- Keep-out layer present: KEEP-OUT_LAYER in ODB matrix; no explicit impedance notes found in ODB or layer plot PDF.
+
+## Test Points (from IPC Netlist)
+- TP4: 5V_IN_B
+- TP5: PMIC_3V3
+- TP13: VCC_BA_3V3
+- TP14: AR_NRST
+- TP17: AR_OSC_CLKOUT
+- TP18: BREAK_RS232TX
+- TP19: BREAK_RS232RX
+- TP26: AR_MSS_LOGGER (UART)
+
+## Minimal Comms Validation (UART)
+- Connect USB at J1; verify CP2105 enumerates (device present in host).
+- Confirm UART path selection (UART_MUX_CTRL1/2 and S1 switch) on sheet 10.
+- Use UART at AR_MSS_LOGGER pins; expected baud TBD (verify component datasheet and firmware).
+
+## Common Faults and Quick Checks
+- No 3.3 V: check 5V_IN, D1/D2 orientation, U1 enable signals.
+- Low RF rail: inspect L11-L14 beads and nearby caps.
+- USB not enumerating: verify U3 CP2105 power (PMIC_3V3) and USB_DP/DM routing.
+
+Assumptions / To-Verify
+- Expected current draw for each stage is TBD; measure on a known-good board and update.
+- UART default baud and log strings depend on firmware; verify with vendor SDK.
+
+</pre>
+<h2>Power Validation</h2>
+<pre>
+# Power Validation Checklist - open_mmwave Rev G
+
+Sources: `data/netlist_revG.json`, `data/pmic_mapping.json`.
+
+## Expected Rails
+| Rail | Nominal (V) | Tolerance | Test Points |
+|---|---:|---:|---|
+| 5V_IN | 5.00 | ±5% | TBD |
+| PMIC_3V3 | 3.30 | ±3% | TP5 |
+| PMIC_1V8 | 1.80 | ±3% | TBD |
+| PMIC_1V2 | 1.20 | ±3% | TBD |
+| PMIC_1V0 | 1.00 | ±3% | TBD |
+
+## Procedure
+### Input Power
+- Set bench supply to 5.0 V and current limit to 0.5 A for initial checks.
+- Apply power at a single input (J1, J5, or J2) and verify 5V_IN.
+
+### PMIC Outputs
+- Verify PMIC_3V3 at TP5.
+- Verify PMIC_1V8/PMIC_1V2/PMIC_1V0 at output caps on PMIC sheet.
+- Check PMIC_PGOOD goes high after rails settle.
+
+### SoC Rails
+- Verify AR_1V8, AR_1P2, AR_1P0_RF1, AR_1P0_RF2 after beads.
+- Verify AR_NRST at TP14 after PMIC_PGOOD.
+
+</pre>
+<h2>Signal Integrity</h2>
+<pre>
+# Signal Integrity Checklist - open_mmwave Rev G
+
+Sources: `data/signal_integrity_checklist.json`, `data/impedance_targets.json`, IPC netlist.
+
+## USB 2.0
+- Nets: USB_DP, USB_DM
+- Target: 90 ohm differential
+
+## LVDS
+- Nets: AR_LVDS_*_P/N
+- Target: 100 ohm differential
+
+## SPI
+- Nets: SPI_* / HD_SPI_*
+- Target: 50 ohm single-ended
+
+## JTAG
+- Nets: HD_AR_T* / AR_T*
+- Target: 50 ohm single-ended
+
+## UART
+- Nets: UART_* / RS232* / AR_MSS_LOGGER
+- Target: 50 ohm single-ended
+
+## Routing Notes
+- Refer to `data/impedance_targets.json` for layer-specific width recommendations and assumptions.
+
+</pre>
+</body></html>

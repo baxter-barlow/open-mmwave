@@ -1,0 +1,2618 @@
+[
+  {
+    "package": "SMT_ANT",
+    "refdes": "A1",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 7028.907,
+    "y_mil": 4589.833
+  },
+  {
+    "package": "402.0",
+    "refdes": "C1",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3044.296,
+    "y_mil": 3970.802
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C2",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3785.88,
+    "y_mil": 4170.742
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C3",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3772.949,
+    "y_mil": 4125.723
+  },
+  {
+    "package": "402.0",
+    "refdes": "C4",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 2841.586,
+    "y_mil": 4328.908
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C6",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5221.014,
+    "y_mil": 4103.016
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C12",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5580.925,
+    "y_mil": 3737.111
+  },
+  {
+    "package": "201.0",
+    "refdes": "C14",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3719.343,
+    "y_mil": 4001.359
+  },
+  {
+    "package": "201.0",
+    "refdes": "C19",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6277.601,
+    "y_mil": 4370.868
+  },
+  {
+    "package": "201.0",
+    "refdes": "C20",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6277.601,
+    "y_mil": 4324.983
+  },
+  {
+    "package": "402.0",
+    "refdes": "C21",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6540.73,
+    "y_mil": 4344.095
+  },
+  {
+    "package": "402.0",
+    "refdes": "C22",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6468.513,
+    "y_mil": 4395.471
+  },
+  {
+    "package": "402.0",
+    "refdes": "C23",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6395.403,
+    "y_mil": 4324.416
+  },
+  {
+    "package": "201.0",
+    "refdes": "C24",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6142.325,
+    "y_mil": 4003.463
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C25",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6156.951,
+    "y_mil": 4250.281
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C26",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6142.182,
+    "y_mil": 4042.21
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C27",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6559.182,
+    "y_mil": 4128.463
+  },
+  {
+    "package": "402.0",
+    "refdes": "C28",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6495.932,
+    "y_mil": 3931.347
+  },
+  {
+    "package": "402.0",
+    "refdes": "C29",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6470.182,
+    "y_mil": 4142.463
+  },
+  {
+    "package": "201.0",
+    "refdes": "C30",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3107.0,
+    "y_mil": 4029.001
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C31",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2861.779,
+    "y_mil": 4197.403
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C32",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2862.171,
+    "y_mil": 4075.448
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C33",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3352.151,
+    "y_mil": 4197.401
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C34",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3352.483,
+    "y_mil": 4074.033
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C35",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6471.352,
+    "y_mil": 4181.253
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C36",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6518.252,
+    "y_mil": 4219.375
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C37",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6287.194,
+    "y_mil": 4411.08
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C40",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4961.703,
+    "y_mil": 3946.073
+  },
+  {
+    "package": "402.0",
+    "refdes": "C41",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6487.088,
+    "y_mil": 4570.148
+  },
+  {
+    "package": "402.0",
+    "refdes": "C42",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6821.811,
+    "y_mil": 4040.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C43",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5891.778,
+    "y_mil": 4292.066
+  },
+  {
+    "package": "805.0",
+    "refdes": "C44",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2816.189,
+    "y_mil": 4201.223
+  },
+  {
+    "package": "805.0",
+    "refdes": "C45",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2751.537,
+    "y_mil": 3937.348
+  },
+  {
+    "package": "805.0",
+    "refdes": "C46",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3394.078,
+    "y_mil": 4214.967
+  },
+  {
+    "package": "805.0",
+    "refdes": "C47",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3311.68,
+    "y_mil": 3920.882
+  },
+  {
+    "package": "402.0",
+    "refdes": "C50",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2981.748,
+    "y_mil": 4173.11
+  },
+  {
+    "package": "402.0",
+    "refdes": "C51",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2981.748,
+    "y_mil": 4110.11
+  },
+  {
+    "package": "402.0",
+    "refdes": "C52",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3232.252,
+    "y_mil": 4110.11
+  },
+  {
+    "package": "402.0",
+    "refdes": "C53",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3232.252,
+    "y_mil": 4173.11
+  },
+  {
+    "package": "402.0",
+    "refdes": "C55",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4115.163,
+    "y_mil": 4356.497
+  },
+  {
+    "package": "201.0",
+    "refdes": "C56",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4166.371,
+    "y_mil": 4378.244
+  },
+  {
+    "package": "201.0",
+    "refdes": "C57",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4168.421,
+    "y_mil": 4409.402
+  },
+  {
+    "package": "201.0",
+    "refdes": "C58",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4125.061,
+    "y_mil": 4410.163
+  },
+  {
+    "package": "402.0",
+    "refdes": "C59",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4128.303,
+    "y_mil": 3985.945
+  },
+  {
+    "package": "201.0",
+    "refdes": "C60",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4378.335,
+    "y_mil": 3871.659
+  },
+  {
+    "package": "201.0",
+    "refdes": "C61",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4270.976,
+    "y_mil": 4185.3
+  },
+  {
+    "package": "402.0",
+    "refdes": "C62",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3907.0,
+    "y_mil": 4128.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "C63",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3737.187,
+    "y_mil": 4226.49
+  },
+  {
+    "package": "201.0",
+    "refdes": "C64",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3907.0,
+    "y_mil": 4159.0
+  },
+  {
+    "package": "402.0",
+    "refdes": "C65",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3911.0,
+    "y_mil": 4188.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "C66",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3908.024,
+    "y_mil": 4218.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "C67",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3848.0,
+    "y_mil": 4327.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "C68",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3884.371,
+    "y_mil": 4409.244
+  },
+  {
+    "package": "201.0",
+    "refdes": "C69",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3734.673,
+    "y_mil": 4322.976
+  },
+  {
+    "package": "402.0",
+    "refdes": "C70",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3891.0,
+    "y_mil": 4337.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "C71",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3722.862,
+    "y_mil": 4065.247
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C72",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4853.371,
+    "y_mil": 4217.475
+  },
+  {
+    "package": "201.0",
+    "refdes": "C74",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3945.459,
+    "y_mil": 4346.383
+  },
+  {
+    "package": "201.0",
+    "refdes": "C75",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3945.456,
+    "y_mil": 4409.243
+  },
+  {
+    "package": "201.0",
+    "refdes": "C76",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3945.459,
+    "y_mil": 4377.915
+  },
+  {
+    "package": "402.0",
+    "refdes": "C78",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4038.897,
+    "y_mil": 4317.129
+  },
+  {
+    "package": "201.0",
+    "refdes": "C79",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4071.882,
+    "y_mil": 4346.338
+  },
+  {
+    "package": "201.0",
+    "refdes": "C80",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4073.371,
+    "y_mil": 4377.748
+  },
+  {
+    "package": "201.0",
+    "refdes": "C81",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4071.878,
+    "y_mil": 4409.359
+  },
+  {
+    "package": "402.0",
+    "refdes": "C82",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4001.016,
+    "y_mil": 4277.318
+  },
+  {
+    "package": "201.0",
+    "refdes": "C83",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4008.905,
+    "y_mil": 4346.147
+  },
+  {
+    "package": "201.0",
+    "refdes": "C84",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4009.236,
+    "y_mil": 4377.83
+  },
+  {
+    "package": "201.0",
+    "refdes": "C85",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4009.236,
+    "y_mil": 4409.326
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C86",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6422.226,
+    "y_mil": 3935.321
+  },
+  {
+    "package": "201.0",
+    "refdes": "C87",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4019.977,
+    "y_mil": 3861.376
+  },
+  {
+    "package": "201.0",
+    "refdes": "C88",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4394.908,
+    "y_mil": 4124.756
+  },
+  {
+    "package": "402.0",
+    "refdes": "C89",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3717.502,
+    "y_mil": 4135.448
+  },
+  {
+    "package": "402.0",
+    "refdes": "C90",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3717.371,
+    "y_mil": 4182.85
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C91",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4292.988,
+    "y_mil": 4035.173
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C92",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4065.736,
+    "y_mil": 3883.095
+  },
+  {
+    "package": "402.0",
+    "refdes": "C93",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6717.789,
+    "y_mil": 4589.833
+  },
+  {
+    "package": "201.0",
+    "refdes": "C94",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4293.187,
+    "y_mil": 3964.678
+  },
+  {
+    "package": "201.0",
+    "refdes": "C95",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3922.366,
+    "y_mil": 3891.756
+  },
+  {
+    "package": "201.0",
+    "refdes": "C96",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4388.366,
+    "y_mil": 4235.756
+  },
+  {
+    "package": "201.0",
+    "refdes": "C97",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3779.787,
+    "y_mil": 4050.198
+  },
+  {
+    "package": "201.0",
+    "refdes": "C98",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4388.366,
+    "y_mil": 4297.756
+  },
+  {
+    "package": "402.0",
+    "refdes": "C99",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6840.789,
+    "y_mil": 4589.833
+  },
+  {
+    "package": "201.0",
+    "refdes": "C100",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3741.24,
+    "y_mil": 3861.691
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C101",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3741.0,
+    "y_mil": 3881.165
+  },
+  {
+    "package": "201.0",
+    "refdes": "C102",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4393.221,
+    "y_mil": 4090.255
+  },
+  {
+    "package": "201.0",
+    "refdes": "C103",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4291.976,
+    "y_mil": 4058.8
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C105",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6003.641,
+    "y_mil": 4429.317
+  },
+  {
+    "package": "402.0",
+    "refdes": "C106",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6042.326,
+    "y_mil": 4472.323
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C107",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6735.032,
+    "y_mil": 4433.221
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C108",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6709.781,
+    "y_mil": 3866.012
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C109",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6877.411,
+    "y_mil": 3768.9
+  },
+  {
+    "package": "402.0",
+    "refdes": "C110",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6951.811,
+    "y_mil": 3773.615
+  },
+  {
+    "package": "805.0",
+    "refdes": "C111",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3322.596,
+    "y_mil": 4362.322
+  },
+  {
+    "package": "805.0",
+    "refdes": "C112",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2818.891,
+    "y_mil": 4074.436
+  },
+  {
+    "package": "805.0",
+    "refdes": "C113",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3244.399,
+    "y_mil": 4362.322
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C117",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5322.0,
+    "y_mil": 4534.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C120",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4784.371,
+    "y_mil": 4437.463
+  },
+  {
+    "package": "805.0",
+    "refdes": "C121",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3396.689,
+    "y_mil": 4076.019
+  },
+  {
+    "package": "402.0",
+    "refdes": "C122",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6771.811,
+    "y_mil": 4040.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C123",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 5432.91,
+    "y_mil": 4016.372
+  },
+  {
+    "package": "805.0",
+    "refdes": "C124",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3091.882,
+    "y_mil": 4372.692
+  },
+  {
+    "package": "201.0",
+    "refdes": "C125",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5270.833,
+    "y_mil": 4102.899
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C126",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3679.925,
+    "y_mil": 4262.913
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C127",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6653.182,
+    "y_mil": 3936.747
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C128",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6643.276,
+    "y_mil": 3766.122
+  },
+  {
+    "package": "201.0",
+    "refdes": "C129",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 6719.583,
+    "y_mil": 3813.735
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "C130",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4251.688,
+    "y_mil": 4228.0
+  },
+  {
+    "package": "805.0",
+    "refdes": "C131",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3462.455,
+    "y_mil": 4216.645
+  },
+  {
+    "package": "805.0",
+    "refdes": "C132",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3541.841,
+    "y_mil": 4216.942
+  },
+  {
+    "package": "805.0",
+    "refdes": "C133",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2979.213,
+    "y_mil": 3912.583
+  },
+  {
+    "package": "805.0",
+    "refdes": "C134",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 2883.613,
+    "y_mil": 3922.658
+  },
+  {
+    "package": "805.0",
+    "refdes": "C135",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3466.107,
+    "y_mil": 4077.108
+  },
+  {
+    "package": "805.0",
+    "refdes": "C136",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3428.483,
+    "y_mil": 3894.97
+  },
+  {
+    "package": "805.0",
+    "refdes": "C137",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3074.317,
+    "y_mil": 4359.333
+  },
+  {
+    "package": "805.0",
+    "refdes": "C138",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3559.232,
+    "y_mil": 3925.627
+  },
+  {
+    "package": "805.0",
+    "refdes": "C139",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2997.271,
+    "y_mil": 4360.777
+  },
+  {
+    "package": "805.0",
+    "refdes": "C140",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3544.884,
+    "y_mil": 4403.597
+  },
+  {
+    "package": "805.0",
+    "refdes": "C141",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2905.0,
+    "y_mil": 3911.441
+  },
+  {
+    "package": "2-XFDFN",
+    "refdes": "D1",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 2804.537,
+    "y_mil": 4219.172
+  },
+  {
+    "package": "2-XFDFN",
+    "refdes": "D2",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4596.655,
+    "y_mil": 3756.878
+  },
+  {
+    "package": "402.0",
+    "refdes": "FL2",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 2803.803,
+    "y_mil": 4133.284
+  },
+  {
+    "package": "402.0",
+    "refdes": "FL3",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6670.794,
+    "y_mil": 3868.561
+  },
+  {
+    "package": "402.0",
+    "refdes": "FL11",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4674.939,
+    "y_mil": 3755.497
+  },
+  {
+    "package": "402.0",
+    "refdes": "FL12",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5955.917,
+    "y_mil": 4292.412
+  },
+  {
+    "package": "402.0",
+    "refdes": "FL14",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6841.811,
+    "y_mil": 4105.179
+  },
+  {
+    "package": "402.0",
+    "refdes": "FL22",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4843.47,
+    "y_mil": 3842.728
+  },
+  {
+    "package": "",
+    "refdes": "H1",
+    "rotation_deg": 0.0,
+    "side": "None",
+    "x_mil": 0.0,
+    "y_mil": 0.0
+  },
+  {
+    "package": "",
+    "refdes": "H2",
+    "rotation_deg": 0.0,
+    "side": "None",
+    "x_mil": 0.0,
+    "y_mil": 0.0
+  },
+  {
+    "package": "",
+    "refdes": "H3",
+    "rotation_deg": 0.0,
+    "side": "None",
+    "x_mil": 0.0,
+    "y_mil": 0.0
+  },
+  {
+    "package": "Micro USB receptacle",
+    "refdes": "J1",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 2694.506,
+    "y_mil": 4164.78
+  },
+  {
+    "package": "Receptacle, 0.5 mm, 30x2, TH",
+    "refdes": "J2",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4733.361,
+    "y_mil": 4144.5
+  },
+  {
+    "package": "HDR4",
+    "refdes": "J3",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5065.287,
+    "y_mil": 4581.753
+  },
+  {
+    "package": "Micro USB receptacle",
+    "refdes": "J5",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6998.662,
+    "y_mil": 4155.73
+  },
+  {
+    "package": "HDR10",
+    "refdes": "J7",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6233.839,
+    "y_mil": 4540.557
+  },
+  {
+    "package": "HDR3",
+    "refdes": "J8",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 5923.436,
+    "y_mil": 4578.881
+  },
+  {
+    "package": "Ultra small CO-AX SMD",
+    "refdes": "J9",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5264.118,
+    "y_mil": 4488.336
+  },
+  {
+    "package": "HDR3",
+    "refdes": "J10",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 7054.811,
+    "y_mil": 3800.0
+  },
+  {
+    "package": "Receptacle, 0.5 mm, 30x2, TH",
+    "refdes": "J11",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5895.118,
+    "y_mil": 4104.5
+  },
+  {
+    "package": "0402 polarized",
+    "refdes": "L1",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6487.222,
+    "y_mil": 4324.41
+  },
+  {
+    "package": "0805 (2012 Metric)",
+    "refdes": "L2",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2926.506,
+    "y_mil": 4230.341
+  },
+  {
+    "package": "0805 (2012 Metric)",
+    "refdes": "L3",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2927.229,
+    "y_mil": 4046.771
+  },
+  {
+    "package": "0805 (2012 Metric)",
+    "refdes": "L4",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3286.885,
+    "y_mil": 4231.942
+  },
+  {
+    "package": "0805 (2012 Metric)",
+    "refdes": "L5",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3288.167,
+    "y_mil": 4048.897
+  },
+  {
+    "package": "0402 polarized",
+    "refdes": "L6",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6415.183,
+    "y_mil": 4396.456
+  },
+  {
+    "package": "805.0",
+    "refdes": "L7",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 6491.963,
+    "y_mil": 4040.829
+  },
+  {
+    "package": "603.0",
+    "refdes": "L8",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6552.568,
+    "y_mil": 3919.101
+  },
+  {
+    "package": "0402 polarized",
+    "refdes": "L9",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6441.848,
+    "y_mil": 4524.723
+  },
+  {
+    "package": "0402 polarized",
+    "refdes": "L10",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6597.789,
+    "y_mil": 4589.833
+  },
+  {
+    "package": "603.0",
+    "refdes": "L11",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3426.563,
+    "y_mil": 3974.365
+  },
+  {
+    "package": "603.0",
+    "refdes": "L12",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3147.813,
+    "y_mil": 4365.662
+  },
+  {
+    "package": "603.0",
+    "refdes": "L13",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2825.0,
+    "y_mil": 3953.792
+  },
+  {
+    "package": "603.0",
+    "refdes": "L14",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3427.092,
+    "y_mil": 4316.297
+  },
+  {
+    "package": "402.0",
+    "refdes": "LD1",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 2696.655,
+    "y_mil": 4188.503
+  },
+  {
+    "package": "402.0",
+    "refdes": "LD2",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4607.12,
+    "y_mil": 4561.069
+  },
+  {
+    "package": "402.0",
+    "refdes": "LD3",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4758.136,
+    "y_mil": 4558.147
+  },
+  {
+    "package": "402.0",
+    "refdes": "LD4",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3600.0,
+    "y_mil": 4117.071
+  },
+  {
+    "package": "402.0",
+    "refdes": "LD5",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4958.553,
+    "y_mil": 4422.561
+  },
+  {
+    "package": "402.0",
+    "refdes": "LD6",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6248.182,
+    "y_mil": 4393.364
+  },
+  {
+    "package": "SOT23",
+    "refdes": "Q1",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5205.082,
+    "y_mil": 4356.862
+  },
+  {
+    "package": "201.0",
+    "refdes": "R1",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5444.853,
+    "y_mil": 4116.984
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R2",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 4295.7,
+    "y_mil": 4110.3
+  },
+  {
+    "package": "201.0",
+    "refdes": "R3",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3793.633,
+    "y_mil": 3912.756
+  },
+  {
+    "package": "201.0",
+    "refdes": "R4",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3717.543,
+    "y_mil": 4429.005
+  },
+  {
+    "package": "201.0",
+    "refdes": "R5",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4378.131,
+    "y_mil": 4374.267
+  },
+  {
+    "package": "201.0",
+    "refdes": "R6",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3706.272,
+    "y_mil": 4022.491
+  },
+  {
+    "package": "201.0",
+    "refdes": "R7",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3840.93,
+    "y_mil": 3972.065
+  },
+  {
+    "package": "201.0",
+    "refdes": "R8",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3867.481,
+    "y_mil": 3948.464
+  },
+  {
+    "package": "201.0",
+    "refdes": "R9",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3835.0,
+    "y_mil": 3920.197
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R12",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4898.974,
+    "y_mil": 4582.072
+  },
+  {
+    "package": "201.0",
+    "refdes": "R13",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4636.417,
+    "y_mil": 4516.762
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R14",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4886.0,
+    "y_mil": 4506.259
+  },
+  {
+    "package": "201.0",
+    "refdes": "R15",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3663.0,
+    "y_mil": 4121.487
+  },
+  {
+    "package": "201.0",
+    "refdes": "R16",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 5566.395,
+    "y_mil": 4484.463
+  },
+  {
+    "package": "201.0",
+    "refdes": "R17",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6248.182,
+    "y_mil": 4328.171
+  },
+  {
+    "package": "201.0",
+    "refdes": "R19",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3579.994,
+    "y_mil": 4328.043
+  },
+  {
+    "package": "201.0",
+    "refdes": "R21",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4318.966,
+    "y_mil": 4310.756
+  },
+  {
+    "package": "201.0",
+    "refdes": "R22",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4318.966,
+    "y_mil": 4288.756
+  },
+  {
+    "package": "201.0",
+    "refdes": "R23",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4301.238,
+    "y_mil": 4249.287
+  },
+  {
+    "package": "402.0",
+    "refdes": "R24",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6583.182,
+    "y_mil": 3937.463
+  },
+  {
+    "package": "201.0",
+    "refdes": "R25",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3065.025,
+    "y_mil": 4017.977
+  },
+  {
+    "package": "201.0",
+    "refdes": "R26",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3146.722,
+    "y_mil": 4016.868
+  },
+  {
+    "package": "201.0",
+    "refdes": "R27",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 6606.394,
+    "y_mil": 3752.543
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R28",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3062.782,
+    "y_mil": 4258.341
+  },
+  {
+    "package": "201.0",
+    "refdes": "R29",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6584.182,
+    "y_mil": 3965.939
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R31",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5010.879,
+    "y_mil": 4011.307
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R32",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3094.519,
+    "y_mil": 4264.134
+  },
+  {
+    "package": "201.0",
+    "refdes": "R33",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3175.063,
+    "y_mil": 4016.868
+  },
+  {
+    "package": "201.0",
+    "refdes": "R34",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 3001.773,
+    "y_mil": 4272.693
+  },
+  {
+    "package": "201.0",
+    "refdes": "R35",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3034.519,
+    "y_mil": 4017.518
+  },
+  {
+    "package": "201.0",
+    "refdes": "R36",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3166.73,
+    "y_mil": 4249.565
+  },
+  {
+    "package": "201.0",
+    "refdes": "R37",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5009.228,
+    "y_mil": 3983.332
+  },
+  {
+    "package": "201.0",
+    "refdes": "R38",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 5272.0,
+    "y_mil": 4240.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "R39",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 2665.67,
+    "y_mil": 4224.056
+  },
+  {
+    "package": "201.0",
+    "refdes": "R40",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3660.786,
+    "y_mil": 4145.372
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R41",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3825.307,
+    "y_mil": 4374.622
+  },
+  {
+    "package": "201.0",
+    "refdes": "R42",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4799.247,
+    "y_mil": 4494.228
+  },
+  {
+    "package": "201.0",
+    "refdes": "R43",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3630.7,
+    "y_mil": 3875.427
+  },
+  {
+    "package": "201.0",
+    "refdes": "R44",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3619.371,
+    "y_mil": 4059.85
+  },
+  {
+    "package": "201.0",
+    "refdes": "R45",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3809.217,
+    "y_mil": 3978.91
+  },
+  {
+    "package": "201.0",
+    "refdes": "R46",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3595.371,
+    "y_mil": 3913.81
+  },
+  {
+    "package": "201.0",
+    "refdes": "R47",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3734.371,
+    "y_mil": 4022.491
+  },
+  {
+    "package": "201.0",
+    "refdes": "R48",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3608.371,
+    "y_mil": 4021.095
+  },
+  {
+    "package": "201.0",
+    "refdes": "R49",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3771.302,
+    "y_mil": 3947.762
+  },
+  {
+    "package": "201.0",
+    "refdes": "R50",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 2834.175,
+    "y_mil": 4320.156
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R51",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 5232.0,
+    "y_mil": 4241.795
+  },
+  {
+    "package": "201.0",
+    "refdes": "R52",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2861.965,
+    "y_mil": 4366.375
+  },
+  {
+    "package": "0402 (1005 Metric)",
+    "refdes": "R53",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 2884.155,
+    "y_mil": 4203.498
+  },
+  {
+    "package": "0402 (1005 Metric)",
+    "refdes": "R54",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 2883.091,
+    "y_mil": 4075.352
+  },
+  {
+    "package": "0402 (1005 Metric)",
+    "refdes": "R55",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3329.405,
+    "y_mil": 4204.495
+  },
+  {
+    "package": "0402 (1005 Metric)",
+    "refdes": "R56",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 3331.138,
+    "y_mil": 4076.103
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R57",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 5198.0,
+    "y_mil": 4147.795
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R58",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5008.993,
+    "y_mil": 4046.937
+  },
+  {
+    "package": "201.0",
+    "refdes": "R59",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4301.238,
+    "y_mil": 4224.756
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R60",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3846.819,
+    "y_mil": 4374.622
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R61",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3906.465,
+    "y_mil": 3996.536
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R62",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3901.535,
+    "y_mil": 3973.847
+  },
+  {
+    "package": "201.0",
+    "refdes": "R64",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 3715.385,
+    "y_mil": 4103.784
+  },
+  {
+    "package": "201.0",
+    "refdes": "R65",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3708.051,
+    "y_mil": 4143.038
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R67",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5513.338,
+    "y_mil": 3938.912
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R68",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5601.88,
+    "y_mil": 3937.06
+  },
+  {
+    "package": "201.0",
+    "refdes": "R69",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5505.11,
+    "y_mil": 3737.111
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R74",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4961.703,
+    "y_mil": 3922.441
+  },
+  {
+    "package": "201.0",
+    "refdes": "R75",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 3869.604,
+    "y_mil": 3903.219
+  },
+  {
+    "package": "201.0",
+    "refdes": "R83",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4277.8,
+    "y_mil": 4155.3
+  },
+  {
+    "package": "201.0",
+    "refdes": "R84",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4119.891,
+    "y_mil": 3922.396
+  },
+  {
+    "package": "201.0",
+    "refdes": "R85",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4355.444,
+    "y_mil": 4224.989
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R86",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6141.033,
+    "y_mil": 4180.572
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R87",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6141.183,
+    "y_mil": 4202.463
+  },
+  {
+    "package": "201.0",
+    "refdes": "R89",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6338.194,
+    "y_mil": 4411.08
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R90",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6278.988,
+    "y_mil": 4249.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R91",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6421.95,
+    "y_mil": 3926.463
+  },
+  {
+    "package": "201.0",
+    "refdes": "R94",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5398.0,
+    "y_mil": 4473.905
+  },
+  {
+    "package": "201.0",
+    "refdes": "R95",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5223.49,
+    "y_mil": 4457.604
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R99",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5223.298,
+    "y_mil": 4485.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R100",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 5331.0,
+    "y_mil": 4360.012
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R101",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5273.165,
+    "y_mil": 4534.357
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R102",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6278.988,
+    "y_mil": 4272.453
+  },
+  {
+    "package": "201.0",
+    "refdes": "R104",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4961.329,
+    "y_mil": 3971.357
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R105",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4865.783,
+    "y_mil": 3995.573
+  },
+  {
+    "package": "201.0",
+    "refdes": "R107",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4951.64,
+    "y_mil": 4484.704
+  },
+  {
+    "package": "201.0",
+    "refdes": "R108",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4924.0,
+    "y_mil": 4194.0
+  },
+  {
+    "package": "201.0",
+    "refdes": "R110",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 6168.272,
+    "y_mil": 4114.745
+  },
+  {
+    "package": "201.0",
+    "refdes": "R111",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5137.395,
+    "y_mil": 4116.463
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R112",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5259.359,
+    "y_mil": 4367.463
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R113",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5223.298,
+    "y_mil": 4399.0
+  },
+  {
+    "package": "402.0",
+    "refdes": "R114",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6909.571,
+    "y_mil": 3909.291
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R116",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6754.793,
+    "y_mil": 3956.0
+  },
+  {
+    "package": "402.0",
+    "refdes": "R117",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6909.663,
+    "y_mil": 3823.52
+  },
+  {
+    "package": "201.0",
+    "refdes": "R118",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6696.811,
+    "y_mil": 4422.0
+  },
+  {
+    "package": "402.0",
+    "refdes": "R119",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5885.956,
+    "y_mil": 4492.773
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R120",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6802.811,
+    "y_mil": 4252.988
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R121",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6649.045,
+    "y_mil": 4333.233
+  },
+  {
+    "package": "201.0",
+    "refdes": "R122",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 5837.641,
+    "y_mil": 4429.062
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R123",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5843.141,
+    "y_mil": 4359.706
+  },
+  {
+    "package": "201.0",
+    "refdes": "R124",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4864.679,
+    "y_mil": 4471.705
+  },
+  {
+    "package": "201.0",
+    "refdes": "R125",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5087.648,
+    "y_mil": 3914.043
+  },
+  {
+    "package": "402.0",
+    "refdes": "R126",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5960.917,
+    "y_mil": 4492.485
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R127",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6649.799,
+    "y_mil": 4310.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R128",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 6695.725,
+    "y_mil": 4240.706
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R129",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5125.203,
+    "y_mil": 3925.932
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R131",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 6321.17,
+    "y_mil": 3978.406
+  },
+  {
+    "package": "201.0",
+    "refdes": "R134",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6900.298,
+    "y_mil": 3961.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R136",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6749.824,
+    "y_mil": 4241.0
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R139",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6824.811,
+    "y_mil": 4252.988
+  },
+  {
+    "package": "201.0",
+    "refdes": "R141",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 6760.032,
+    "y_mil": 4429.257
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R142",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5017.079,
+    "y_mil": 4123.693
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R143",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5017.079,
+    "y_mil": 4153.693
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R144",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5074.939,
+    "y_mil": 4180.121
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R145",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5074.939,
+    "y_mil": 4210.121
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R146",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5062.803,
+    "y_mil": 4234.194
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R147",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5062.803,
+    "y_mil": 4257.194
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R148",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5062.101,
+    "y_mil": 4288.027
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R149",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 5062.101,
+    "y_mil": 4311.027
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R150",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6113.614,
+    "y_mil": 4381.762
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R151",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6115.411,
+    "y_mil": 4348.479
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R152",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5690.926,
+    "y_mil": 4328.396
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R153",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6113.324,
+    "y_mil": 4312.592
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R154",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5690.926,
+    "y_mil": 4298.926
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R155",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6115.554,
+    "y_mil": 4257.572
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R157",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 5690.926,
+    "y_mil": 4257.724
+  },
+  {
+    "package": "201.0",
+    "refdes": "R158",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4228.2,
+    "y_mil": 4119.6
+  },
+  {
+    "package": "201.0",
+    "refdes": "R159",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 4223.5,
+    "y_mil": 4078.1
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R161",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6141.182,
+    "y_mil": 4158.463
+  },
+  {
+    "package": "201.0",
+    "refdes": "R170",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 4154.349,
+    "y_mil": 3946.461
+  },
+  {
+    "package": "201.0",
+    "refdes": "R171",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4204.445,
+    "y_mil": 3980.176
+  },
+  {
+    "package": "201.0",
+    "refdes": "R172",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4401.109,
+    "y_mil": 4142.031
+  },
+  {
+    "package": "201.0",
+    "refdes": "R174",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4269.1,
+    "y_mil": 4113.8
+  },
+  {
+    "package": "201.0",
+    "refdes": "R176",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 4389.601,
+    "y_mil": 4181.803
+  },
+  {
+    "package": "201.0",
+    "refdes": "R177",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4849.592,
+    "y_mil": 4099.945
+  },
+  {
+    "package": "201.0",
+    "refdes": "R178",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4918.688,
+    "y_mil": 4169.463
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R186",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6095.545,
+    "y_mil": 3931.22
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R187",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6095.545,
+    "y_mil": 3892.263
+  },
+  {
+    "package": "0201 (0603 Metric)",
+    "refdes": "R190",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6095.545,
+    "y_mil": 3764.528
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA1",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4733.175,
+    "y_mil": 4479.492
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA2",
+    "rotation_deg": 180.0,
+    "side": "Top",
+    "x_mil": 4580.604,
+    "y_mil": 4423.994
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA3",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4772.937,
+    "y_mil": 3873.84
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA4",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4620.565,
+    "y_mil": 3957.492
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA5",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4941.511,
+    "y_mil": 4432.715
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA6",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4941.088,
+    "y_mil": 4327.395
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA7",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4942.516,
+    "y_mil": 4213.651
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA8",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4941.864,
+    "y_mil": 4095.871
+  },
+  {
+    "package": "502.0",
+    "refdes": "RA9",
+    "rotation_deg": 90.0,
+    "side": "Bottom",
+    "x_mil": 4949.85,
+    "y_mil": 3979.761
+  },
+  {
+    "package": "SW, SMT Half Pitch 4SPST, 5.8x2.7x6.25 mm",
+    "refdes": "S1",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5480.371,
+    "y_mil": 4285.463
+  },
+  {
+    "package": "SW, SMT Half Pitch 4SPST, 5.8x2.7x6.25 mm",
+    "refdes": "S2",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5274.371,
+    "y_mil": 3923.463
+  },
+  {
+    "package": "SMT_SW_5MM4_2MM5",
+    "refdes": "S3",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 4378.13,
+    "y_mil": 3983.7
+  },
+  {
+    "package": "3x1.6x2.5mm",
+    "refdes": "SW2",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 4854.161,
+    "y_mil": 4369.942
+  },
+  {
+    "package": "3x1.6x2.5mm",
+    "refdes": "SW3",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5063.871,
+    "y_mil": 4024.392
+  },
+  {
+    "package": "HDR1",
+    "refdes": "TP20",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5072.158,
+    "y_mil": 4430.473
+  },
+  {
+    "package": "RNF0026C",
+    "refdes": "U1",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3107.0,
+    "y_mil": 4141.61
+  },
+  {
+    "package": "ALP0180A",
+    "refdes": "U2",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4056.48,
+    "y_mil": 4141.61
+  },
+  {
+    "package": "QFN24-EP",
+    "refdes": "U3",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 3692.643,
+    "y_mil": 4282.197
+  },
+  {
+    "package": "DRL0006A",
+    "refdes": "U5",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 5251.975,
+    "y_mil": 4163.768
+  },
+  {
+    "package": "TSOT-23-5",
+    "refdes": "U6",
+    "rotation_deg": 270.0,
+    "side": "Bottom",
+    "x_mil": 5553.535,
+    "y_mil": 3840.012
+  },
+  {
+    "package": "RGZ0048A",
+    "refdes": "U8",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6343.38,
+    "y_mil": 4111.108
+  },
+  {
+    "package": "SON-8",
+    "refdes": "U9",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 3680.285,
+    "y_mil": 3934.676
+  },
+  {
+    "package": "RSV0016A",
+    "refdes": "U10",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5306.799,
+    "y_mil": 4449.729
+  },
+  {
+    "package": "DSF0006A",
+    "refdes": "U11",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 4902.703,
+    "y_mil": 3935.717
+  },
+  {
+    "package": "DRB0008F",
+    "refdes": "U12",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 5923.436,
+    "y_mil": 4384.462
+  },
+  {
+    "package": "RSV0016A",
+    "refdes": "U13",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6728.937,
+    "y_mil": 4322.756
+  },
+  {
+    "package": "RSE0010A",
+    "refdes": "U15",
+    "rotation_deg": 180.0,
+    "side": "Bottom",
+    "x_mil": 5493.275,
+    "y_mil": 4011.53
+  },
+  {
+    "package": "X2SON-6",
+    "refdes": "U16",
+    "rotation_deg": 90.0,
+    "side": "Top",
+    "x_mil": 4863.371,
+    "y_mil": 4159.463
+  },
+  {
+    "package": "DRB0008F",
+    "refdes": "U17",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 6799.781,
+    "y_mil": 3866.0
+  },
+  {
+    "package": "RSE0010A",
+    "refdes": "U18",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 3655.793,
+    "y_mil": 4329.586
+  },
+  {
+    "package": "DRB0008B",
+    "refdes": "U19",
+    "rotation_deg": 0.0,
+    "side": "Bottom",
+    "x_mil": 6621.182,
+    "y_mil": 3850.463
+  },
+  {
+    "package": "SMT_2MM0_1MM6",
+    "refdes": "Y1",
+    "rotation_deg": 0.0,
+    "side": "Top",
+    "x_mil": 3650.536,
+    "y_mil": 4035.032
+  },
+  {
+    "package": "SMD4",
+    "refdes": "Y2",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6616.708,
+    "y_mil": 4189.847
+  },
+  {
+    "package": "XTAL_SMT_1MM6_1MM0",
+    "refdes": "Y3",
+    "rotation_deg": 270.0,
+    "side": "Top",
+    "x_mil": 6320.708,
+    "y_mil": 4347.926
+  }
+]

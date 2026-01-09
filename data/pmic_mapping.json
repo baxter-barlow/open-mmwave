@@ -1,0 +1,124 @@
+{
+  "component": "U1",
+  "part": "LP87524JRNFRQ1",
+  "pins": {
+    "CLKIN": {
+      "net": "PMIC_CLK",
+      "pin": "3"
+    },
+    "EN1": {
+      "net": "PMIC_EN1",
+      "pin": "7"
+    },
+    "EN2": {
+      "net": "PMIC_EN2",
+      "pin": "15"
+    },
+    "EN3": {
+      "net": "PMIC_EN3",
+      "pin": "2"
+    },
+    "FB_B0": {
+      "net": "PMIC_3V3",
+      "pin": "8"
+    },
+    "FB_B1": {
+      "net": "PMIC_1V2",
+      "pin": "14"
+    },
+    "FB_B2": {
+      "net": "PMIC_1V0",
+      "pin": "1"
+    },
+    "FB_B3": {
+      "net": "PMIC_1V8",
+      "pin": "21"
+    },
+    "PGOOD": {
+      "net": "PMIC_PGOOD",
+      "pin": "16"
+    },
+    "SCL": {
+      "net": "PMIC_SCL",
+      "pin": "5"
+    },
+    "SDA": {
+      "net": "PMIC_SDA",
+      "pin": "6"
+    },
+    "SW_B0": {
+      "net": "SW0",
+      "pin": "10"
+    },
+    "SW_B1": {
+      "net": "SW1",
+      "pin": "12"
+    },
+    "SW_B2": {
+      "net": "SW2",
+      "pin": "25"
+    },
+    "SW_B3": {
+      "net": "SW3",
+      "pin": "23"
+    },
+    "\\INT": {
+      "net": "PMIC_NINT",
+      "pin": "19"
+    },
+    "\\RST": {
+      "net": "PMIC_NRST",
+      "pin": "20"
+    }
+  },
+  "rails": {
+    "PMIC_1V0": {
+      "caps": [
+        "C111",
+        "C113",
+        "C46"
+      ]
+    },
+    "PMIC_1V2": {
+      "caps": [
+        "C112",
+        "C45"
+      ]
+    },
+    "PMIC_1V8": {
+      "caps": [
+        "C121",
+        "C47"
+      ]
+    },
+    "PMIC_3V3": {
+      "caps": [
+        "C100",
+        "C101",
+        "C102",
+        "C126",
+        "C2",
+        "C3",
+        "C44",
+        "C87",
+        "C88"
+      ]
+    },
+    "SW0": {
+      "inductor": "L2",
+      "rail_net": "PMIC_3V3"
+    },
+    "SW1": {
+      "inductor": "L3",
+      "rail_net": "PMIC_1V2"
+    },
+    "SW2": {
+      "inductor": "L4",
+      "rail_net": "PMIC_1V0"
+    },
+    "SW3": {
+      "inductor": "L5",
+      "rail_net": "PMIC_1V8"
+    }
+  }
+}

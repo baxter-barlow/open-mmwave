@@ -1,0 +1,16 @@
+{
+  "pmic": {
+    "rails": [
+      "3V3",
+      "1V8",
+      "1V2",
+      "1V0"
+    ]
+  },
+  "power_input": {
+    "diode_model": "DGEN"
+  },
+  "reset": {
+    "logic": "3-input AND"
+  }
+}

@@ -1,0 +1,11 @@
+* Power-up sequence test
+.include ../models/nsr20f30nxt5g.lib
+.include ../models/tps2115a_behavioral.lib
+.include ../models/lp87524_behavioral.lib
+VUSB IN1 0 PULSE(0 5 0 1m 1m 10m 20m)
+VHD IN2 0 5
+XU19 IN1 IN2 VIN 0 TPS2115A
+XU1 VIN 0 V3V3 V1V8 V1V2 V1V0 LP87524
+RLOAD V3V3 0 10
+.tran 0.1m 50m
+.end

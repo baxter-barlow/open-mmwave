@@ -1,0 +1,158 @@
+{
+  "categories": {
+    "jtag": {
+      "impedance_target": "50ohm_single",
+      "nets": [
+        "AR_TCK",
+        "AR_TDI",
+        "AR_TDO_SOP0",
+        "AR_TMS",
+        "HD_AR_TCK",
+        "HD_AR_TDI",
+        "HD_AR_TDO_SOP0",
+        "HD_AR_TMS"
+      ]
+    },
+    "lvds": {
+      "impedance_target": "100ohm_diff",
+      "nets": [
+        "AR_LVDS_0_N",
+        "AR_LVDS_0_P",
+        "AR_LVDS_1_N",
+        "AR_LVDS_1_P",
+        "AR_LVDS_CLK_N",
+        "AR_LVDS_CLK_P"
+      ]
+    },
+    "spi": {
+      "impedance_target": "50ohm_single",
+      "nets": [
+        "HD_SPI_CLK1",
+        "HD_SPI_MISO1",
+        "HD_SPI_MOSI1",
+        "SPI_CLK1",
+        "SPI_CLK1_T",
+        "SPI_CS1",
+        "SPI_MISO1",
+        "SPI_MISO1_T",
+        "SPI_MOSI1"
+      ]
+    },
+    "uart": {
+      "impedance_target": "50ohm_single",
+      "nets": [
+        "AR_MSS_LOGGER",
+        "UART_MUX_CTRL1",
+        "UART_MUX_CTRL2"
+      ]
+    },
+    "usb": {
+      "impedance_target": "90ohm_diff",
+      "nets": [
+        "USB_DP",
+        "USB_DM"
+      ]
+    }
+  },
+  "impedance_targets": [
+    {
+      "copper_thickness_in": 0.0017975177338,
+      "diff_100ohm_spacing_in": 0.004133815132114338,
+      "diff_100ohm_width_in": 0.004133815132114338,
+      "diff_90ohm_spacing_in": 0.004133815132114338,
+      "diff_90ohm_width_in": 0.004133815132114338,
+      "estimated_diff_ohms_at_50_width": 83.6443965738349,
+      "height_in": 0.003686,
+      "layer": "TOP_LAYER",
+      "mode": "microstrip",
+      "single_ended_50ohm_width_in": 0.004133815132114338
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 32.84608024000406,
+      "height_in": 0.004,
+      "layer": "GND1",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0012242553174,
+      "diff_100ohm_spacing_in": 0.0013136174045333994,
+      "diff_100ohm_width_in": 0.0013136174045333994,
+      "diff_90ohm_spacing_in": 0.0013136174045333994,
+      "diff_90ohm_width_in": 0.0013136174045333994,
+      "estimated_diff_ohms_at_50_width": 57.975167543254116,
+      "height_in": 0.009486,
+      "layer": "SIG1",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.0013136174045333994
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 55.13683621510667,
+      "height_in": 0.008,
+      "layer": "PWR1",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.0011069320629182996,
+      "diff_100ohm_width_in": 0.0011069320629182996,
+      "diff_90ohm_spacing_in": 0.0011069320629182996,
+      "diff_90ohm_width_in": 0.0011069320629182996,
+      "estimated_diff_ohms_at_50_width": 57.06719239891228,
+      "height_in": 0.009525,
+      "layer": "PWR2",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.0011069320629182996
+    },
+    {
+      "copper_thickness_in": 0.0012242553174,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 46.60777067142852,
+      "height_in": 0.004,
+      "layer": "SIG2",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 28.389569680080044,
+      "height_in": 0.003686,
+      "layer": "GND2",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0017975177338,
+      "diff_100ohm_spacing_in": 0.001981268248989444,
+      "diff_100ohm_width_in": 0.001981268248989444,
+      "diff_90ohm_spacing_in": 0.001981268248989444,
+      "diff_90ohm_width_in": 0.001981268248989444,
+      "estimated_diff_ohms_at_50_width": 81.45513574612086,
+      "height_in": 0.002,
+      "layer": "BOTTOM_LAYER",
+      "mode": "microstrip",
+      "single_ended_50ohm_width_in": 0.001981268248989444
+    }
+  ],
+  "notes": [
+    "Impedance targets are approximate; see data/impedance_targets.json for assumptions."
+  ]
+}

@@ -1,0 +1,2 @@
+* NSR20F30NXT5G Schottky diode model
+.model NSR20F30NXT5G D(Is=1e-6 Rs=0.05 N=1.05 Bv=30 Ibv=1e-4 Vj=0.3 Cjo=50p)

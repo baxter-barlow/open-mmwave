@@ -1,0 +1,640 @@
+{
+  "J1": {
+    "1": {
+      "net": "USB_5V",
+      "resolved_net": "USB_5V"
+    },
+    "10": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "11": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "2": {
+      "net": "USB_DM",
+      "resolved_net": "USB_DM"
+    },
+    "3": {
+      "net": "USB_DP",
+      "resolved_net": "USB_DP"
+    },
+    "5": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "6": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "7": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "8": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "9": {
+      "net": "GND",
+      "resolved_net": "GND"
+    }
+  },
+  "J11": {
+    "1": {
+      "net": "NetFL4_1",
+      "resolved_net": "NetFL4_1"
+    },
+    "10": {
+      "net": "NetJ11_10",
+      "resolved_net": "AR_HOSTINTR1"
+    },
+    "11": {
+      "net": "NetJ11_11",
+      "resolved_net": "SPI_MOSI1"
+    },
+    "12": {
+      "net": "NetJ11_12",
+      "resolved_net": "SPI_MISO1"
+    },
+    "13": {
+      "net": "NetJ11_13",
+      "resolved_net": "PGOOD"
+    },
+    "14": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "15": {
+      "net": "AR_DMM_CLK",
+      "resolved_net": "AR_DMM_CLK"
+    },
+    "16": {
+      "net": "NetJ11_16",
+      "resolved_net": "AR_SYNC_IN"
+    },
+    "17": {
+      "net": "AR_DMM_SYNC",
+      "resolved_net": "AR_DMM_SYNC"
+    },
+    "18": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "19": {
+      "net": "AR_DP0",
+      "resolved_net": "AR_DP0"
+    },
+    "2": {
+      "net": "NetFL4_1",
+      "resolved_net": "NetFL4_1"
+    },
+    "20": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "21": {
+      "net": "AR_DP1",
+      "resolved_net": "AR_DP1"
+    },
+    "22": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "23": {
+      "net": "AR_DP2",
+      "resolved_net": "AR_DP2"
+    },
+    "24": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "25": {
+      "net": "AR_DP3",
+      "resolved_net": "AR_DP3"
+    },
+    "26": {
+      "net": "NetJ11_26",
+      "resolved_net": "AR_LVDS_FRCLK_P"
+    },
+    "27": {
+      "net": "AR_DP4",
+      "resolved_net": "AR_DP4"
+    },
+    "28": {
+      "net": "NetJ11_28",
+      "resolved_net": "AR_LVDS_FRCLK_N"
+    },
+    "29": {
+      "net": "AR_DP5",
+      "resolved_net": "AR_DP5"
+    },
+    "3": {
+      "net": "NetFL4_1",
+      "resolved_net": "NetFL4_1"
+    },
+    "30": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "31": {
+      "net": "AR_DP6",
+      "resolved_net": "AR_DP6"
+    },
+    "32": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "33": {
+      "net": "AR_DP7",
+      "resolved_net": "AR_DP7"
+    },
+    "34": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "35": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "36": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "37": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "38": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "39": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "4": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "40": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "41": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "42": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "43": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "44": {
+      "net": "NetJ11_44",
+      "resolved_net": "AR_LVDS_CLK_P"
+    },
+    "45": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "46": {
+      "net": "NetJ11_46",
+      "resolved_net": "AR_LVDS_CLK_N"
+    },
+    "47": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "48": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "49": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "5": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "50": {
+      "net": "NetJ11_50",
+      "resolved_net": "AR_LVDS_1_P"
+    },
+    "51": {
+      "net": "NetJ11_51",
+      "resolved_net": "AR_SDA"
+    },
+    "52": {
+      "net": "NetJ11_52",
+      "resolved_net": "AR_LVDS_1_N"
+    },
+    "53": {
+      "net": "NetJ11_53",
+      "resolved_net": "AR_SCL"
+    },
+    "54": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "55": {
+      "net": "NetJ11_55",
+      "resolved_net": "CONN_AR_RS232RX"
+    },
+    "56": {
+      "net": "NetJ11_56",
+      "resolved_net": "AR_LVDS_0_P"
+    },
+    "57": {
+      "net": "NetJ11_57",
+      "resolved_net": "CONN_AR_RS232TX"
+    },
+    "58": {
+      "net": "NetJ11_58",
+      "resolved_net": "AR_LVDS_0_N"
+    },
+    "59": {
+      "net": "NetJ11_59",
+      "resolved_net": "AR_NRST_1"
+    },
+    "6": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "60": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "7": {
+      "net": "NetJ11_7",
+      "resolved_net": "AR_CS1_60PIN"
+    },
+    "8": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "9": {
+      "net": "NetJ11_9",
+      "resolved_net": "SPI_CLK1"
+    },
+    "MH1": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "MH2": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "MP1": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "MP2": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "MP3": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "MP4": {
+      "net": "GND",
+      "resolved_net": "GND"
+    }
+  },
+  "J2": {
+    "1": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "10": {
+      "net": "HD_AR_DMM_CLK",
+      "resolved_net": "HD_AR_DMM_CLK"
+    },
+    "11": {
+      "net": "HD_AR_TDI",
+      "resolved_net": "HD_AR_TDI"
+    },
+    "12": {
+      "net": "NetJ2_12",
+      "resolved_net": "AR_NRST_1"
+    },
+    "13": {
+      "net": "HD_AR_TMS",
+      "resolved_net": "HD_AR_TMS"
+    },
+    "14": {
+      "net": "NetJ2_14",
+      "resolved_net": "PGOOD"
+    },
+    "15": {
+      "net": "HD_AR_TCK",
+      "resolved_net": "HD_AR_TCK"
+    },
+    "16": {
+      "net": "NET9",
+      "resolved_net": "HD_AR_HOSTINTR1"
+    },
+    "17": {
+      "net": "HD_AR_TDO_SOP0",
+      "resolved_net": "HD_AR_TDO_SOP0"
+    },
+    "18": {
+      "net": "NetJ2_18",
+      "resolved_net": "NetR58_2"
+    },
+    "19": {
+      "net": "HD_AR_CS1",
+      "resolved_net": "HD_AR_CS1"
+    },
+    "2": {
+      "net": "5V_HD_IN",
+      "resolved_net": "5V_HD_IN"
+    },
+    "20": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "21": {
+      "net": "HD_SPI_CLK1",
+      "resolved_net": "HD_SPI_CLK1"
+    },
+    "22": {
+      "net": "NetJ2_22",
+      "resolved_net": "AR_SYNC_IN"
+    },
+    "23": {
+      "net": "HD_SPI_MOSI1",
+      "resolved_net": "HD_SPI_MOSI1"
+    },
+    "24": {
+      "net": "NetJ2_24",
+      "resolved_net": "AR_SYNC_OUT_SOP1"
+    },
+    "25": {
+      "net": "HD_SPI_MISO1",
+      "resolved_net": "HD_SPI_MISO1"
+    },
+    "26": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "27": {
+      "net": "HD_AR_DP0",
+      "resolved_net": "HD_AR_DP0"
+    },
+    "28": {
+      "net": "NetJ2_28",
+      "resolved_net": "AR_LVDS_FRCLK_P"
+    },
+    "29": {
+      "net": "HD_AR_DP1",
+      "resolved_net": "HD_AR_DP1"
+    },
+    "3": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "30": {
+      "net": "NetJ2_30",
+      "resolved_net": "AR_LVDS_FRCLK_N"
+    },
+    "31": {
+      "net": "HD_AR_DP2",
+      "resolved_net": "HD_AR_DP2"
+    },
+    "32": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "33": {
+      "net": "HD_AR_DP3",
+      "resolved_net": "HD_AR_DP3"
+    },
+    "34": {
+      "net": "NetJ2_34",
+      "resolved_net": "AR_LVDS_CLK_P"
+    },
+    "35": {
+      "net": "HD_AR_DP4",
+      "resolved_net": "HD_AR_DP4"
+    },
+    "36": {
+      "net": "NetJ2_36",
+      "resolved_net": "AR_LVDS_CLK_N"
+    },
+    "37": {
+      "net": "HD_AR_DP5",
+      "resolved_net": "HD_AR_DP5"
+    },
+    "38": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "39": {
+      "net": "HD_AR_DP6",
+      "resolved_net": "HD_AR_DP6"
+    },
+    "4": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "40": {
+      "net": "NetJ2_40",
+      "resolved_net": "AR_LVDS_1_P"
+    },
+    "41": {
+      "net": "HD_AR_DP7",
+      "resolved_net": "HD_AR_DP7"
+    },
+    "42": {
+      "net": "NetJ2_42",
+      "resolved_net": "AR_LVDS_1_N"
+    },
+    "43": {
+      "net": "NET8",
+      "resolved_net": "HD_AR_BSS_LOGGER"
+    },
+    "44": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "45": {
+      "net": "NET11",
+      "resolved_net": "HD_AR_OSC_CLKOUT"
+    },
+    "46": {
+      "net": "NetJ2_46",
+      "resolved_net": "AR_LVDS_0_P"
+    },
+    "47": {
+      "net": "NET10",
+      "resolved_net": "HD_AR_MCUCLKOUT"
+    },
+    "48": {
+      "net": "NetJ2_48",
+      "resolved_net": "AR_LVDS_0_N"
+    },
+    "49": {
+      "net": "NET12",
+      "resolved_net": "HD_AR_PMIC_CLKOUT_SOP2"
+    },
+    "5": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "50": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "51": {
+      "net": "HD_AR_WARMRST",
+      "resolved_net": "HD_AR_WARMRST"
+    },
+    "52": {
+      "net": "NetJ2_52",
+      "resolved_net": "AR_NERRIN"
+    },
+    "53": {
+      "net": "HD_AR_SDA",
+      "resolved_net": "HD_AR_SDA"
+    },
+    "54": {
+      "net": "NetJ2_54",
+      "resolved_net": "AR_NERR_OUT"
+    },
+    "55": {
+      "net": "HD_AR_SCL",
+      "resolved_net": "HD_AR_SCL"
+    },
+    "56": {
+      "net": "NetJ2_56",
+      "resolved_net": "AR_GPIO_0"
+    },
+    "57": {
+      "net": "NetJ2_57",
+      "resolved_net": "CONN_AR_RS232RX"
+    },
+    "58": {
+      "net": "NetJ2_58",
+      "resolved_net": "AR_GPIO_1"
+    },
+    "59": {
+      "net": "NetJ2_59",
+      "resolved_net": "CONN_AR_RS232TX"
+    },
+    "6": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "60": {
+      "net": "NetJ2_60",
+      "resolved_net": "AR_GPIO_2"
+    },
+    "7": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "8": {
+      "net": "HD_AR_DMM_SYNC",
+      "resolved_net": "HD_AR_DMM_SYNC"
+    },
+    "9": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "MH1": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "MH2": {
+      "net": "NC",
+      "resolved_net": "NC",
+      "status": "NC_verified"
+    },
+    "MP1": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "MP2": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "MP3": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "MP4": {
+      "net": "GND",
+      "resolved_net": "GND"
+    }
+  },
+  "J5": {
+    "1": {
+      "net": "USB_5V_B",
+      "resolved_net": "USB_5V_B"
+    },
+    "10": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "11": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "5": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "6": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "7": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "8": {
+      "net": "GND",
+      "resolved_net": "GND"
+    },
+    "9": {
+      "net": "GND",
+      "resolved_net": "GND"
+    }
+  }
+}

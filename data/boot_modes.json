@@ -1,0 +1,38 @@
+{
+  "sop_table": {
+    "flash": {
+      "SOP0": "OFF",
+      "SOP1": "OFF",
+      "SOP2": "ON"
+    },
+    "functional": {
+      "SOP0": "OFF",
+      "SOP1": "OFF",
+      "SOP2": "OFF"
+    },
+    "mmwaveicboost": {
+      "SOP0": "OFF",
+      "SOP1": "ON",
+      "SOP2": "OFF"
+    }
+  },
+  "strap_network": {
+    "SOP0": {
+      "alt_source": "AR_TDO_SOP0 via R83",
+      "pull_down": "R158",
+      "pull_up": "R174->R2->PMIC_3V3",
+      "series_to_switch": "R159"
+    },
+    "SOP1": {
+      "alt_source": "NET4 (AR_SYNC_OUT_SOP1) via R84",
+      "pull_down": "R170",
+      "pull_up": "R16->VCC_BA_3V3",
+      "series_to_switch": "R171"
+    },
+    "SOP2": {
+      "alt_source": "NET3 (AR_PMIC_CLKOUT_SOP2) via R85",
+      "pull_down": "R172",
+      "pull_up": "R176 via SW3 to PMIC_3V3"
+    }
+  }
+}

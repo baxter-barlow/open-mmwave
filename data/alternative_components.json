@@ -1,0 +1,32 @@
+{
+ "alternatives": {
+ "U1": {
+ "alternatives": [],
+ "part": "LP87524",
+ "risk": "single-source PMIC; no in-repo alternatives."
+ },
+ "U19": {
+ "alternatives": [],
+ "part": "TPS2115A",
+ "risk": "No alternatives listed in repo; verify power mux requirements externally."
+ },
+ "U3": {
+ "alternatives": [],
+ "part": "CP2105",
+ "risk": "No alternatives listed in repo; verify USB-UART compatibility externally."
+ },
+ "connectors": {
+ "alternatives": [],
+ "part": "Samtec QSH-030-01-L-D-A / Molex 105017-0001",
+ "risk": "Connector footprint compatibility must be verified."
+ },
+ "passives": {
+ "alternatives": [
+ "Generic equivalents with same package and rating"
+ ],
+ "part": "R/C/L/FL parts",
+ "risk": "Match voltage/current/temp and ESR/ESL as required."
+ }
+ },
+ "source": "Repository BOM only; no validated alternates included."
+}

@@ -1,0 +1,1440 @@
+{
+  "impact_by_block": {
+    "analog_mux_block": [
+      "GND",
+      "NET6",
+      "NET7",
+      "PMIC_3V3",
+      "USB_AR_RS232RX",
+      "USB_AR_RS232TX",
+      "VCC_BA_3V3"
+    ],
+    "bt_display_block": [
+      "BT_UART_RX",
+      "BT_UART_TX",
+      "GND",
+      "JTAG_TCK",
+      "JTAG_TDI",
+      "JTAG_TMS",
+      "NET5",
+      "VCC_BA_3V3",
+      "nRESET"
+    ],
+    "can_interface_block": [
+      "GND",
+      "NET14",
+      "SPI_CLK1",
+      "SPI_MISO1",
+      "SPI_MOSI1",
+      "VCC_BA_3V3"
+    ],
+    "hd_connector_block": [
+      "5V_HD_IN",
+      "AR_1P0_RF1",
+      "AR_1P0_RF2",
+      "AR_1P2",
+      "AR_1V8",
+      "AR_CS1_60PIN",
+      "AR_DMM_CLK",
+      "AR_DMM_SYNC",
+      "AR_DP0",
+      "AR_DP1",
+      "AR_DP2",
+      "AR_DP3",
+      "AR_DP4",
+      "AR_DP5",
+      "AR_DP6",
+      "AR_DP7",
+      "AR_HOSTINTR1",
+      "AR_LVDS_0_N",
+      "AR_LVDS_0_P",
+      "AR_LVDS_1_N",
+      "AR_LVDS_1_P",
+      "AR_LVDS_CLK_N",
+      "AR_LVDS_CLK_P",
+      "AR_MSS_LOGGER",
+      "AR_SCL",
+      "AR_SDA",
+      "AR_SYNC_IN",
+      "GND",
+      "NET1",
+      "NET10",
+      "NET11",
+      "NET12",
+      "NET2",
+      "NET3",
+      "NET4",
+      "NET8",
+      "NET9",
+      "NetFL4_1",
+      "NetJ11_10",
+      "NetJ11_11",
+      "NetJ11_12",
+      "NetJ11_13",
+      "NetJ11_16",
+      "NetJ11_26",
+      "NetJ11_28",
+      "NetJ11_44",
+      "NetJ11_46",
+      "NetJ11_50",
+      "NetJ11_51",
+      "NetJ11_52",
+      "NetJ11_53",
+      "NetJ11_55",
+      "NetJ11_56",
+      "NetJ11_57",
+      "NetJ11_58",
+      "NetJ11_59",
+      "NetJ11_7",
+      "NetJ11_9",
+      "NetR61_1",
+      "NetR62_1",
+      "PMIC_3V3",
+      "SPI_CLK1",
+      "SPI_MISO1",
+      "SPI_MOSI1"
+    ],
+    "pmic_block": [
+      "AR_1P0_RF1",
+      "AR_1P0_RF2",
+      "AR_1P2",
+      "AR_1V8",
+      "AR_DMM_CLK",
+      "AR_DMM_SYNC",
+      "AR_DP0",
+      "AR_DP1",
+      "AR_DP2",
+      "AR_DP3",
+      "AR_DP4",
+      "AR_DP5",
+      "AR_DP6",
+      "AR_DP7",
+      "AR_HOSTINTR1",
+      "AR_LVDS_0_N",
+      "AR_LVDS_0_P",
+      "AR_LVDS_1_N",
+      "AR_LVDS_1_P",
+      "AR_LVDS_CLK_N",
+      "AR_LVDS_CLK_P",
+      "AR_MSS_LOGGER",
+      "AR_SCL",
+      "AR_SDA",
+      "AR_SYNC_IN",
+      "GND",
+      "NET1",
+      "NET2",
+      "NET3",
+      "NET4",
+      "NetR61_1",
+      "NetR62_1",
+      "PGOOD",
+      "PMIC_1V0",
+      "PMIC_1V2",
+      "PMIC_1V8",
+      "PMIC_3V3",
+      "USB_AR_RS232RX",
+      "USB_AR_RS232TX",
+      "VCC_BA_3V3"
+    ],
+    "reset_gpio_block": [
+      "5V_HD_IN",
+      "AR_1P0_RF1",
+      "AR_1P0_RF2",
+      "AR_1P2",
+      "AR_1V8",
+      "AR_DMM_CLK",
+      "AR_DMM_SYNC",
+      "AR_DP0",
+      "AR_DP1",
+      "AR_DP2",
+      "AR_DP3",
+      "AR_DP4",
+      "AR_DP5",
+      "AR_DP6",
+      "AR_DP7",
+      "AR_HOSTINTR1",
+      "AR_LVDS_0_N",
+      "AR_LVDS_0_P",
+      "AR_LVDS_1_N",
+      "AR_LVDS_1_P",
+      "AR_LVDS_CLK_N",
+      "AR_LVDS_CLK_P",
+      "AR_MSS_LOGGER",
+      "AR_NRST_1",
+      "AR_SYNC_IN",
+      "GND",
+      "NET1",
+      "NET10",
+      "NET11",
+      "NET12",
+      "NET2",
+      "NET3",
+      "NET4",
+      "NET8",
+      "NET9",
+      "NetJ11_59",
+      "NetR61_1",
+      "NetR62_1",
+      "PGOOD",
+      "PMIC_1V0",
+      "PMIC_1V2",
+      "PMIC_1V8",
+      "PMIC_3V3",
+      "VCC_BA_3V3",
+      "nRESET"
+    ],
+    "soc_core_block": [
+      "AR_1P0_RF1",
+      "AR_1P0_RF2",
+      "AR_1P2",
+      "AR_1V8",
+      "AR_DMM_CLK",
+      "AR_DMM_SYNC",
+      "AR_DP0",
+      "AR_DP1",
+      "AR_DP2",
+      "AR_DP3",
+      "AR_DP4",
+      "AR_DP5",
+      "AR_DP6",
+      "AR_DP7",
+      "AR_HOSTINTR1",
+      "AR_LVDS_0_N",
+      "AR_LVDS_0_P",
+      "AR_LVDS_1_N",
+      "AR_LVDS_1_P",
+      "AR_LVDS_CLK_N",
+      "AR_LVDS_CLK_P",
+      "AR_MSS_LOGGER",
+      "AR_SYNC_IN",
+      "GND",
+      "NET1",
+      "NET2",
+      "NET3",
+      "NET4",
+      "NetR61_1",
+      "NetR62_1",
+      "PMIC_3V3"
+    ],
+    "usb_uart_block": [
+      "AR_1P0_RF1",
+      "AR_1P0_RF2",
+      "AR_1P2",
+      "AR_1V8",
+      "AR_DMM_CLK",
+      "AR_DMM_SYNC",
+      "AR_DP0",
+      "AR_DP1",
+      "AR_DP2",
+      "AR_DP3",
+      "AR_DP4",
+      "AR_DP5",
+      "AR_DP6",
+      "AR_DP7",
+      "AR_HOSTINTR1",
+      "AR_LVDS_0_N",
+      "AR_LVDS_0_P",
+      "AR_LVDS_1_N",
+      "AR_LVDS_1_P",
+      "AR_LVDS_CLK_N",
+      "AR_LVDS_CLK_P",
+      "AR_MSS_LOGGER",
+      "AR_SYNC_IN",
+      "BT_UART_RX",
+      "BT_UART_TX",
+      "GND",
+      "JTAG_TCK",
+      "JTAG_TDI",
+      "JTAG_TMS",
+      "NET1",
+      "NET2",
+      "NET3",
+      "NET4",
+      "NET5",
+      "NET6",
+      "NET7",
+      "NetR61_1",
+      "NetR62_1",
+      "PMIC_3V3",
+      "USB_AR_RS232RX",
+      "USB_AR_RS232TX",
+      "VCC_BA_3V3",
+      "nRESET"
+    ]
+  },
+  "nets_added": [
+    "NET1",
+    "NET10",
+    "NET11",
+    "NET12",
+    "NET13",
+    "NET14",
+    "NET2",
+    "NET3",
+    "NET4",
+    "NET5",
+    "NET6",
+    "NET7",
+    "NET8",
+    "NET9",
+    "NetFL4_1",
+    "NetJ11_10",
+    "NetJ11_11",
+    "NetJ11_12",
+    "NetJ11_13",
+    "NetJ11_16",
+    "NetJ11_26",
+    "NetJ11_28",
+    "NetJ11_44",
+    "NetJ11_46",
+    "NetJ11_50",
+    "NetJ11_51",
+    "NetJ11_52",
+    "NetJ11_53",
+    "NetJ11_55",
+    "NetJ11_56",
+    "NetJ11_57",
+    "NetJ11_58",
+    "NetJ11_59",
+    "NetJ11_7",
+    "NetJ11_9",
+    "NetR61_1"
+  ],
+  "nets_changed": {
+    "5V_HD_IN": {
+      "added_pins": [
+        [
+          "FL4",
+          "2"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_1P0_RF1": {
+      "added_pins": [
+        [
+          "C124",
+          "1"
+        ],
+        [
+          "C137",
+          "1"
+        ],
+        [
+          "C139",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_1P0_RF2": {
+      "added_pins": [
+        [
+          "C131",
+          "1"
+        ],
+        [
+          "C132",
+          "1"
+        ],
+        [
+          "C140",
+          "1"
+        ],
+        [
+          "C70",
+          "1"
+        ],
+        [
+          "C73",
+          "1"
+        ],
+        [
+          "C74",
+          "1"
+        ],
+        [
+          "C75",
+          "1"
+        ],
+        [
+          "C76",
+          "1"
+        ],
+        [
+          "L15",
+          "2"
+        ],
+        [
+          "U2",
+          "G16"
+        ],
+        [
+          "U2",
+          "G17"
+        ],
+        [
+          "U2",
+          "G18"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "FL1",
+          "1"
+        ]
+      ]
+    },
+    "AR_1P2": {
+      "added_pins": [
+        [
+          "C103",
+          "1"
+        ],
+        [
+          "C133",
+          "1"
+        ],
+        [
+          "C134",
+          "1"
+        ],
+        [
+          "C141",
+          "1"
+        ],
+        [
+          "C91",
+          "1"
+        ],
+        [
+          "C92",
+          "1"
+        ],
+        [
+          "C94",
+          "1"
+        ],
+        [
+          "C95",
+          "1"
+        ],
+        [
+          "C96",
+          "1"
+        ],
+        [
+          "C97",
+          "1"
+        ],
+        [
+          "C98",
+          "1"
+        ],
+        [
+          "U2",
+          "A5"
+        ],
+        [
+          "U2",
+          "C1"
+        ],
+        [
+          "U2",
+          "E1"
+        ],
+        [
+          "U2",
+          "J1"
+        ],
+        [
+          "U2",
+          "V12"
+        ],
+        [
+          "U2",
+          "V14"
+        ],
+        [
+          "U2",
+          "V15"
+        ],
+        [
+          "U2",
+          "V4"
+        ],
+        [
+          "U2",
+          "V6"
+        ],
+        [
+          "U2",
+          "V7"
+        ],
+        [
+          "U2",
+          "V8"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "FL6",
+          "1"
+        ]
+      ]
+    },
+    "AR_1V8": {
+      "added_pins": [
+        [
+          "C135",
+          "1"
+        ],
+        [
+          "C136",
+          "1"
+        ],
+        [
+          "C138",
+          "1"
+        ],
+        [
+          "C55",
+          "1"
+        ],
+        [
+          "C56",
+          "1"
+        ],
+        [
+          "C57",
+          "1"
+        ],
+        [
+          "C58",
+          "1"
+        ],
+        [
+          "C59",
+          "1"
+        ],
+        [
+          "C60",
+          "1"
+        ],
+        [
+          "C61",
+          "1"
+        ],
+        [
+          "C62",
+          "1"
+        ],
+        [
+          "C63",
+          "1"
+        ],
+        [
+          "C64",
+          "1"
+        ],
+        [
+          "C65",
+          "1"
+        ],
+        [
+          "C66",
+          "1"
+        ],
+        [
+          "C67",
+          "1"
+        ],
+        [
+          "C68",
+          "1"
+        ],
+        [
+          "U2",
+          "A12"
+        ],
+        [
+          "U2",
+          "B1"
+        ],
+        [
+          "U2",
+          "C11"
+        ],
+        [
+          "U2",
+          "C15"
+        ],
+        [
+          "U2",
+          "C18"
+        ],
+        [
+          "U2",
+          "F1"
+        ],
+        [
+          "U2",
+          "K1"
+        ],
+        [
+          "U2",
+          "M16"
+        ],
+        [
+          "U2",
+          "M17"
+        ],
+        [
+          "U2",
+          "M18"
+        ],
+        [
+          "U2",
+          "U2"
+        ],
+        [
+          "U2",
+          "V11"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "FL10",
+          "1"
+        ],
+        [
+          "FL8",
+          "1"
+        ],
+        [
+          "FL9",
+          "1"
+        ]
+      ]
+    },
+    "AR_CS1_60PIN": {
+      "added_pins": [
+        [
+          "R150",
+          "2"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DMM_CLK": {
+      "added_pins": [
+        [
+          "J11",
+          "15"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DMM_SYNC": {
+      "added_pins": [
+        [
+          "J11",
+          "17"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP0": {
+      "added_pins": [
+        [
+          "J11",
+          "19"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP1": {
+      "added_pins": [
+        [
+          "J11",
+          "21"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP2": {
+      "added_pins": [
+        [
+          "J11",
+          "23"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP3": {
+      "added_pins": [
+        [
+          "J11",
+          "25"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP4": {
+      "added_pins": [
+        [
+          "J11",
+          "27"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP5": {
+      "added_pins": [
+        [
+          "J11",
+          "29"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP6": {
+      "added_pins": [
+        [
+          "J11",
+          "31"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_DP7": {
+      "added_pins": [
+        [
+          "J11",
+          "33"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_HOSTINTR1": {
+      "added_pins": [
+        [
+          "R152",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_LVDS_0_N": {
+      "added_pins": [
+        [
+          "R149",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_LVDS_0_P": {
+      "added_pins": [
+        [
+          "R148",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_LVDS_1_N": {
+      "added_pins": [
+        [
+          "R147",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_LVDS_1_P": {
+      "added_pins": [
+        [
+          "R146",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_LVDS_CLK_N": {
+      "added_pins": [
+        [
+          "R145",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_LVDS_CLK_P": {
+      "added_pins": [
+        [
+          "R144",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_MSS_LOGGER": {
+      "added_pins": [
+        [
+          "U3",
+          "20"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "R62",
+          "2"
+        ]
+      ]
+    },
+    "AR_NRST_1": {
+      "added_pins": [
+        [
+          "R190",
+          "2"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "AR_SCL": {
+      "added_pins": [
+        [
+          "R187",
+          "2"
+        ],
+        [
+          "R62",
+          "2"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "U2",
+          "G3"
+        ]
+      ]
+    },
+    "AR_SDA": {
+      "added_pins": [
+        [
+          "R186",
+          "2"
+        ],
+        [
+          "R61",
+          "2"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "U2",
+          "G1"
+        ]
+      ]
+    },
+    "AR_SYNC_IN": {
+      "added_pins": [
+        [
+          "R157",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "BT_UART_RX": {
+      "added_pins": [
+        [
+          "J7",
+          "1"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "9"
+        ]
+      ]
+    },
+    "BT_UART_TX": {
+      "added_pins": [
+        [
+          "J7",
+          "2"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "10"
+        ]
+      ]
+    },
+    "GND": {
+      "added_pins": [
+        [
+          "C111",
+          "2"
+        ],
+        [
+          "C112",
+          "2"
+        ],
+        [
+          "C113",
+          "2"
+        ],
+        [
+          "C121",
+          "2"
+        ],
+        [
+          "C124",
+          "2"
+        ],
+        [
+          "C131",
+          "2"
+        ],
+        [
+          "C132",
+          "2"
+        ],
+        [
+          "C133",
+          "2"
+        ],
+        [
+          "C134",
+          "2"
+        ],
+        [
+          "C135",
+          "2"
+        ],
+        [
+          "C136",
+          "2"
+        ],
+        [
+          "C137",
+          "2"
+        ],
+        [
+          "C138",
+          "2"
+        ],
+        [
+          "C139",
+          "2"
+        ],
+        [
+          "C140",
+          "2"
+        ],
+        [
+          "C141",
+          "2"
+        ],
+        [
+          "J11",
+          "18"
+        ],
+        [
+          "J11",
+          "24"
+        ],
+        [
+          "J11",
+          "30"
+        ],
+        [
+          "J11",
+          "36"
+        ],
+        [
+          "J11",
+          "42"
+        ],
+        [
+          "J11",
+          "48"
+        ],
+        [
+          "J11",
+          "54"
+        ],
+        [
+          "J11",
+          "60"
+        ],
+        [
+          "J11",
+          "MP1"
+        ],
+        [
+          "J11",
+          "MP2"
+        ],
+        [
+          "J11",
+          "MP3"
+        ],
+        [
+          "J11",
+          "MP4"
+        ],
+        [
+          "J7",
+          "7"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "C48",
+          "2"
+        ],
+        [
+          "C49",
+          "2"
+        ],
+        [
+          "C54",
+          "2"
+        ],
+        [
+          "C77",
+          "2"
+        ],
+        [
+          "J7",
+          "3"
+        ]
+      ]
+    },
+    "JTAG_TCK": {
+      "added_pins": [
+        [
+          "J7",
+          "8"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "4"
+        ]
+      ]
+    },
+    "JTAG_TDI": {
+      "added_pins": [
+        [
+          "J7",
+          "4"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "8"
+        ]
+      ]
+    },
+    "JTAG_TMS": {
+      "added_pins": [
+        [
+          "J7",
+          "10"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "2"
+        ]
+      ]
+    },
+    "NetR62_1": {
+      "added_pins": [
+        [
+          "U2",
+          "G3"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "U3",
+          "20"
+        ]
+      ]
+    },
+    "PGOOD": {
+      "added_pins": [
+        [
+          "R155",
+          "2"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "PMIC_1V0": {
+      "added_pins": [
+        [
+          "C111",
+          "1"
+        ],
+        [
+          "C113",
+          "1"
+        ],
+        [
+          "L15",
+          "1"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "C49",
+          "1"
+        ],
+        [
+          "C54",
+          "1"
+        ]
+      ]
+    },
+    "PMIC_1V2": {
+      "added_pins": [
+        [
+          "C112",
+          "1"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "C77",
+          "1"
+        ]
+      ]
+    },
+    "PMIC_1V8": {
+      "added_pins": [
+        [
+          "C121",
+          "1"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "C48",
+          "1"
+        ]
+      ]
+    },
+    "PMIC_3V3": {
+      "added_pins": [
+        [
+          "C100",
+          "1"
+        ],
+        [
+          "C101",
+          "1"
+        ],
+        [
+          "C102",
+          "1"
+        ],
+        [
+          "C126",
+          "1"
+        ],
+        [
+          "C2",
+          "2"
+        ],
+        [
+          "C3",
+          "2"
+        ],
+        [
+          "C87",
+          "1"
+        ],
+        [
+          "C88",
+          "1"
+        ],
+        [
+          "FL22",
+          "1"
+        ],
+        [
+          "R19",
+          "2"
+        ],
+        [
+          "R2",
+          "1"
+        ],
+        [
+          "R21",
+          "2"
+        ],
+        [
+          "R22",
+          "2"
+        ],
+        [
+          "R23",
+          "2"
+        ],
+        [
+          "R31",
+          "2"
+        ],
+        [
+          "R4",
+          "1"
+        ],
+        [
+          "R40",
+          "1"
+        ],
+        [
+          "R43",
+          "2"
+        ],
+        [
+          "R44",
+          "2"
+        ],
+        [
+          "R45",
+          "2"
+        ],
+        [
+          "R5",
+          "1"
+        ],
+        [
+          "R59",
+          "2"
+        ],
+        [
+          "R7",
+          "2"
+        ],
+        [
+          "R75",
+          "1"
+        ],
+        [
+          "R8",
+          "2"
+        ],
+        [
+          "R9",
+          "1"
+        ],
+        [
+          "S3",
+          "2"
+        ],
+        [
+          "TP5",
+          "1"
+        ],
+        [
+          "U18",
+          "8"
+        ],
+        [
+          "U2",
+          "H1"
+        ],
+        [
+          "U2",
+          "V9"
+        ],
+        [
+          "U3",
+          "5"
+        ],
+        [
+          "U3",
+          "6"
+        ],
+        [
+          "U3",
+          "7"
+        ],
+        [
+          "U9",
+          "8"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "FL20",
+          "2"
+        ]
+      ]
+    },
+    "SPI_CLK1": {
+      "added_pins": [
+        [
+          "R151",
+          "2"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "SPI_MISO1": {
+      "added_pins": [
+        [
+          "R154",
+          "1"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "SPI_MOSI1": {
+      "added_pins": [
+        [
+          "R153",
+          "2"
+        ]
+      ],
+      "removed_pins": []
+    },
+    "USB_AR_RS232RX": {
+      "added_pins": [
+        [
+          "U3",
+          "13"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "R61",
+          "1"
+        ]
+      ]
+    },
+    "USB_AR_RS232TX": {
+      "added_pins": [
+        [
+          "U3",
+          "12"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "R63",
+          "2"
+        ]
+      ]
+    },
+    "VCC_BA_3V3": {
+      "added_pins": [
+        [
+          "J7",
+          "9"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "1"
+        ]
+      ]
+    },
+    "nRESET": {
+      "added_pins": [
+        [
+          "J7",
+          "3"
+        ]
+      ],
+      "removed_pins": [
+        [
+          "J7",
+          "7"
+        ]
+      ]
+    }
+  },
+  "nets_removed": [
+    "AR_VOUT_PA",
+    "BB_1V8",
+    "NNAME1",
+    "NNAME10",
+    "NNAME11",
+    "NNAME12",
+    "NNAME13",
+    "NNAME14",
+    "NNAME15",
+    "NNAME2",
+    "NNAME3",
+    "NNAME4",
+    "NNAME5",
+    "NNAME6",
+    "NNAME7",
+    "NNAME8",
+    "NNAME9",
+    "NetR61_2",
+    "NetR63_1",
+    "PMICOUT_3V3",
+    "VCLK_1V8",
+    "VCO_1V8",
+    "VIOIN_1V8"
+  ],
+  "renamed_nets": [
+    {
+      "from": "NNAME10",
+      "to": "NET10"
+    },
+    {
+      "from": "NNAME11",
+      "to": "NET11"
+    },
+    {
+      "from": "NNAME12",
+      "to": "NET12"
+    },
+    {
+      "from": "NNAME14",
+      "to": "NET13"
+    },
+    {
+      "from": "NNAME15",
+      "to": "NET14"
+    },
+    {
+      "from": "NNAME3",
+      "to": "NET3"
+    },
+    {
+      "from": "NNAME4",
+      "to": "NET4"
+    },
+    {
+      "from": "NNAME5",
+      "to": "NET5"
+    },
+    {
+      "from": "NNAME8",
+      "to": "NET8"
+    },
+    {
+      "from": "NNAME9",
+      "to": "NET9"
+    }
+  ]
+}

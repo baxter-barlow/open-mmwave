@@ -1,0 +1,57 @@
+{
+  "bom_path": "BOM (local)",
+  "bom_summary": {
+    "item_count": 98,
+    "refdes_count": 407
+  },
+  "correlation": {
+    "bom_only": [
+      "!PCB",
+      "FID1",
+      "FID2",
+      "FID3",
+      "FID4",
+      "FID5",
+      "FID6",
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "counts": {
+      "bom_components": 407,
+      "bom_only": 10,
+      "netlist_components": 418,
+      "netlist_only": 21
+    },
+    "dnp_components": [],
+    "mpn_missing": [],
+    "netlist_only": [
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP14",
+      "TP15",
+      "TP16",
+      "TP17",
+      "TP18",
+      "TP19",
+      "TP2",
+      "TP26",
+      "TP27",
+      "TP3",
+      "TP4",
+      "TP46",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9"
+    ],
+    "notes": [
+      "Value mismatches cannot be checked because the IPC netlist does not contain value fields.",
+      "MPN validation checks for blank PartNumber fields in BOM."
+    ]
+  },
+  "netlist_path": "data/netlist_revG.json"
+}

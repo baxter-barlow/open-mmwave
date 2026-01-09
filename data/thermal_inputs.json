@@ -1,0 +1,56 @@
+{
+ "sources": {
+ "lp87524": "component datasheet (thermal information)",
+ "radar_soc": "component datasheet (max current ratings table)",
+ "cp2105": "component datasheet (DC electrical characteristics)",
+ "tps2115a": "component datasheet (supply/leakage currents table)"
+ },
+ "components": {
+ "U1": {
+ "name": "LP87524",
+ "theta_ja_c_per_w": 34.6,
+ "power_typical_w": 0.3,
+ "notes": "PMIC loss estimate from typical load/efficiency; replace with calculated loss if rail currents available."
+ },
+ "U2": {
+ "name": "radar SoC",
+ "theta_ja_c_per_w": 20.3,
+ "theta_jc_c_per_w": 2.6,
+ "theta_jb_c_per_w": 7.5,
+ "psi_jt_c_per_w": 0.9,
+ "psi_jb_c_per_w": 7.3,
+ "power_typical_w": 2.5,
+ "power_max_w": 5.5,
+ "rail_currents_max_ma": {
+ "VDDIN_1V2": 1000,
+ "VIN_13RF": 2000,
+ "VIOIN_18": 850,
+ "VIOIN_3V3": 50
+ },
+ "rail_volts": {
+ "VDDIN_1V2": 1.2,
+ "VIN_13RF": 1.3,
+ "VIOIN_18": 1.8,
+ "VIOIN_3V3": 3.3
+ },
+ "notes": "Power computed from max current table; represents worst-case upper bound."
+ },
+ "U3": {
+ "name": "CP2105",
+ "theta_ja_c_per_w": 34,
+ "power_typical_w": 0.056,
+ "power_max_w": 0.086,
+ "supply_voltage_v": 3.3,
+ "supply_current_ma": 17.0,
+ "notes": "Normal operation with VREG enabled."
+ },
+ "U19": {
+ "name": "TPS2115A",
+ "theta_ja_c_per_w": 45.2,
+ "power_typical_w": 0.025,
+ "supply_voltage_v": 5.0,
+ "quiescent_current_ua": 12.0,
+ "notes": "Quiescent current from INx; operating current not extracted from text."
+ }
+ }
+}

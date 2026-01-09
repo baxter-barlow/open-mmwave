@@ -1,0 +1,41 @@
+{
+ "ambient_c": 25.0,
+ "components": {
+ "U1": {
+ "ambient_c": 25.0,
+ "junction_c": 35.38,
+ "name": "LP87524",
+ "notes": "PMIC loss estimate from typical load/efficiency; replace with calculated loss if rail currents available.",
+ "power_w": 0.3,
+ "theta_ja_c_per_w": 34.6
+ },
+ "U19": {
+ "ambient_c": 25.0,
+ "junction_c": 26.13,
+ "name": "TPS2115A",
+ "notes": "Quiescent current from INx; operating current not extracted from text.",
+ "power_w": 0.025,
+ "theta_ja_c_per_w": 45.2
+ },
+ "U2": {
+ "ambient_c": 25.0,
+ "junction_c": 75.75,
+ "name": "radar SoC",
+ "notes": "Power computed from max current table; represents worst-case upper bound.",
+ "power_w": 2.5,
+ "theta_ja_c_per_w": 20.3
+ },
+ "U3": {
+ "ambient_c": 25.0,
+ "junction_c": 26.904,
+ "name": "CP2105",
+ "notes": "Normal operation with VREG enabled.",
+ "power_w": 0.056,
+ "theta_ja_c_per_w": 34
+ }
+ },
+ "notes": [
+ "Computed power uses datasheet currents where provided; missing values yield nulls."
+ ],
+ "total_power_w": 2.881
+}

@@ -1,0 +1,365 @@
+{
+  "layers": {
+    "bottom_copper": {
+      "aperture_count": 42,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 9191,
+      "flash_count": 1585,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "bottom_paste": {
+      "aperture_count": 25,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1049,
+      "flash_count": 652,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "bottom_silk": {
+      "aperture_count": 10,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 2424,
+      "flash_count": 3,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "bottom_solder": {
+      "aperture_count": 35,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1228,
+      "flash_count": 721,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "inner1": {
+      "aperture_count": 15,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 8700,
+      "flash_count": 934,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "inner2": {
+      "aperture_count": 19,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 7517,
+      "flash_count": 934,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "inner3": {
+      "aperture_count": 15,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 12187,
+      "flash_count": 934,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "inner4": {
+      "aperture_count": 17,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 12874,
+      "flash_count": 934,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "inner5": {
+      "aperture_count": 17,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 6837,
+      "flash_count": 934,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "inner6": {
+      "aperture_count": 15,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 8732,
+      "flash_count": 934,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "outline": {
+      "aperture_count": 3,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1101,
+      "flash_count": 0,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "top_copper": {
+      "aperture_count": 54,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 8923,
+      "flash_count": 1724,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "top_paste": {
+      "aperture_count": 33,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1307,
+      "flash_count": 805,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "top_silk": {
+      "aperture_count": 28,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 13179,
+      "flash_count": 11,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    },
+    "top_solder": {
+      "aperture_count": 44,
+      "bounds_mm": {
+        "max_x_mm": 198.2303,
+        "max_y_mm": 164.1972,
+        "min_x_mm": 0.0044,
+        "min_y_mm": 0.0044
+      },
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1411,
+      "flash_count": 860,
+      "format": {
+        "x_dec": 4,
+        "x_int": 4,
+        "y_dec": 4,
+        "y_int": 4
+      },
+      "unit": "MM"
+    }
+  },
+  "missing_layers": []
+}

@@ -1,0 +1,22 @@
+{
+  "ncr": {
+    "categories": [
+      "solder",
+      "placement",
+      "functional",
+      "mechanical"
+    ]
+  },
+  "spc": {
+    "control_charts": [
+      "power_rail_v",
+      "pmic_pgood_time"
+    ],
+    "yield_tracking": "record pass/fail per serial"
+  },
+  "visual_inspection": [
+    "Solder joints meet IPC-A-610 Class 2",
+    "Component orientation verified",
+    "No solder bridges"
+  ]
+}

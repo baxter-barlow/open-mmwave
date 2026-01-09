@@ -1,0 +1,5 @@
+{
+  "drill_holes_gt_500": true,
+  "inner_layers_present": true,
+  "pnp_xy_distinct": true
+}

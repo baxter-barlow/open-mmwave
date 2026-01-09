@@ -1,0 +1,37 @@
+# Usb Uart Block
+
+Source: `data/schematic_blocks.json`, BOM, IPC netlist.
+
+## Component List
+| Refdes | Value | Description | Part Number |
+|---|---|---|---|
+| FL14 |  | Inductor, Ferrite Bead, Ferrite, 2.2 A, 0.035 ohm, AEC-Q200 Grade 1, SMD | BLM15PD300SZ1D |
+| FL2 |  | Inductor, Ferrite Bead, Ferrite, 2.2 A, 0.035 ohm, AEC-Q200 Grade 1, SMD | BLM15PD300SZ1D |
+| J1 |  | Connector, Receptacle, Micro-USB Type B, R/A, Bottom Mount SMT | 105017-0001 |
+| J5 |  | Connector, Receptacle, Micro-USB Type B, R/A, Bottom Mount SMT | 105017-0001 |
+| J7 |  | CONN HEADER R/A 10POS 1.27MM | GRPB052MWCN-RC |
+| R1 |  | 10 kOhms ±0.5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thin Film | RR0306P-103-D |
+| R102 |  | RES SMD 0 OHM JUMPER 1/20W 0201 | RC0201JR-070RL |
+| R19 |  | 10 kOhms ±0.5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thin Film | RR0306P-103-D |
+| R4 | 100k | RES, 100 k, 1%, 0.05 W, 0201 | CRCW0201100KFKED |
+| R41 |  | RES SMD 0 OHM JUMPER 1/20W 0201 | RC0201JR-070RL |
+| R5 | 100k | RES, 100 k, 1%, 0.05 W, 0201 | CRCW0201100KFKED |
+| R60 |  | RES SMD 0 OHM JUMPER 1/20W 0201 | RC0201JR-070RL |
+| R90 |  | RES SMD 0 OHM JUMPER 1/20W 0201 | RC0201JR-070RL |
+| S1 |  | Switch, Slide, SPST 4 poles, SMT | 218-4LPST |
+| TP18 |  |  |  |
+| TP19 |  |  |  |
+| U15 |  | Dual 10-ohm SPDT Analog Switch, RSE0010A (UQFN-10) | TS5A23157RSER |
+| U18 |  | Dual 10-ohm SPDT Analog Switch, RSE0010A (UQFN-10) | TS5A23157RSER |
+| U2 |  | XI6843ARQGALP, ALP0180A (BGA-180) | XI6843ARQGALP |
+| U3 |  | I/O Controller Interface IC USB to Dual UART bridge | CP2105-F01-GMR |
+| U8 |  | SimpleLink(TM) Bluetooth(R) 5 low energy Wireless MCU, RGZ0048A (VQFN-48) | CC2642R1FRGZR |
+
+## Nets
+5V_IN_B, AR_1P0_RF1, AR_1P0_RF2, AR_1P2, AR_1V4_APLL, AR_1V4_SYNTH, AR_1V8, AR_BSS_LOGGER, AR_CS1, AR_CS1_BT, AR_DMM_CLK, AR_DMM_SYNC, AR_DP0, AR_DP1, AR_DP2, AR_DP3, AR_DP4, AR_DP5, AR_DP6, AR_DP7, AR_GPIO_0, AR_GPIO_1, AR_GPIO_2, AR_HOSTINTR1, AR_LVDS_0_N, AR_LVDS_0_P, AR_LVDS_1_N, AR_LVDS_1_P, AR_LVDS_CLK_N, AR_LVDS_CLK_P, AR_MCUCLKOUT, AR_MISO1, AR_MOSI1, AR_MSS_LOGGER, AR_NERRIN, AR_NERR_OUT, AR_NRST, AR_OSC_CLKOUT, AR_QSPI_CLK, AR_QSPI_CS, AR_QSPI_D0, AR_QSPI_D1, AR_QSPI_D2, AR_QSPI_D3, AR_RS232RX, AR_RS232RX_BT, AR_RS232TX, AR_RS232TX_BT, AR_SPICLK1, AR_SYNC_IN, AR_TCK, AR_TDI, AR_TDO_SOP0, AR_TMS, AR_VBGAP, AR_WARMRST, AR_XTAL_N, AR_XTAL_P, BREAK_RS232RX, BREAK_RS232TX, BT_UART_RX, BT_UART_TX, DCDC_SW, DIO6_GLED, GND, JTAG_TCK, JTAG_TDI, JTAG_TDO, JTAG_TMS, MRDY, NET1, NET2, NET3, NET4, NET5, NET6, NET7, NetC24_1, NetD1_2, NetLD4_1, NetR131_2, NetR161_2, NetR16_2, NetR40_2, NetR41_1, NetR60_1, NetR61_1, NetR62_1, NetR86_2, NetR87_2, NetTP11_1, NetTP26_1, NetTP2_1, NetTP3_1, NetTP6_1, NetTP7_1, NetTP8_1, NetTP9_1, PMIC_3V3, RF_N, RF_P, SOP0, SOP1, SRDY, UART_MUX_CTRL1, UART_MUX_CTRL2, USB_5V, USB_5V_B, USB_AR_RS232RX, USB_AR_RS232TX, USB_DM, USB_DP, VBUS, VCC_BA_3V3, VDDR, VDDS, X32K_Q1, X32K_Q2, X48M_N, X48M_P, nRESET
+
+## Power Rails
+PMIC_3V3, VCC_BA_3V3
+
+## Notes
+- Block extraction is netlist-based; schematic annotations were not parsed.

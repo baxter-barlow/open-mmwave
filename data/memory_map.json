@@ -1,0 +1,8 @@
+{
+ "source": " radar SoC TRM required for full map; not present in repo.",
+ "regions": {
+ "boot_rom": "TBD",
+ "sram": "TBD",
+ "flash": "TBD"
+ }
+}

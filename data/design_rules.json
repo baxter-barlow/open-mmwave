@@ -1,0 +1,30 @@
+{
+  "board_thickness_in": 0.059155,
+  "drill_tools": {
+    "round_holes_mm": {
+      "1": 0.2,
+      "10": 0.8128,
+      "11": 1.02,
+      "12": 2.2352,
+      "13": 2.54,
+      "2": 0.2032,
+      "3": 0.2032,
+      "4": 0.6,
+      "6": 0.7,
+      "7": 0.85,
+      "8": 1.016,
+      "9": 1.65
+    },
+    "slot_holes_mm": {
+      "5": 0.6
+    }
+  },
+  "min_drill_mm": 0.2,
+  "min_slot_mm": 0.6,
+  "min_spacing": null,
+  "min_trace_width": null,
+  "notes": [
+    "Trace width/spacing not specified in fabrication files; verify with CAM/fab notes."
+  ],
+  "signal_layers": 8
+}

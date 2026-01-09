@@ -1,0 +1,104 @@
+{
+  "layers": {
+    "bottom_copper": {
+      "aperture_count": 42,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 9191,
+      "flash_count": 1585
+    },
+    "bottom_paste": {
+      "aperture_count": 25,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1049,
+      "flash_count": 652
+    },
+    "bottom_silk": {
+      "aperture_count": 10,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 2424,
+      "flash_count": 3
+    },
+    "bottom_solder": {
+      "aperture_count": 35,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1228,
+      "flash_count": 721
+    },
+    "outline": {
+      "aperture_count": 3,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1101,
+      "flash_count": 0
+    },
+    "top_copper": {
+      "aperture_count": 54,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 8923,
+      "flash_count": 1724
+    },
+    "top_paste": {
+      "aperture_count": 33,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1307,
+      "flash_count": 805
+    },
+    "top_silk": {
+      "aperture_count": 28,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 13179,
+      "flash_count": 11
+    },
+    "top_solder": {
+      "aperture_count": 44,
+      "bounds_raw": {
+        "max_x": 1982303,
+        "max_y": 1641972,
+        "min_x": 44,
+        "min_y": 44
+      },
+      "draw_count": 1411,
+      "flash_count": 860
+    }
+  },
+  "missing_layers": []
+}

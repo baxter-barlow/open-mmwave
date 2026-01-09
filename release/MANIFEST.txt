@@ -1,0 +1,8 @@
+data/gerber_analysis.json -> release/gerber_analysis.json
+data/drill_analysis.json -> release/drill_analysis.json
+data/component_placement.json -> release/component_placement.json
+data/bom_production.csv -> release/bom_production.csv
+data/bom_procurement.csv -> release/bom_procurement.csv
+docs/reproduction_guide.md -> release/reproduction_guide.md
+docs/hardware_reference.md -> release/hardware_reference.md
+docs/assembly_instructions.md -> release/assembly_instructions.md

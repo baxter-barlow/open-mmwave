@@ -1,0 +1,8 @@
+* TPS2115A behavioral model (simplified)
+.subckt TPS2115A IN1 IN2 OUT GND
+ESEL SEL 0 VALUE = {V(IN1) > V(IN2) ? 1 : 0}
+S1 OUT IN1 SEL 0 SW
+S2 OUT IN2 SELB 0 SW
+ESELB SELB 0 VALUE = {1 - V(SEL)}
+.model SW SW(Ron=0.084 Roff=1e6 Vt=0.5 Vh=0.1)
+.ends TPS2115A

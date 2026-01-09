@@ -1,0 +1,51 @@
+{
+  "coverage": {
+    "analog": [],
+    "digital_io": [
+      "TP14",
+      "TP17"
+    ],
+    "interfaces": {
+      "can": [],
+      "i2c": [],
+      "spi": [],
+      "uart": [
+        "TP18",
+        "TP19"
+      ]
+    },
+    "power_rails": [
+      "TP13",
+      "TP4",
+      "TP5"
+    ],
+    "rf": []
+  },
+  "notes": [
+    "Coverage is derived from TP* nets only; connector access not included."
+  ],
+  "test_points": {
+    "TP10": "NetR27_2",
+    "TP11": "NetTP11_1",
+    "TP12": "GND",
+    "TP13": "VCC_BA_3V3",
+    "TP14": "AR_NRST",
+    "TP15": "GND",
+    "TP16": "MRDY",
+    "TP17": "AR_OSC_CLKOUT",
+    "TP18": "BREAK_RS232TX",
+    "TP19": "BREAK_RS232RX",
+    "TP2": "NetTP2_1",
+    "TP20": "GND",
+    "TP26": "NetTP26_1",
+    "TP27": "SRDY",
+    "TP3": "NetTP3_1",
+    "TP4": "5V_IN_B",
+    "TP46": "INTN",
+    "TP5": "PMIC_3V3",
+    "TP6": "NetTP6_1",
+    "TP7": "NetTP7_1",
+    "TP8": "NetTP8_1",
+    "TP9": "NetTP9_1"
+  }
+}

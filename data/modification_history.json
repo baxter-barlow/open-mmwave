@@ -1,0 +1,23 @@
+[
+  {
+    "action": "change_pmic_output",
+    "new_voltage": 3.0,
+    "note": "Compute feedback divider per PMIC datasheet.",
+    "rail": "PMIC_3V3",
+    "timestamp": "2026-01-08T08:47:43.648973Z"
+  },
+  {
+    "action": "add_test_point",
+    "location_hint": "near TP5",
+    "net": "PMIC_3V3",
+    "note": "Select accessible location near connector or via.",
+    "timestamp": "2026-01-08T08:47:43.649106Z"
+  },
+  {
+    "action": "substitute_component",
+    "new_part": "CP2102N",
+    "note": "Validate pinout and footprint compatibility.",
+    "refdes": "U3",
+    "timestamp": "2026-01-08T08:47:43.649239Z"
+  }
+]

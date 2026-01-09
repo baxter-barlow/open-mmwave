@@ -1,0 +1,93 @@
+{
+  "results": [
+    {
+      "description": "Verify 5V_IN at input source",
+      "expected_values": {
+        "net": "5V_IN_B",
+        "nominal_v": 5.0
+      },
+      "measured": null,
+      "name": "input_voltage_5v",
+      "status": "dry-run",
+      "test_points": [
+        "TP4"
+      ],
+      "tolerance": 0.05
+    },
+    {
+      "description": "Verify PMIC_3V3 at TP5",
+      "expected_values": {
+        "net": "PMIC_3V3",
+        "nominal_v": 3.3
+      },
+      "measured": null,
+      "name": "pmic_3v3",
+      "status": "dry-run",
+      "test_points": [
+        "TP5"
+      ],
+      "tolerance": 0.03
+    },
+    {
+      "description": "Verify PMIC_1V8 rail",
+      "expected_values": {
+        "net": "PMIC_1V8",
+        "nominal_v": 1.8
+      },
+      "measured": null,
+      "name": "pmic_1v8",
+      "status": "dry-run",
+      "test_points": [],
+      "tolerance": 0.03
+    },
+    {
+      "description": "Verify PMIC_1V2 rail",
+      "expected_values": {
+        "net": "PMIC_1V2",
+        "nominal_v": 1.2
+      },
+      "measured": null,
+      "name": "pmic_1v2",
+      "status": "dry-run",
+      "test_points": [],
+      "tolerance": 0.03
+    },
+    {
+      "description": "Verify PMIC_1V0 rail",
+      "expected_values": {
+        "net": "PMIC_1V0",
+        "nominal_v": 1.0
+      },
+      "measured": null,
+      "name": "pmic_1v0",
+      "status": "dry-run",
+      "test_points": [],
+      "tolerance": 0.03
+    },
+    {
+      "description": "Check PMIC_PGOOD assertion",
+      "expected_values": {
+        "expected": "HIGH",
+        "net": "PMIC_PGOOD"
+      },
+      "measured": null,
+      "name": "pmic_pgood",
+      "status": "dry-run",
+      "test_points": [],
+      "tolerance": 0.0
+    },
+    {
+      "description": "Detect CP2105 USB enumeration",
+      "expected_values": {
+        "pid": "0xEA70",
+        "vid": "0x10C4"
+      },
+      "measured": null,
+      "name": "usb_enumeration",
+      "status": "dry-run",
+      "test_points": [],
+      "tolerance": 0.0
+    }
+  ],
+  "timestamp": "2026-01-08T06:19:46.337402Z"
+}

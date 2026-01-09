@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "bom": true,
+    "design_check": true,
+    "manufacturing_validation": true,
+    "thermal": true
+  }
+}

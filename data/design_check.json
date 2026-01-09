@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "layer_count_ok": true,
+    "min_drill_defined": true,
+    "min_spacing_defined": false,
+    "min_trace_defined": false
+  },
+  "notes": [
+    "Missing trace/spacing data requires CAM/fab note review."
+  ]
+}

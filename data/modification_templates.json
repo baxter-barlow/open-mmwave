@@ -1,0 +1,27 @@
+{
+  "power_rail_change": {
+    "description": "Adjust PMIC output voltage via feedback divider.",
+    "inputs": ["rail", "target_voltage", "feedback_top_ohm", "feedback_bottom_ohm"],
+    "notes": "Use PMIC datasheet equations to compute new divider values."
+  },
+  "component_substitution": {
+    "description": "Replace a component with an alternative part number.",
+    "inputs": ["refdes", "new_part_number"],
+    "notes": "Verify footprint and pinout compatibility."
+  },
+  "connector_pin_remap": {
+    "description": "Change a connector pin assignment.",
+    "inputs": ["connector", "pin", "new_net"],
+    "notes": "Update schematic symbol and connector pinout tables."
+  },
+  "feature_removal": {
+    "description": "Remove an entire block by marking components DNP.",
+    "inputs": ["block", "refdes_list"],
+    "notes": "Verify no downstream dependencies in netlist."
+  },
+  "feature_addition": {
+    "description": "Add new feature (sensor, LED, button).",
+    "inputs": ["name", "notes"],
+    "notes": "Requires schematic, PCB, and BOM updates."
+  }
+}

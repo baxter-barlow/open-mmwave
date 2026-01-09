@@ -1,0 +1,21 @@
+{
+  "files": {
+    "data/impedance_targets.json": {
+      "checksum_sha256": "d99f8356d42b7c3525449fcc03b9ab6288c708e8d19ce5bf9bb9da6218455f85",
+      "mtime": 1767859505.548695
+    },
+    "data/netlist_revG.json": {
+      "checksum_sha256": "e1d1a3666848f965d12255abb06e7a180e46dc4c80f90d3df2ea94347a8888ab",
+      "mtime": 1767850576.5583346
+    },
+    "data/thermal_analysis.json": {
+      "checksum_sha256": "4c764c12ca94d9d7ed7464112d9d2530e91ec01972e5ec115e6bb3e2e5c2ca94",
+      "mtime": 1767859500.3266292
+    },
+    "data/thermal_inputs.json": {
+      "checksum_sha256": "c6fc94c8d8e3315036b7b1ca26df9df96611164ac6ef466ec56a1e7fd5be875e",
+      "mtime": 1767859488.012206
+    }
+  },
+  "revision": "Rev G"
+}

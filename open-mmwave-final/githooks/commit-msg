@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+#
+# Commit message hook for open-mmwave
+# Blocks vendor refs in messages, enforces natural style
+
+COMMIT_MSG_FILE="$1"
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+FIRST_LINE=$(echo "$COMMIT_MSG" | head -1)
+
+RED='\033[0;31m'
+YELLOW='\033[0;33m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+ERRORS=0
+WARNINGS=0
+
+echo ""
+echo "Checking commit message..."
+
+# Empty check
+if [ -z "$(echo "$FIRST_LINE" | tr -d '[:space:]')" ]; then
+	echo -e "${RED}ERROR: Empty commit message${NC}"
+	exit 1
+fi
+
+# Copying or development platform references (BLOCKING)
+if echo "$COMMIT_MSG" | grep -qiE 'copying|mirror|copying language|development platform|development platform|development platform'; then
+	echo -e "${RED}ERROR: Copying or development platform reference in commit message${NC}"
+	echo "  Remove copying or derivative development platform references"
+	ERRORS=$((ERRORS + 1))
+fi
+
+# Conventional commit prefixes
+if echo "$FIRST_LINE" | grep -qE '^(feat|fix|chore|docs|style|refactor|perf|test|build|ci)(\(.+\))?:'; then
+	echo -e "${YELLOW}WARN: Use natural commit messages${NC}"
+	echo "  'Add X' not 'feat: add X'"
+	WARNINGS=$((WARNINGS + 1))
+fi
+
+# Emoji
+if echo "$FIRST_LINE" | grep -qE '^(:[a-z_]+:|🎉|✨|🐛|🔥|📝|💄|🎨|♻️|⚡|🔧|🚀)'; then
+	echo -e "${YELLOW}WARN: No emoji prefixes${NC}"
+	WARNINGS=$((WARNINGS + 1))
+fi
+
+# Marketing
+if echo "$COMMIT_MSG" | grep -qiE 'blazingly|seamless|elegant|powerful|robust|cutting-edge'; then
+	echo -e "${YELLOW}WARN: No marketing language${NC}"
+	WARNINGS=$((WARNINGS + 1))
+fi
+
+# Length
+LINE_LENGTH=${#FIRST_LINE}
+if [ $LINE_LENGTH -gt 72 ]; then
+	echo -e "${YELLOW}WARN: First line too long ($LINE_LENGTH > 72)${NC}"
+	WARNINGS=$((WARNINGS + 1))
+fi
+
+# Imperative mood
+if echo "$FIRST_LINE" | grep -qiE '^(added|fixed|updated|removed|changed|implemented)'; then
+	echo -e "${YELLOW}WARN: Use imperative mood ('Add' not 'Added')${NC}"
+	WARNINGS=$((WARNINGS + 1))
+fi
+
+echo ""
+if [ $ERRORS -gt 0 ]; then
+	echo -e "${RED}Commit message rejected${NC}"
+	exit 1
+fi
+
+if [ $WARNINGS -gt 0 ]; then
+	echo -e "${YELLOW}Accepted with $WARNINGS warning(s)${NC}"
+else
+	echo -e "${GREEN}OK${NC}"
+fi
+
+exit 0

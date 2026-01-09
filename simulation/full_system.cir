@@ -1,0 +1,3 @@
+* Full system placeholder model
+* Combine power input, PMIC, and reset models as needed
+.end

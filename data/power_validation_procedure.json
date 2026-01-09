@@ -1,0 +1,89 @@
+{
+  "pmic_mapping": {},
+  "procedure": [
+    {
+      "stage": "Input Power",
+      "steps": [
+        "Set bench supply to 5.0 V and current limit to 0.5 A for initial checks.",
+        "Apply power at a single input (J1, J5, or J2) and verify 5V_IN."
+      ]
+    },
+    {
+      "stage": "PMIC Outputs",
+      "steps": [
+        "Verify PMIC_3V3 at TP5.",
+        "Verify PMIC_1V8/PMIC_1V2/PMIC_1V0 at output caps on PMIC sheet.",
+        "Check PMIC_PGOOD goes high after rails settle."
+      ]
+    },
+    {
+      "stage": "SoC Rails",
+      "steps": [
+        "Verify AR_1V8, AR_1P2, AR_1P0_RF1, AR_1P0_RF2 after beads.",
+        "Verify AR_NRST at TP14 after PMIC_PGOOD."
+      ]
+    }
+  ],
+  "rails": [
+    {
+      "nominal_v": 5.0,
+      "rail": "5V_IN",
+      "test_points": [],
+      "tolerance_pct": 5
+    },
+    {
+      "nominal_v": 3.3,
+      "rail": "PMIC_3V3",
+      "test_points": [
+        "TP5"
+      ],
+      "tolerance_pct": 3
+    },
+    {
+      "nominal_v": 1.8,
+      "rail": "PMIC_1V8",
+      "test_points": [],
+      "tolerance_pct": 3
+    },
+    {
+      "nominal_v": 1.2,
+      "rail": "PMIC_1V2",
+      "test_points": [],
+      "tolerance_pct": 3
+    },
+    {
+      "nominal_v": 1.0,
+      "rail": "PMIC_1V0",
+      "test_points": [],
+      "tolerance_pct": 3
+    }
+  ],
+  "sources": {
+    "netlist": "data/netlist_revG.json",
+    "pmic_mapping": "data/pmic_mapping.json"
+  },
+  "test_points": {
+    "TP10": "NetR27_2",
+    "TP11": "NetTP11_1",
+    "TP12": "GND",
+    "TP13": "VCC_BA_3V3",
+    "TP14": "AR_NRST",
+    "TP15": "GND",
+    "TP16": "MRDY",
+    "TP17": "AR_OSC_CLKOUT",
+    "TP18": "BREAK_RS232TX",
+    "TP19": "BREAK_RS232RX",
+    "TP2": "NetTP2_1",
+    "TP20": "GND",
+    "TP26": "NetTP26_1",
+    "TP27": "SRDY",
+    "TP3": "NetTP3_1",
+    "TP4": "5V_IN_B",
+    "TP46": "INTN",
+    "TP5": "PMIC_3V3",
+    "TP6": "NetTP6_1",
+    "TP7": "NetTP7_1",
+    "TP8": "NetTP8_1",
+    "TP9": "NetTP9_1"
+  }
+}

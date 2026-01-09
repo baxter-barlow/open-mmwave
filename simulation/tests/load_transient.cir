@@ -1,0 +1,9 @@
+* Load transient test
+.include ../models/lp87524_behavioral.lib
+VIN 1 0 DC 5
+XU1 1 0 V3V3 V1V8 V1V2 V1V0 LP87524
+RLOAD V3V3 0 10
+SLOAD V3V3 0 PULSE 0 0 SW
+.model SW SW(Ron=1 Roff=1e6 Vt=0.5 Vh=0.1)
+.tran 0.1m 10m
+.end

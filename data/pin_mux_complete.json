@@ -1,0 +1,693 @@
+{
+  "pins": [
+    {
+      "net": "GND",
+      "pin": "A1"
+    },
+    {
+      "net": "AR_1V4_APLL",
+      "pin": "A10"
+    },
+    {
+      "net": "GND",
+      "pin": "A11"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "A12"
+    },
+    {
+      "net": "GND",
+      "pin": "A13"
+    },
+    {
+      "net": "AR_OSC_CLKOUT",
+      "pin": "A14"
+    },
+    {
+      "net": "GND",
+      "pin": "A15"
+    },
+    {
+      "net": "AR_VBGAP",
+      "pin": "A16"
+    },
+    {
+      "net": "GND",
+      "pin": "A17"
+    },
+    {
+      "net": "GND",
+      "pin": "A18"
+    },
+    {
+      "net": "GND",
+      "pin": "A2"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "A5"
+    },
+    {
+      "net": "GND",
+      "pin": "A6"
+    },
+    {
+      "net": "AR_XTAL_P",
+      "pin": "A7"
+    },
+    {
+      "net": "GND",
+      "pin": "A8"
+    },
+    {
+      "net": "AR_1V4_SYNTH",
+      "pin": "A9"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "B1"
+    },
+    {
+      "net": "GND",
+      "pin": "B10"
+    },
+    {
+      "net": "GND",
+      "pin": "B11"
+    },
+    {
+      "net": "GND",
+      "pin": "B12"
+    },
+    {
+      "net": "GND",
+      "pin": "B13"
+    },
+    {
+      "net": "GND",
+      "pin": "B14"
+    },
+    {
+      "net": "GND",
+      "pin": "B15"
+    },
+    {
+      "net": "GND",
+      "pin": "B16"
+    },
+    {
+      "net": "GND",
+      "pin": "B17"
+    },
+    {
+      "net": "GND",
+      "pin": "B18"
+    },
+    {
+      "net": "AR_HOSTINTR1",
+      "pin": "B2"
+    },
+    {
+      "net": "GND",
+      "pin": "B6"
+    },
+    {
+      "net": "AR_XTAL_N",
+      "pin": "B7"
+    },
+    {
+      "net": "GND",
+      "pin": "B8"
+    },
+    {
+      "net": "GND",
+      "pin": "B9"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "C1"
+    },
+    {
+      "net": "NetTP2_1",
+      "pin": "C10"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "C11"
+    },
+    {
+      "net": "GND",
+      "pin": "C12"
+    },
+    {
+      "net": "GND",
+      "pin": "C13"
+    },
+    {
+      "net": "GND",
+      "pin": "C14"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "C15"
+    },
+    {
+      "net": "GND",
+      "pin": "C16"
+    },
+    {
+      "net": "GND",
+      "pin": "C17"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "C18"
+    },
+    {
+      "net": "AR_CS1",
+      "pin": "C2"
+    },
+    {
+      "net": "GND",
+      "pin": "C6"
+    },
+    {
+      "net": "GND",
+      "pin": "C7"
+    },
+    {
+      "net": "GND",
+      "pin": "C8"
+    },
+    {
+      "net": "NetTP3_1",
+      "pin": "C9"
+    },
+    {
+      "net": "AR_MISO1",
+      "pin": "D1"
+    },
+    {
+      "net": "GND",
+      "pin": "D16"
+    },
+    {
+      "net": "GND",
+      "pin": "D17"
+    },
+    {
+      "net": "GND",
+      "pin": "D18"
+    },
+    {
+      "net": "AR_SPICLK1",
+      "pin": "D2"
+    },
+    {
+      "net": "AR_BSS_LOGGER",
+      "pin": "D3"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "E1"
+    },
+    {
+      "net": "GND",
+      "pin": "E16"
+    },
+    {
+      "net": "GND",
+      "pin": "E17"
+    },
+    {
+      "net": "GND",
+      "pin": "E18"
+    },
+    {
+      "net": "AR_MSS_LOGGER",
+      "pin": "E2"
+    },
+    {
+      "net": "GND",
+      "pin": "E3"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "F1"
+    },
+    {
+      "net": "GND",
+      "pin": "F16"
+    },
+    {
+      "net": "GND",
+      "pin": "F17"
+    },
+    {
+      "net": "GND",
+      "pin": "F18"
+    },
+    {
+      "net": "AR_MOSI1",
+      "pin": "F2"
+    },
+    {
+      "net": "GND",
+      "pin": "F3"
+    },
+    {
+      "net": "NetR61_1",
+      "pin": "G1"
+    },
+    {
+      "net": "AR_1P0_RF2",
+      "pin": "G16"
+    },
+    {
+      "net": "AR_1P0_RF2",
+      "pin": "G17"
+    },
+    {
+      "net": "AR_1P0_RF2",
+      "pin": "G18"
+    },
+    {
+      "net": "AR_QSPI_D1",
+      "pin": "G2"
+    },
+    {
+      "net": "NetR62_1",
+      "pin": "G3"
+    },
+    {
+      "net": "PMIC_3V3",
+      "pin": "H1"
+    },
+    {
+      "net": "AR_1P0_RF2",
+      "pin": "H16"
+    },
+    {
+      "net": "AR_1P0_RF2",
+      "pin": "H17"
+    },
+    {
+      "net": "AR_1P0_RF2",
+      "pin": "H18"
+    },
+    {
+      "net": "AR_QSPI_CLK",
+      "pin": "H2"
+    },
+    {
+      "net": "AR_QSPI_D0",
+      "pin": "H3"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "J1"
+    },
+    {
+      "net": "AR_1P0_RF1",
+      "pin": "J16"
+    },
+    {
+      "net": "AR_1P0_RF1",
+      "pin": "J17"
+    },
+    {
+      "net": "AR_1P0_RF1",
+      "pin": "J18"
+    },
+    {
+      "net": "AR_QSPI_CS",
+      "pin": "J2"
+    },
+    {
+      "net": "AR_QSPI_D2",
+      "pin": "J3"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "K1"
+    },
+    {
+      "net": "GND",
+      "pin": "K16"
+    },
+    {
+      "net": "GND",
+      "pin": "K17"
+    },
+    {
+      "net": "GND",
+      "pin": "K18"
+    },
+    {
+      "net": "AR_QSPI_D3",
+      "pin": "K2"
+    },
+    {
+      "net": "AR_GPIO_2",
+      "pin": "K3"
+    },
+    {
+      "net": "AR_DP7",
+      "pin": "L1"
+    },
+    {
+      "net": "GND",
+      "pin": "L16"
+    },
+    {
+      "net": "GND",
+      "pin": "L17"
+    },
+    {
+      "net": "GND",
+      "pin": "L18"
+    },
+    {
+      "net": "AR_DP6",
+      "pin": "L2"
+    },
+    {
+      "net": "AR_GPIO_1",
+      "pin": "L3"
+    },
+    {
+      "net": "AR_DP5",
+      "pin": "M1"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "M16"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "M17"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "M18"
+    },
+    {
+      "net": "AR_GPIO_0",
+      "pin": "M2"
+    },
+    {
+      "net": "NET4",
+      "pin": "M3"
+    },
+    {
+      "net": "AR_LVDS_0_N",
+      "pin": "N1"
+    },
+    {
+      "net": "GND",
+      "pin": "N16"
+    },
+    {
+      "net": "GND",
+      "pin": "N17"
+    },
+    {
+      "net": "GND",
+      "pin": "N18"
+    },
+    {
+      "net": "AR_LVDS_0_P",
+      "pin": "N2"
+    },
+    {
+      "net": "GND",
+      "pin": "N3"
+    },
+    {
+      "net": "AR_LVDS_1_N",
+      "pin": "P1"
+    },
+    {
+      "net": "GND",
+      "pin": "P16"
+    },
+    {
+      "net": "NetTP8_1",
+      "pin": "P17"
+    },
+    {
+      "net": "NetTP9_1",
+      "pin": "P18"
+    },
+    {
+      "net": "AR_LVDS_1_P",
+      "pin": "P2"
+    },
+    {
+      "net": "GND",
+      "pin": "P3"
+    },
+    {
+      "net": "AR_LVDS_CLK_P",
+      "pin": "R1"
+    },
+    {
+      "net": "GND",
+      "pin": "R16"
+    },
+    {
+      "net": "GND",
+      "pin": "R17"
+    },
+    {
+      "net": "NetTP7_1",
+      "pin": "R18"
+    },
+    {
+      "net": "AR_LVDS_CLK_N",
+      "pin": "R2"
+    },
+    {
+      "net": "GND",
+      "pin": "R3"
+    },
+    {
+      "net": "NET2",
+      "pin": "T1"
+    },
+    {
+      "net": "GND",
+      "pin": "T10"
+    },
+    {
+      "net": "GND",
+      "pin": "T11"
+    },
+    {
+      "net": "GND",
+      "pin": "T12"
+    },
+    {
+      "net": "GND",
+      "pin": "T13"
+    },
+    {
+      "net": "GND",
+      "pin": "T14"
+    },
+    {
+      "net": "GND",
+      "pin": "T15"
+    },
+    {
+      "net": "GND",
+      "pin": "T16"
+    },
+    {
+      "net": "GND",
+      "pin": "T17"
+    },
+    {
+      "net": "NetTP6_1",
+      "pin": "T18"
+    },
+    {
+      "net": "NET1",
+      "pin": "T2"
+    },
+    {
+      "net": "AR_TCK",
+      "pin": "T3"
+    },
+    {
+      "net": "GND",
+      "pin": "T4"
+    },
+    {
+      "net": "GND",
+      "pin": "T5"
+    },
+    {
+      "net": "GND",
+      "pin": "T6"
+    },
+    {
+      "net": "GND",
+      "pin": "T7"
+    },
+    {
+      "net": "GND",
+      "pin": "T8"
+    },
+    {
+      "net": "GND",
+      "pin": "T9"
+    },
+    {
+      "net": "GND",
+      "pin": "U1"
+    },
+    {
+      "net": "AR_TDO_SOP0",
+      "pin": "U10"
+    },
+    {
+      "net": "AR_NRST",
+      "pin": "U11"
+    },
+    {
+      "net": "AR_SYNC_IN",
+      "pin": "U12"
+    },
+    {
+      "net": "AR_WARMRST",
+      "pin": "U13"
+    },
+    {
+      "net": "AR_NERRIN",
+      "pin": "U14"
+    },
+    {
+      "net": "AR_NERR_OUT",
+      "pin": "U15"
+    },
+    {
+      "net": "AR_RS232TX",
+      "pin": "U16"
+    },
+    {
+      "net": "GND",
+      "pin": "U17"
+    },
+    {
+      "net": "GND",
+      "pin": "U18"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "U2"
+    },
+    {
+      "net": "AR_DMM_CLK",
+      "pin": "U3"
+    },
+    {
+      "net": "AR_DMM_SYNC",
+      "pin": "U4"
+    },
+    {
+      "net": "AR_DP3",
+      "pin": "U5"
+    },
+    {
+      "net": "AR_DP1",
+      "pin": "U6"
+    },
+    {
+      "net": "AR_DP0",
+      "pin": "U7"
+    },
+    {
+      "net": "AR_TMS",
+      "pin": "U8"
+    },
+    {
+      "net": "AR_TDI",
+      "pin": "U9"
+    },
+    {
+      "net": "GND",
+      "pin": "V1"
+    },
+    {
+      "net": "NET3",
+      "pin": "V10"
+    },
+    {
+      "net": "AR_1V8",
+      "pin": "V11"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V12"
+    },
+    {
+      "net": "AR_MCUCLKOUT",
+      "pin": "V13"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V14"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V15"
+    },
+    {
+      "net": "AR_RS232RX",
+      "pin": "V16"
+    },
+    {
+      "net": "GND",
+      "pin": "V17"
+    },
+    {
+      "net": "GND",
+      "pin": "V18"
+    },
+    {
+      "net": "NetTP11_1",
+      "pin": "V2"
+    },
+    {
+      "net": "AR_DP4",
+      "pin": "V3"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V4"
+    },
+    {
+      "net": "AR_DP2",
+      "pin": "V5"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V6"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V7"
+    },
+    {
+      "net": "AR_1P2",
+      "pin": "V8"
+    },
+    {
+      "net": "PMIC_3V3",
+      "pin": "V9"
+    }
+  ],
+  "source": "netlist U2 pins"
+}

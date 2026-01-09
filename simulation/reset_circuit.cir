@@ -1,0 +1,7 @@
+* Reset AND gate model
+V1 1 0 PULSE(0 3.3 0 1n 1n 5m 10m)
+V2 2 0 DC 3.3
+V3 3 0 PULSE(0 3.3 1m 1n 1n 5m 10m)
+BAND 4 0 V = (V(1)>1.5 && V(2)>1.5 && V(3)>1.5)?3.3:0
+.tran 0.1m 20m
+.end

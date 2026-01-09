@@ -1,0 +1,56 @@
+{
+ "CP2105": {
+ "electrical": {
+ "power_max_w": 0.086,
+ "power_typical_w": 0.056,
+ "supply_voltage_v": 3.3
+ },
+ "manufacturer": "Silicon Labs",
+ "package": "QFN-24 4x4mm",
+ "thermal": {
+ "theta_ja": 34
+ },
+ "timing": {}
+ },
+ "radar SoC": {
+ "electrical": {
+ "power_max_w": 5.5,
+ "power_typical_w": 2.5
+ },
+ "manufacturer": "",
+ "package": "FCBGA ALP0180A",
+ "thermal": {
+ "theta_ja": 20.3,
+ "theta_jb": 7.5,
+ "theta_jc": 2.6
+ },
+ "timing": {}
+ },
+ "LP87524": {
+ "electrical": {
+ "iout_max": null,
+ "vin_max": null,
+ "vin_min": null,
+ "vout_max": null,
+ "vout_min": null
+ },
+ "manufacturer": "",
+ "package": "VQFN-HR-26",
+ "thermal": {
+ "theta_ja": 34.6
+ },
+ "timing": {}
+ },
+ "TPS2115A": {
+ "electrical": {
+ "power_typical_w": 0.025,
+ "ron_ohm": 0.084
+ },
+ "manufacturer": "",
+ "package": "SON-8 (DRB)",
+ "thermal": {
+ "theta_ja": 45.2
+ },
+ "timing": {}
+ }
+}

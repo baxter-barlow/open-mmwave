@@ -1,0 +1,107 @@
+{
+  "assumptions": {
+    "copper_thickness_from_oz": "0.00137 in per oz/ft^2",
+    "dielectric_in_source": "ODB layer attrlist .layer_dielectric",
+    "diff_spacing_assumption": "spacing = width",
+    "er": 4.3,
+    "note": "Stackup lacks Dk and reference plane distances; results are approximate."
+  },
+  "targets": [
+    {
+      "copper_thickness_in": 0.0017975177338,
+      "diff_100ohm_spacing_in": 0.0013184539593587077,
+      "diff_100ohm_width_in": 0.0013184539593587077,
+      "diff_90ohm_spacing_in": 0.0013184539593587077,
+      "diff_90ohm_width_in": 0.0013184539593587077,
+      "estimated_diff_ohms_at_50_width": 65.95045747833257,
+      "height_in": 0.003686,
+      "layer": "TOP_LAYER",
+      "mode": "microstrip",
+      "single_ended_50ohm_width_in": 0.0013184539593587077
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 31.67957286435074,
+      "height_in": 0.004,
+      "layer": "GND1",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0012242553174,
+      "diff_100ohm_spacing_in": 0.0011375710811195035,
+      "diff_100ohm_width_in": 0.0011375710811195035,
+      "diff_90ohm_spacing_in": 0.0011375710811195035,
+      "diff_90ohm_width_in": 0.0011375710811195035,
+      "estimated_diff_ohms_at_50_width": 57.2197357638378,
+      "height_in": 0.009486,
+      "layer": "SIG1",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.0011375710811195035
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 53.17868700384165,
+      "height_in": 0.008,
+      "layer": "PWR1",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 56.026046339989364,
+      "height_in": 0.009525,
+      "layer": "PWR2",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0012242553174,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 44.95252572732211,
+      "height_in": 0.004,
+      "layer": "SIG2",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0025631631263,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 27.38133240545073,
+      "height_in": 0.003686,
+      "layer": "GND2",
+      "mode": "stripline",
+      "single_ended_50ohm_width_in": 0.001
+    },
+    {
+      "copper_thickness_in": 0.0017975177338,
+      "diff_100ohm_spacing_in": 0.001,
+      "diff_100ohm_width_in": 0.001,
+      "diff_90ohm_spacing_in": 0.001,
+      "diff_90ohm_width_in": 0.001,
+      "estimated_diff_ohms_at_50_width": 43.25168709887506,
+      "height_in": 0.002,
+      "layer": "BOTTOM_LAYER",
+      "mode": "microstrip",
+      "single_ended_50ohm_width_in": 0.001
+    }
+  ]
+}

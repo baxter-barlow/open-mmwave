@@ -1,0 +1,18 @@
+{
+  "fcc": {
+    "part15_unintentional": "pending",
+    "mmwave_band": "pending",
+    "labeling": "pending"
+  },
+  "ce": {
+    "emc": "pending",
+    "red": "pending",
+    "doc": "pending"
+  },
+  "rohs": {
+    "materials": "pending"
+  },
+  "reach": {
+    "svhc": "pending"
+  }
+}

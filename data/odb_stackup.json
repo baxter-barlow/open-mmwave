@@ -1,0 +1,234 @@
+{
+  "layers": [
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "COMP_+_TOP",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "1",
+      "start_name": "",
+      "type": "COMPONENT"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "TOP_OVERLAY",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "2",
+      "start_name": "",
+      "type": "SILK_SCREEN"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "TOP_PASTE",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "3",
+      "start_name": "",
+      "type": "SOLDER_PASTE"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "TOP_SOLDER",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "4",
+      "start_name": "",
+      "type": "SOLDER_MASK"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "TOP_LAYER",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "5",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "GND1",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "6",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "SIG1",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "7",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "PWR1",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "8",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "PWR2",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "9",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "SIG2",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "10",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "GND2",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "11",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "BOTTOM_LAYER",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "12",
+      "start_name": "",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "BOTTOM_SOLDER",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "13",
+      "start_name": "",
+      "type": "SOLDER_MASK"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "BOTTOM_PASTE",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "14",
+      "start_name": "",
+      "type": "SOLDER_PASTE"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "BOTTOM_OVERLAY",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "15",
+      "start_name": "",
+      "type": "SILK_SCREEN"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "BOTTOM_LAYER",
+      "name": "DRILL",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "16",
+      "start_name": "TOP_LAYER",
+      "type": "DRILL"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "",
+      "name": "COMP_+_BOT",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "17",
+      "start_name": "",
+      "type": "COMPONENT"
+    },
+    {
+      "context": "MISC",
+      "end_name": "",
+      "name": "KEEP-OUT_LAYER",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "18",
+      "start_name": "",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "end_name": "",
+      "name": "M1_BOARD_OUTLINE",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "19",
+      "start_name": "",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "end_name": "",
+      "name": "M2_BOARD_DIMENSIONS",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "20",
+      "start_name": "",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "end_name": "",
+      "name": "M10_FAB_NOTES",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "21",
+      "start_name": "",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "end_name": "",
+      "name": "M12_STACKUP",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "22",
+      "start_name": "",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "BOARD",
+      "end_name": "BOTTOM_LAYER",
+      "name": "rout",
+      "old_name": "",
+      "polarity": "POSITIVE",
+      "row": "23",
+      "start_name": "TOP_LAYER",
+      "type": "ROUT"
+    }
+  ]
+}

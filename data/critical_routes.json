@@ -1,0 +1,10 @@
+{
+  "critical_nets": [
+    "USB_DP",
+    "USB_DM",
+    "AR_LVDS_*"
+  ],
+  "notes": [
+    "Gerber layers lack net names; manual correlation required."
+  ]
+}

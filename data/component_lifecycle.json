@@ -1,0 +1,25 @@
+{
+ "components": {
+ "U1": {
+ "lifecycle": "unknown",
+ "part": "LP87524",
+ "risk": "single-source"
+ },
+ "U19": {
+ "lifecycle": "unknown",
+ "part": "TPS2115A",
+ "risk": "single-source"
+ },
+ "U2": {
+ "lifecycle": "unknown",
+ "part": "radar SoC",
+ "risk": "single-source"
+ },
+ "U3": {
+ "lifecycle": "unknown",
+ "part": "CP2105",
+ "risk": "single-source"
+ }
+ },
+ "source": "No lifecycle data in repo; placeholder statuses."
+}

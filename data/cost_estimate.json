@@ -1,0 +1,9 @@
+{
+  "notes": [
+    "No pricing data in repo; integrate with supplier pricing to compute totals."
+  ],
+  "summary": {
+    "component_count": 407
+  },
+  "total_cost_usd": null
+}

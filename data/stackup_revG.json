@@ -1,0 +1,177 @@
+{
+  "board_thickness_in": 0.059155,
+  "impedance_notes": [],
+  "layers": [
+    {
+      "context": "BOARD",
+      "copper_weight_oz": null,
+      "dielectric_in": null,
+      "name": "COMP_+_TOP",
+      "type": "COMPONENT"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "TOP_OVERLAY",
+      "type": "SILK_SCREEN"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "TOP_PASTE",
+      "type": "SOLDER_PASTE"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "TOP_SOLDER",
+      "type": "SOLDER_MASK"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.31205674,
+      "dielectric_in": 0.003686,
+      "name": "TOP_LAYER",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.87092199,
+      "dielectric_in": 0.004,
+      "name": "GND1",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 0.89361702,
+      "dielectric_in": 0.009486,
+      "name": "SIG1",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.87092199,
+      "dielectric_in": 0.008,
+      "name": "PWR1",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.87092199,
+      "dielectric_in": 0.009525,
+      "name": "PWR2",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 0.89361702,
+      "dielectric_in": 0.004,
+      "name": "SIG2",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.87092199,
+      "dielectric_in": 0.003686,
+      "name": "GND2",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.31205674,
+      "dielectric_in": 0.002,
+      "name": "BOTTOM_LAYER",
+      "type": "SIGNAL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "BOTTOM_SOLDER",
+      "type": "SOLDER_MASK"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "BOTTOM_PASTE",
+      "type": "SOLDER_PASTE"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "BOTTOM_OVERLAY",
+      "type": "SILK_SCREEN"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "DRILL",
+      "type": "DRILL"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": null,
+      "dielectric_in": null,
+      "name": "COMP_+_BOT",
+      "type": "COMPONENT"
+    },
+    {
+      "context": "MISC",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "KEEP-OUT_LAYER",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "M1_BOARD_OUTLINE",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "M2_BOARD_DIMENSIONS",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "M10_FAB_NOTES",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "MISC",
+      "copper_weight_oz": 1.0,
+      "dielectric_in": 0.0001,
+      "name": "M12_STACKUP",
+      "type": "DOCUMENT"
+    },
+    {
+      "context": "BOARD",
+      "copper_weight_oz": null,
+      "dielectric_in": null,
+      "name": "rout",
+      "type": "ROUT"
+    }
+  ],
+  "source": {
+    "attrlist_root": "fabrication_package/ODB/steps/pcb/layers",
+    "board_attrlist": "fabrication_package/ODB/misc/attrlist",
+    "matrix": "fabrication_package/ODB/matrix/matrix"
+  },
+  "units": {
+    "board_thickness": "in",
+    "copper_weight": "oz",
+    "dielectric": "in"
+  }
+}
