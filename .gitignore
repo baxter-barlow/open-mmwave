@@ -14,6 +14,9 @@ swru*.pdf
 T[Ii]_*/
 **/T[Ii]_docs/
 
+# Component datasheets (may contain vendor part numbers in filenames)
+data_sheets/
+
 # Session logs (contain RE context, vendor refs)
 CODEX_SESSION_PHASE*.md
 CODEX_SESSION_PROMPT.md
