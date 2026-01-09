@@ -12,6 +12,7 @@ sprr*/
 swrr*/
 swru*.pdf
 T[Ii]_*/
+**/T[Ii]_*/
 **/T[Ii]_docs/
 
 # Component datasheets (may contain vendor part numbers in filenames)
@@ -22,11 +23,21 @@ CODEX_SESSION_PHASE*.md
 CODEX_SESSION_PROMPT.md
 *_SESSION_*.md
 *.session.md
+claude-pm-prompt.md
+integration-prompt.md
 
 # Local tooling and prompts
 .git-author
 .githooks/
 .prompts/
+.claude/
+.codex/
+CLAUDE.md
+AGENTS.md
+*.claude
+.aider*
+.continue/
+.cursor/
 
 # Private notes
 *.private.md
