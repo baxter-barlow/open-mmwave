@@ -72,5 +72,5 @@ If PMIC_PGOOD never asserts:
 - USB not enumerating: verify U3 CP2105 power (PMIC_3V3) and USB_DP/DM routing.
 
 Assumptions / To-Verify
-- Expected current draw for each stage is TBD; measure on a known-good board and update.
-- UART default baud and log strings depend on firmware; verify with vendor SDK.
+- Expected current draw for each stage is TBD; measure on a known-good board and update. [Confidence: low]
+- UART default baud and log strings depend on firmware; verify with firmware documentation. [Confidence: low]
