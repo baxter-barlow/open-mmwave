@@ -23,6 +23,11 @@ CODEX_SESSION_PROMPT.md
 *_SESSION_*.md
 *.session.md
 
+# Local tooling and prompts
+.git-author
+.githooks/
+.prompts/
+
 # Private notes
 *.private.md
 *.private.txt
