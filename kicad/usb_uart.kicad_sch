@@ -1,91 +1,451 @@
-(kicad_sch (version 20250114) (generator "open_mmwave") (generator_version "9.0"))
+(kicad_sch
+  (version 20231120)
+  (generator "open_mmwave")
+  (generator_version "8.0")
+  (uuid "fef5b1bf-267a-418f-9c98-66cd67d44ca5")
   (paper "A4")
-  (symbol (lib_id "open_mmwave:FERRITE") (at 20 20) (property "Reference" "FL14" (at 20 20 0)) (property "Value" "FL14" (at 20 22 0)) (property "Footprint" "open_mmwave:GENERIC" (at 20 24 0)))
-  (wire (pts (xy 14 20) (xy 10 20)))
-  (label (at 10 20) (text "USB_5V_B"))
-  (wire (pts (xy 14 18) (xy 10 18)))
-  (label (at 10 18) (text "5V_IN_B"))
-  (symbol (lib_id "open_mmwave:CONN_10") (at 60 20) (property "Reference" "J1" (at 60 20 0)) (property "Value" "J1" (at 60 22 0)) (property "Footprint" "open_mmwave:CONN" (at 60 24 0)))
-  (wire (pts (xy 54 20) (xy 50 20)))
-  (label (at 50 20) (text "USB_5V"))
-  (wire (pts (xy 54 18) (xy 50 18)))
-  (label (at 50 18) (text "USB_DM"))
-  (wire (pts (xy 54 16) (xy 50 16)))
-  (label (at 50 16) (text "USB_DP"))
-  (wire (pts (xy 54 14) (xy 50 14)))
-  (label (at 50 14) (text "GND"))
-  (wire (pts (xy 54 12) (xy 50 12)))
-  (label (at 50 12) (text "GND"))
-  (wire (pts (xy 54 10) (xy 50 10)))
-  (label (at 50 10) (text "GND"))
-  (wire (pts (xy 54 8) (xy 50 8)))
-  (label (at 50 8) (text "GND"))
-  (wire (pts (xy 54 6) (xy 50 6)))
-  (label (at 50 6) (text "GND"))
-  (wire (pts (xy 54 4) (xy 50 4)))
-  (label (at 50 4) (text "GND"))
-  (wire (pts (xy 54 2) (xy 50 2)))
-  (label (at 50 2) (text "GND"))
-  (symbol (lib_id "open_mmwave:CONN_8") (at 100 20) (property "Reference" "J5" (at 100 20 0)) (property "Value" "J5" (at 100 22 0)) (property "Footprint" "open_mmwave:CONN" (at 100 24 0)))
-  (wire (pts (xy 94 20) (xy 90 20)))
-  (label (at 90 20) (text "USB_5V_B"))
-  (wire (pts (xy 94 18) (xy 90 18)))
-  (label (at 90 18) (text "GND"))
-  (wire (pts (xy 94 16) (xy 90 16)))
-  (label (at 90 16) (text "GND"))
-  (wire (pts (xy 94 14) (xy 90 14)))
-  (label (at 90 14) (text "GND"))
-  (wire (pts (xy 94 12) (xy 90 12)))
-  (label (at 90 12) (text "GND"))
-  (wire (pts (xy 94 10) (xy 90 10)))
-  (label (at 90 10) (text "GND"))
-  (wire (pts (xy 94 8) (xy 90 8)))
-  (label (at 90 8) (text "GND"))
-  (wire (pts (xy 94 6) (xy 90 6)))
-  (label (at 90 6) (text "GND"))
-  (symbol (lib_id "open_mmwave:RES") (at 140 20) (property "Reference" "R41" (at 140 20 0)) (property "Value" "0R" (at 140 22 0)) (property "Footprint" "open_mmwave:0201" (at 140 24 0)))
-  (wire (pts (xy 134 20) (xy 130 20)))
-  (label (at 130 20) (text "NetR41_1"))
-  (wire (pts (xy 134 18) (xy 130 18)))
-  (label (at 130 18) (text "USB_DP"))
-  (symbol (lib_id "open_mmwave:RES") (at 180 20) (property "Reference" "R60" (at 180 20 0)) (property "Value" "0R" (at 180 22 0)) (property "Footprint" "open_mmwave:0201" (at 180 24 0)))
-  (wire (pts (xy 174 20) (xy 170 20)))
-  (label (at 170 20) (text "NetR60_1"))
-  (wire (pts (xy 174 18) (xy 170 18)))
-  (label (at 170 18) (text "USB_DM"))
-  (symbol (lib_id "open_mmwave:CP2105") (at 20 40) (property "Reference" "U3" (at 20 40 0)) (property "Value" "U3" (at 20 42 0)) (property "Footprint" "open_mmwave:QFN-24_4x4mm" (at 20 44 0)))
-  (wire (pts (xy 14 40) (xy 10 40)))
-  (label (at 10 40) (text "NetTP26_1"))
-  (wire (pts (xy 14 38) (xy 10 38)))
-  (label (at 10 38) (text "GND"))
-  (wire (pts (xy 14 36) (xy 10 36)))
-  (label (at 10 36) (text "NetR41_1"))
-  (wire (pts (xy 14 34) (xy 10 34)))
-  (label (at 10 34) (text "NetR60_1"))
-  (wire (pts (xy 14 32) (xy 10 32)))
-  (label (at 10 32) (text "PMIC_3V3"))
-  (wire (pts (xy 14 30) (xy 10 30)))
-  (label (at 10 30) (text "PMIC_3V3"))
-  (wire (pts (xy 14 28) (xy 10 28)))
-  (label (at 10 28) (text "PMIC_3V3"))
-  (wire (pts (xy 14 26) (xy 10 26)))
-  (label (at 10 26) (text "VBUS"))
-  (wire (pts (xy 14 24) (xy 10 24)))
-  (label (at 10 24) (text "NetR40_2"))
-  (wire (pts (xy 14 22) (xy 10 22)))
-  (label (at 10 22) (text "USB_AR_RS232TX"))
-  (wire (pts (xy 14 20) (xy 10 20)))
-  (label (at 10 20) (text "USB_AR_RS232RX"))
-  (wire (pts (xy 14 18) (xy 10 18)))
-  (label (at 10 18) (text "NetLD4_1"))
-  (wire (pts (xy 14 16) (xy 10 16)))
-  (label (at 10 16) (text "AR_MSS_LOGGER"))
-  (wire (pts (xy 14 14) (xy 10 14)))
-  (label (at 10 14) (text "GND"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 20 260) (property "Reference" "#PWR_usb_uart_0" (at 20 260 0)) (property "Value" "PWR_FLAG" (at 20 262 0)))
-  (label (at 24 260) (text "5V_IN_B"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 35 260) (property "Reference" "#PWR_usb_uart_1" (at 35 260 0)) (property "Value" "PWR_FLAG" (at 35 262 0)))
-  (label (at 39 260) (text "GND"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 50 260) (property "Reference" "#PWR_usb_uart_2" (at 50 260 0)) (property "Value" "PWR_FLAG" (at 50 262 0)))
-  (label (at 54 260) (text "PMIC_3V3"))
+
+  (symbol
+    (lib_id "open_mmwave:FERRITE")
+    (at 20 20 0)
+    (uuid "cf6af724-c1fd-4455-9c15-ca606f067112")
+    (property "Reference" "FL14"
+      (at 20 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "FL14"
+      (at 20 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 20 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 20) (xy 10 20))
+    (uuid "d45850dd-696c-44cc-bad5-131bbfb12a44"))
+  (label "USB_5V_B"
+    (at 10 20 0)
+    (uuid "bc490c5e-96f3-4d95-8f9f-bb3f4b763ac1")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 18) (xy 10 18))
+    (uuid "02a81d88-5eda-475b-bbc5-b53194ce511a"))
+  (label "5V_IN_B"
+    (at 10 18 0)
+    (uuid "0c8fb654-e2cf-4f0e-bc7c-8424807ad81e")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CONN_10")
+    (at 60 20 0)
+    (uuid "ed6500da-79fd-4299-8248-07e0e911ef58")
+    (property "Reference" "J1"
+      (at 60 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "J1"
+      (at 60 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:CONN"
+      (at 60 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 20) (xy 50 20))
+    (uuid "b54da447-b1ff-43df-a1a7-7f83325bf21c"))
+  (label "USB_5V"
+    (at 50 20 0)
+    (uuid "f80ca1bb-f329-43eb-a0f6-b5c37c93e1f1")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 18) (xy 50 18))
+    (uuid "eb2f4059-2a16-4bc1-8f9d-0325e75283bf"))
+  (label "USB_DM"
+    (at 50 18 0)
+    (uuid "7ec9279f-15c1-4db2-b515-88580c4da055")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 16) (xy 50 16))
+    (uuid "3764c6d9-9a6e-49a7-aaf4-be883019ed9c"))
+  (label "USB_DP"
+    (at 50 16 0)
+    (uuid "f33407fd-d18d-4462-8e9c-24a2ff319f21")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 14) (xy 50 14))
+    (uuid "161b4bd1-c17b-44c5-bf93-2f8385930bdf"))
+  (label "GND"
+    (at 50 14 0)
+    (uuid "0832d9a7-5395-47cf-86ac-42b3b63a5486")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 12) (xy 50 12))
+    (uuid "8da5422a-e1ab-4d77-9362-4c587862fa81"))
+  (label "GND"
+    (at 50 12 0)
+    (uuid "9bdb3ac0-5ccc-45f7-9403-38fc5f83de02")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 10) (xy 50 10))
+    (uuid "2a83698b-6ad2-464e-bf41-d394cb79327e"))
+  (label "GND"
+    (at 50 10 0)
+    (uuid "4b06adcf-fb44-4400-95f0-8253b93c60d8")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 8) (xy 50 8))
+    (uuid "e7524567-0373-4eca-afdf-227590f38c81"))
+  (label "GND"
+    (at 50 8 0)
+    (uuid "c3f23531-b171-4808-9d89-6ba7e861245e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 6) (xy 50 6))
+    (uuid "fdc883d7-4116-4df2-86fe-30c2bac0c809"))
+  (label "GND"
+    (at 50 6 0)
+    (uuid "8e127396-cce9-4064-b1b8-aa7e931d06b9")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 4) (xy 50 4))
+    (uuid "f88a8bb7-f478-4604-81da-6597f515b840"))
+  (label "GND"
+    (at 50 4 0)
+    (uuid "aef6762b-ae82-4f64-a762-a9f2fdee850c")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 2) (xy 50 2))
+    (uuid "80db6ed1-d81a-4cc2-b34c-3bb8b80a0324"))
+  (label "GND"
+    (at 50 2 0)
+    (uuid "fda2c293-df39-4b2e-81cb-e37d520e1be5")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CONN_8")
+    (at 100 20 0)
+    (uuid "8236a5ae-2f9b-4227-875f-c4bd4c82f559")
+    (property "Reference" "J5"
+      (at 100 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "J5"
+      (at 100 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:CONN"
+      (at 100 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 20) (xy 90 20))
+    (uuid "cc62d586-5b03-4ab2-be68-0681efa97ca2"))
+  (label "USB_5V_B"
+    (at 90 20 0)
+    (uuid "361f4a64-4e30-451f-b033-59f0cef8e3cc")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 18) (xy 90 18))
+    (uuid "7ebc0cb5-9f2d-4e28-95a1-52aef6db52f8"))
+  (label "GND"
+    (at 90 18 0)
+    (uuid "296de169-72eb-43ab-a262-211f6fd1dfb2")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 16) (xy 90 16))
+    (uuid "e700197b-8ea7-4f1a-96ce-df8043c59c7f"))
+  (label "GND"
+    (at 90 16 0)
+    (uuid "c8d6c982-6d71-46a2-afa8-9fac479f7c3e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 14) (xy 90 14))
+    (uuid "04fb616f-eedc-45a4-b855-54fd45c6dc2b"))
+  (label "GND"
+    (at 90 14 0)
+    (uuid "1f265cb0-4a53-4174-a765-e8a7212e5ba8")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 12) (xy 90 12))
+    (uuid "4d1f0258-7569-4ada-becd-a40f74bb922f"))
+  (label "GND"
+    (at 90 12 0)
+    (uuid "609700ef-3698-4685-bcc2-8fcbf673f891")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 10) (xy 90 10))
+    (uuid "cfe7b523-d857-4bbe-ba58-5d4651cfbab5"))
+  (label "GND"
+    (at 90 10 0)
+    (uuid "576c9e76-ca10-4468-bff7-afa75fc30fd8")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 8) (xy 90 8))
+    (uuid "977da841-afee-4474-abd4-b40ffb69f2e3"))
+  (label "GND"
+    (at 90 8 0)
+    (uuid "299e0e1e-5c1e-4dd8-ae93-f46a22736854")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 6) (xy 90 6))
+    (uuid "11b8a9ec-9bfb-405a-b662-595232fd2fbd"))
+  (label "GND"
+    (at 90 6 0)
+    (uuid "eaf95756-9296-4dea-8ab1-43e641611c7b")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 140 20 0)
+    (uuid "bd3b970c-f843-422a-adfb-d0a0959ddda9")
+    (property "Reference" "R41"
+      (at 140 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0R"
+      (at 140 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 140 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 20) (xy 130 20))
+    (uuid "73c8095a-adee-49f7-b0ed-406d1fc7700f"))
+  (label "NetR41_1"
+    (at 130 20 0)
+    (uuid "17a0078e-96df-42cc-b954-cd0215397099")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 18) (xy 130 18))
+    (uuid "bad00e71-b852-4e68-9428-30c3dd2fc7d2"))
+  (label "USB_DP"
+    (at 130 18 0)
+    (uuid "75aa05ad-ba10-41d2-b9a8-cd63f38c4905")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 180 20 0)
+    (uuid "c0b26ae9-b0ee-4eea-b777-c75524053a56")
+    (property "Reference" "R60"
+      (at 180 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0R"
+      (at 180 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 180 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 20) (xy 170 20))
+    (uuid "660c48f4-08a4-42c3-8b94-9e52ff495ade"))
+  (label "NetR60_1"
+    (at 170 20 0)
+    (uuid "ac6da2d3-0472-4b33-bba5-6e2cdeb1ef15")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 18) (xy 170 18))
+    (uuid "5ae6f691-f617-40c6-b248-0335da27774a"))
+  (label "USB_DM"
+    (at 170 18 0)
+    (uuid "c69ba96b-1269-4162-bddb-fef81e637299")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CP2105")
+    (at 20 40 0)
+    (uuid "e84950ca-8eb7-4cb0-a0fb-d03bcff83ac3")
+    (property "Reference" "U3"
+      (at 20 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "U3"
+      (at 20 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:QFN-24_4x4mm"
+      (at 20 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 40) (xy 10 40))
+    (uuid "67a98445-1bed-4864-b072-d9a82fb0c258"))
+  (label "NetTP26_1"
+    (at 10 40 0)
+    (uuid "0bdaf33a-82ce-4fa8-b307-9526b66efd17")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 38) (xy 10 38))
+    (uuid "300c2481-6563-4391-9337-73b894307005"))
+  (label "GND"
+    (at 10 38 0)
+    (uuid "0c50461f-94d3-460e-a8dd-8e6a1faddb65")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 36) (xy 10 36))
+    (uuid "80d1f061-81d2-49da-9e67-2244905e7efa"))
+  (label "NetR41_1"
+    (at 10 36 0)
+    (uuid "22420b47-f8bb-42c0-9733-5a27b799035e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 34) (xy 10 34))
+    (uuid "1d28cc22-66e7-4294-ad97-5c9070a36d6f"))
+  (label "NetR60_1"
+    (at 10 34 0)
+    (uuid "ea14e59d-60a0-46c8-83e5-da55c3a48bbc")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 32) (xy 10 32))
+    (uuid "32cdd082-623b-44f9-84a2-586227aedf1b"))
+  (label "PMIC_3V3"
+    (at 10 32 0)
+    (uuid "a1278e79-2509-48b5-bbf7-a3dedfba897a")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 30) (xy 10 30))
+    (uuid "e5c7c8b2-2960-49a2-ba75-971f15f4881e"))
+  (label "PMIC_3V3"
+    (at 10 30 0)
+    (uuid "d890fdd7-e851-4a96-a24b-73c97a51e845")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 28) (xy 10 28))
+    (uuid "9bf74631-5fe7-42d3-bc3b-f9d188b8d8ef"))
+  (label "PMIC_3V3"
+    (at 10 28 0)
+    (uuid "c3180f44-5cc7-4960-a2b7-c98113a40411")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 26) (xy 10 26))
+    (uuid "1f338477-e8a5-4826-a664-8596f60e21b1"))
+  (label "VBUS"
+    (at 10 26 0)
+    (uuid "b35a4a4d-127d-4cde-9c67-0fe3cb2b5625")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 24) (xy 10 24))
+    (uuid "504adb97-c51f-4046-8a0e-4efb34725579"))
+  (label "NetR40_2"
+    (at 10 24 0)
+    (uuid "e9a857f6-70c1-4228-bde7-dddced067085")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 22) (xy 10 22))
+    (uuid "b2c6aadf-e130-4969-ab82-f319df46d3bb"))
+  (label "USB_AR_RS232TX"
+    (at 10 22 0)
+    (uuid "5bca18f4-1b29-4ba3-92b6-3e4a04d27e08")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 20) (xy 10 20))
+    (uuid "7a03bb0e-6ae1-4549-824c-891da92ade1e"))
+  (label "USB_AR_RS232RX"
+    (at 10 20 0)
+    (uuid "d081cd27-635b-46e7-ac2d-c16546053136")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 18) (xy 10 18))
+    (uuid "5980dcd9-43d3-46df-a76a-8ba88b9b1c0b"))
+  (label "NetLD4_1"
+    (at 10 18 0)
+    (uuid "fcfb43be-b8d0-43a9-af27-ab6c77fbbcee")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 16) (xy 10 16))
+    (uuid "bab12ae2-78b1-4054-ba4e-829a7f6946eb"))
+  (label "AR_MSS_LOGGER"
+    (at 10 16 0)
+    (uuid "11705eba-4f96-4d09-9d24-babad0c5d1b8")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 14) (xy 10 14))
+    (uuid "1406f6f5-44b7-4b7e-baf1-abd08dfec898"))
+  (label "GND"
+    (at 10 14 0)
+    (uuid "71f0ffa5-a12e-4587-ab63-3ece0ae1edc1")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 20 260 0)
+    (uuid "94fa41f8-7dcb-420e-b5f0-04c9021307d3")
+    (property "Reference" "#PWR000"
+      (at 20 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 20 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "5V_IN_B"
+    (at 24 260 0)
+    (uuid "2be0f05d-c087-488a-9adf-29f3c16dc93b")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 35 260 0)
+    (uuid "1822586b-b9c0-4042-a4ca-7e130ad5180c")
+    (property "Reference" "#PWR001"
+      (at 35 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 35 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "GND"
+    (at 39 260 0)
+    (uuid "d679ccce-5837-4bc5-b4f6-e81dc9f4629a")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 50 260 0)
+    (uuid "435be867-23c2-4eaa-a2ba-9eb84ba36672")
+    (property "Reference" "#PWR002"
+      (at 50 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 50 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "PMIC_3V3"
+    (at 54 260 0)
+    (uuid "e1ea00da-a925-45a6-bbe4-42f463caf005")
+    (effects (font (size 1.27 1.27))))
+
+  (symbol_instances
+    (path "/cf6af724-c1fd-4455-9c15-ca606f067112"
+      (reference "FL14")
+      (unit 1)
+      (value "FL14")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/ed6500da-79fd-4299-8248-07e0e911ef58"
+      (reference "J1")
+      (unit 1)
+      (value "J1")
+      (footprint "open_mmwave:CONN"))
+    (path "/8236a5ae-2f9b-4227-875f-c4bd4c82f559"
+      (reference "J5")
+      (unit 1)
+      (value "J5")
+      (footprint "open_mmwave:CONN"))
+    (path "/bd3b970c-f843-422a-adfb-d0a0959ddda9"
+      (reference "R41")
+      (unit 1)
+      (value "0R")
+      (footprint "open_mmwave:0201"))
+    (path "/c0b26ae9-b0ee-4eea-b777-c75524053a56"
+      (reference "R60")
+      (unit 1)
+      (value "0R")
+      (footprint "open_mmwave:0201"))
+    (path "/e84950ca-8eb7-4cb0-a0fb-d03bcff83ac3"
+      (reference "U3")
+      (unit 1)
+      (value "U3")
+      (footprint "open_mmwave:QFN-24_4x4mm"))
+    (path "/94fa41f8-7dcb-420e-b5f0-04c9021307d3"
+      (reference "#PWR000")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+    (path "/1822586b-b9c0-4042-a4ca-7e130ad5180c"
+      (reference "#PWR001")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+    (path "/435be867-23c2-4eaa-a2ba-9eb84ba36672"
+      (reference "#PWR002")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+  )
 )

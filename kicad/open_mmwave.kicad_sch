@@ -1,10 +1,104 @@
-(kicad_sch (version 20250114) (generator "open_mmwave") (generator_version "9.0"))
+(kicad_sch
+  (version 20231120)
+  (generator "open_mmwave")
+  (generator_version "8.0")
+  (uuid "23515ff5-39b0-478f-a13c-41be9a72a45d")
   (paper "A4")
-  (sheet (at 20 20) (size 60 20) (property "Sheet name" "power_input") (property "Sheet file" "power_input.kicad_sch"))
-  (sheet (at 20 50) (size 60 20) (property "Sheet name" "pmic") (property "Sheet file" "pmic.kicad_sch"))
-  (sheet (at 20 80) (size 60 20) (property "Sheet name" "soc_core") (property "Sheet file" "soc_core.kicad_sch"))
-  (sheet (at 20 110) (size 60 20) (property "Sheet name" "usb_uart") (property "Sheet file" "usb_uart.kicad_sch"))
-  (sheet (at 20 140) (size 60 20) (property "Sheet name" "hd_connector") (property "Sheet file" "hd_connector.kicad_sch"))
-  (sheet (at 20 170) (size 60 20) (property "Sheet name" "gpio_reset") (property "Sheet file" "gpio_reset.kicad_sch"))
-  (sheet (at 20 200) (size 60 20) (property "Sheet name" "display_bt") (property "Sheet file" "display_bt.kicad_sch"))
+
+  (sheet
+    (at 20 20)
+    (size 80 20)
+    (uuid "feb11d13-3a32-46dc-a609-6a796edc031f")
+    (property "Sheetname" "power_input"
+      (at 60 25 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "power_input.kicad_sch"
+      (at 60 37 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+  (sheet
+    (at 20 50)
+    (size 80 20)
+    (uuid "d525fe9f-03b4-46d7-a11d-15c0b30a6810")
+    (property "Sheetname" "pmic"
+      (at 60 55 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "pmic.kicad_sch"
+      (at 60 67 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+  (sheet
+    (at 20 80)
+    (size 80 20)
+    (uuid "36e39fcf-5f2c-485e-866d-3e1b5ac97515")
+    (property "Sheetname" "soc_core"
+      (at 60 85 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "soc_core.kicad_sch"
+      (at 60 97 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+  (sheet
+    (at 20 110)
+    (size 80 20)
+    (uuid "e9fa7923-07b2-4f6f-b077-5dd529e80c10")
+    (property "Sheetname" "usb_uart"
+      (at 60 115 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "usb_uart.kicad_sch"
+      (at 60 127 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+  (sheet
+    (at 20 140)
+    (size 80 20)
+    (uuid "fe03ca24-3cd3-408a-9d6d-bb914c321b3d")
+    (property "Sheetname" "hd_connector"
+      (at 60 145 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "hd_connector.kicad_sch"
+      (at 60 157 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+  (sheet
+    (at 20 170)
+    (size 80 20)
+    (uuid "912c7435-57a8-4976-87b7-7b31a16ffd19")
+    (property "Sheetname" "gpio_reset"
+      (at 60 175 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "gpio_reset.kicad_sch"
+      (at 60 187 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+  (sheet
+    (at 20 200)
+    (size 80 20)
+    (uuid "d677436f-c952-45b4-ab00-d298c27033a8")
+    (property "Sheetname" "display_bt"
+      (at 60 205 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "display_bt.kicad_sch"
+      (at 60 217 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+  )
+
+  (sheet_instances
+    (path "/"
+      (page "1"))
+    (path "/feb11d13-3a32-46dc-a609-6a796edc031f"
+      (page "2"))
+    (path "/d525fe9f-03b4-46d7-a11d-15c0b30a6810"
+      (page "3"))
+    (path "/36e39fcf-5f2c-485e-866d-3e1b5ac97515"
+      (page "4"))
+    (path "/e9fa7923-07b2-4f6f-b077-5dd529e80c10"
+      (page "5"))
+    (path "/fe03ca24-3cd3-408a-9d6d-bb914c321b3d"
+      (page "6"))
+    (path "/912c7435-57a8-4976-87b7-7b31a16ffd19"
+      (page "7"))
+    (path "/d677436f-c952-45b4-ab00-d298c27033a8"
+      (page "8"))
+  )
 )

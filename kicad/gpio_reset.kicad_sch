@@ -1,103 +1,772 @@
-(kicad_sch (version 20250114) (generator "open_mmwave") (generator_version "9.0"))
+(kicad_sch
+  (version 20231120)
+  (generator "open_mmwave")
+  (generator_version "8.0")
+  (uuid "0e29a579-5f1a-4d07-82b7-61c30cc80447")
   (paper "A4")
-  (symbol (lib_id "open_mmwave:RES") (at 20 20) (property "Reference" "R81" (at 20 20 0)) (property "Value" "10k" (at 20 22 0)) (property "Footprint" "open_mmwave:0201" (at 20 24 0)))
-  (wire (pts (xy 14 20) (xy 10 20)))
-  (label (at 10 20) (text "VCC_BA_3V3"))
-  (wire (pts (xy 14 18) (xy 10 18)))
-  (label (at 10 18) (text "SENS_NRST"))
-  (symbol (lib_id "open_mmwave:RES") (at 60 20) (property "Reference" "R94" (at 60 20 0)) (property "Value" "10k" (at 60 22 0)) (property "Footprint" "open_mmwave:0201" (at 60 24 0)))
-  (wire (pts (xy 54 20) (xy 50 20)))
-  (label (at 50 20) (text "RESETN"))
-  (wire (pts (xy 54 18) (xy 50 18)))
-  (label (at 50 18) (text "VCC_BA_3V3"))
-  (symbol (lib_id "open_mmwave:RES") (at 100 20) (property "Reference" "R97" (at 100 20 0)) (property "Value" "0R" (at 100 22 0)) (property "Footprint" "open_mmwave:0201" (at 100 24 0)))
-  (wire (pts (xy 94 20) (xy 90 20)))
-  (label (at 90 20) (text "NetR97_1"))
-  (wire (pts (xy 94 18) (xy 90 18)))
-  (label (at 90 18) (text "SENS_NRST"))
-  (symbol (lib_id "open_mmwave:GENERIC") (at 140 20) (property "Reference" "S1" (at 140 20 0)) (property "Value" "S1" (at 140 22 0)) (property "Footprint" "open_mmwave:GENERIC" (at 140 24 0)))
-  (wire (pts (xy 134 20) (xy 130 20)))
-  (label (at 130 20) (text "UART_MUX_CTRL1"))
-  (wire (pts (xy 134 18) (xy 130 18)))
-  (label (at 130 18) (text "UART_MUX_CTRL2"))
-  (wire (pts (xy 134 16) (xy 130 16)))
-  (label (at 130 16) (text "SOP0"))
-  (wire (pts (xy 134 14) (xy 130 14)))
-  (label (at 130 14) (text "SOP1"))
-  (wire (pts (xy 134 12) (xy 130 12)))
-  (label (at 130 12) (text "NetR16_2"))
-  (wire (pts (xy 134 10) (xy 130 10)))
-  (label (at 130 10) (text "GND"))
-  (wire (pts (xy 134 8) (xy 130 8)))
-  (label (at 130 8) (text "GND"))
-  (wire (pts (xy 134 6) (xy 130 6)))
-  (label (at 130 6) (text "GND"))
-  (symbol (lib_id "open_mmwave:SWITCH") (at 180 20) (property "Reference" "SW3" (at 180 20 0)) (property "Value" "SW3" (at 180 22 0)) (property "Footprint" "open_mmwave:GENERIC" (at 180 24 0)))
-  (wire (pts (xy 174 20) (xy 170 20)))
-  (label (at 170 20) (text "NetR125_2"))
-  (wire (pts (xy 174 18) (xy 170 18)))
-  (label (at 170 18) (text "NetR111_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 20 40) (property "Reference" "TP10" (at 20 40 0)) (property "Value" "TP10" (at 20 42 0)) (property "Footprint" "open_mmwave:GENERIC" (at 20 44 0)))
-  (wire (pts (xy 14 40) (xy 10 40)))
-  (label (at 10 40) (text "NetR27_2"))
-  (symbol (lib_id "open_mmwave:TP") (at 60 40) (property "Reference" "TP11" (at 60 40 0)) (property "Value" "TP11" (at 60 42 0)) (property "Footprint" "open_mmwave:GENERIC" (at 60 44 0)))
-  (wire (pts (xy 54 40) (xy 50 40)))
-  (label (at 50 40) (text "NetTP11_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 100 40) (property "Reference" "TP12" (at 100 40 0)) (property "Value" "TP12" (at 100 42 0)) (property "Footprint" "open_mmwave:GENERIC" (at 100 44 0)))
-  (wire (pts (xy 94 40) (xy 90 40)))
-  (label (at 90 40) (text "GND"))
-  (symbol (lib_id "open_mmwave:TP") (at 140 40) (property "Reference" "TP13" (at 140 40 0)) (property "Value" "TP13" (at 140 42 0)) (property "Footprint" "open_mmwave:GENERIC" (at 140 44 0)))
-  (wire (pts (xy 134 40) (xy 130 40)))
-  (label (at 130 40) (text "VCC_BA_3V3"))
-  (symbol (lib_id "open_mmwave:TP") (at 180 40) (property "Reference" "TP15" (at 180 40 0)) (property "Value" "TP15" (at 180 42 0)) (property "Footprint" "open_mmwave:GENERIC" (at 180 44 0)))
-  (wire (pts (xy 174 40) (xy 170 40)))
-  (label (at 170 40) (text "GND"))
-  (symbol (lib_id "open_mmwave:TP") (at 20 60) (property "Reference" "TP16" (at 20 60 0)) (property "Value" "TP16" (at 20 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 20 64 0)))
-  (wire (pts (xy 14 60) (xy 10 60)))
-  (label (at 10 60) (text "MRDY"))
-  (symbol (lib_id "open_mmwave:TP") (at 60 60) (property "Reference" "TP18" (at 60 60 0)) (property "Value" "TP18" (at 60 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 60 64 0)))
-  (wire (pts (xy 54 60) (xy 50 60)))
-  (label (at 50 60) (text "BREAK_RS232TX"))
-  (symbol (lib_id "open_mmwave:TP") (at 100 60) (property "Reference" "TP19" (at 100 60 0)) (property "Value" "TP19" (at 100 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 100 64 0)))
-  (wire (pts (xy 94 60) (xy 90 60)))
-  (label (at 90 60) (text "BREAK_RS232RX"))
-  (symbol (lib_id "open_mmwave:TP") (at 140 60) (property "Reference" "TP2" (at 140 60 0)) (property "Value" "TP2" (at 140 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 140 64 0)))
-  (wire (pts (xy 134 60) (xy 130 60)))
-  (label (at 130 60) (text "NetTP2_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 180 60) (property "Reference" "TP20" (at 180 60 0)) (property "Value" "TP20" (at 180 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 180 64 0)))
-  (wire (pts (xy 174 60) (xy 170 60)))
-  (label (at 170 60) (text "GND"))
-  (symbol (lib_id "open_mmwave:TP") (at 20 80) (property "Reference" "TP26" (at 20 80 0)) (property "Value" "TP26" (at 20 82 0)) (property "Footprint" "open_mmwave:GENERIC" (at 20 84 0)))
-  (wire (pts (xy 14 80) (xy 10 80)))
-  (label (at 10 80) (text "NetTP26_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 60 80) (property "Reference" "TP27" (at 60 80 0)) (property "Value" "TP27" (at 60 82 0)) (property "Footprint" "open_mmwave:GENERIC" (at 60 84 0)))
-  (wire (pts (xy 54 80) (xy 50 80)))
-  (label (at 50 80) (text "SRDY"))
-  (symbol (lib_id "open_mmwave:TP") (at 100 80) (property "Reference" "TP3" (at 100 80 0)) (property "Value" "TP3" (at 100 82 0)) (property "Footprint" "open_mmwave:GENERIC" (at 100 84 0)))
-  (wire (pts (xy 94 80) (xy 90 80)))
-  (label (at 90 80) (text "NetTP3_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 140 80) (property "Reference" "TP4" (at 140 80 0)) (property "Value" "TP4" (at 140 82 0)) (property "Footprint" "open_mmwave:GENERIC" (at 140 84 0)))
-  (wire (pts (xy 134 80) (xy 130 80)))
-  (label (at 130 80) (text "5V_IN_B"))
-  (symbol (lib_id "open_mmwave:TP") (at 180 80) (property "Reference" "TP46" (at 180 80 0)) (property "Value" "TP46" (at 180 82 0)) (property "Footprint" "open_mmwave:GENERIC" (at 180 84 0)))
-  (wire (pts (xy 174 80) (xy 170 80)))
-  (label (at 170 80) (text "INTN"))
-  (symbol (lib_id "open_mmwave:TP") (at 20 100) (property "Reference" "TP6" (at 20 100 0)) (property "Value" "TP6" (at 20 102 0)) (property "Footprint" "open_mmwave:GENERIC" (at 20 104 0)))
-  (wire (pts (xy 14 100) (xy 10 100)))
-  (label (at 10 100) (text "NetTP6_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 60 100) (property "Reference" "TP7" (at 60 100 0)) (property "Value" "TP7" (at 60 102 0)) (property "Footprint" "open_mmwave:GENERIC" (at 60 104 0)))
-  (wire (pts (xy 54 100) (xy 50 100)))
-  (label (at 50 100) (text "NetTP7_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 100 100) (property "Reference" "TP8" (at 100 100 0)) (property "Value" "TP8" (at 100 102 0)) (property "Footprint" "open_mmwave:GENERIC" (at 100 104 0)))
-  (wire (pts (xy 94 100) (xy 90 100)))
-  (label (at 90 100) (text "NetTP8_1"))
-  (symbol (lib_id "open_mmwave:TP") (at 140 100) (property "Reference" "TP9" (at 140 100 0)) (property "Value" "TP9" (at 140 102 0)) (property "Footprint" "open_mmwave:GENERIC" (at 140 104 0)))
-  (wire (pts (xy 134 100) (xy 130 100)))
-  (label (at 130 100) (text "NetTP9_1"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 20 260) (property "Reference" "#PWR_gpio_reset_0" (at 20 260 0)) (property "Value" "PWR_FLAG" (at 20 262 0)))
-  (label (at 24 260) (text "5V_IN_B"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 35 260) (property "Reference" "#PWR_gpio_reset_1" (at 35 260 0)) (property "Value" "PWR_FLAG" (at 35 262 0)))
-  (label (at 39 260) (text "GND"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 50 260) (property "Reference" "#PWR_gpio_reset_2" (at 50 260 0)) (property "Value" "PWR_FLAG" (at 50 262 0)))
-  (label (at 54 260) (text "VCC_BA_3V3"))
+
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 20 20 0)
+    (uuid "3ddb0082-5efb-4136-9a30-751dad1a3026")
+    (property "Reference" "R81"
+      (at 20 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "10k"
+      (at 20 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 20 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 20) (xy 10 20))
+    (uuid "e621ee8f-4239-4dae-a97f-52b8824129da"))
+  (label "VCC_BA_3V3"
+    (at 10 20 0)
+    (uuid "03844664-4f1a-4e95-b481-01690eb0a5f6")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 18) (xy 10 18))
+    (uuid "c52fae1c-efcf-4cda-bf03-e31720c962bd"))
+  (label "SENS_NRST"
+    (at 10 18 0)
+    (uuid "c0b2e1cb-946a-4b37-b69a-5bcf0ce6844b")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 60 20 0)
+    (uuid "4b44e2f8-f26c-4d56-a726-0c442b3fe868")
+    (property "Reference" "R94"
+      (at 60 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "10k"
+      (at 60 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 60 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 20) (xy 50 20))
+    (uuid "e766a851-5975-4db7-89b5-7a5d1aa476b3"))
+  (label "RESETN"
+    (at 50 20 0)
+    (uuid "dc96ac20-5846-4dfe-b9c1-53ff99a3f4fb")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 18) (xy 50 18))
+    (uuid "8374ac67-5e1a-4e4f-a20a-4435a5863389"))
+  (label "VCC_BA_3V3"
+    (at 50 18 0)
+    (uuid "98f27910-71dd-4a51-8e77-95a725e80675")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 100 20 0)
+    (uuid "bf6fd356-d7c0-470a-9ae1-ce3e270a06d7")
+    (property "Reference" "R97"
+      (at 100 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0R"
+      (at 100 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 100 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 20) (xy 90 20))
+    (uuid "b799c23f-73cd-47c4-b7f1-3ec85ce875dd"))
+  (label "NetR97_1"
+    (at 90 20 0)
+    (uuid "2e8f7e28-367d-4d58-a466-b0c86df15fdf")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 18) (xy 90 18))
+    (uuid "55a26bf0-8acd-4eb2-9124-358e589561a4"))
+  (label "SENS_NRST"
+    (at 90 18 0)
+    (uuid "d1ee88f9-365c-4ed7-a87c-6d2f2948d724")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:GENERIC")
+    (at 140 20 0)
+    (uuid "325143e1-186a-40a0-80e7-98818b75069a")
+    (property "Reference" "S1"
+      (at 140 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "S1"
+      (at 140 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 140 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 20) (xy 130 20))
+    (uuid "874ca65c-0638-4701-84a0-016fb69f1578"))
+  (label "UART_MUX_CTRL1"
+    (at 130 20 0)
+    (uuid "0c4518b1-6a45-43ba-81d3-0a212d9dfaaa")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 18) (xy 130 18))
+    (uuid "daedec97-4072-42f5-8aca-3d3e0a46417b"))
+  (label "UART_MUX_CTRL2"
+    (at 130 18 0)
+    (uuid "9d1947f1-4d15-4344-ae2c-7816d58e2c92")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 16) (xy 130 16))
+    (uuid "dbb2c61c-ef8b-4cf2-9198-6bf945125d27"))
+  (label "SOP0"
+    (at 130 16 0)
+    (uuid "b1b1c044-6cac-401c-9312-65b91b6d8a05")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 14) (xy 130 14))
+    (uuid "5fef1966-894d-446a-aa4c-dc546cda6c69"))
+  (label "SOP1"
+    (at 130 14 0)
+    (uuid "3952993b-aaed-410b-bd27-d60f7e60280c")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 12) (xy 130 12))
+    (uuid "46adf443-c0ba-4e56-a258-fc4b67e6bcf5"))
+  (label "NetR16_2"
+    (at 130 12 0)
+    (uuid "11b2f4f1-ec85-4c99-969d-1e098ef58c8b")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 10) (xy 130 10))
+    (uuid "99508b30-0929-44c8-9334-ef72daaa70ca"))
+  (label "GND"
+    (at 130 10 0)
+    (uuid "1bfb4aae-d3b3-46ef-bd30-c0c3f0e4509f")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 8) (xy 130 8))
+    (uuid "833b672b-903d-49ae-9438-8bb373d5643a"))
+  (label "GND"
+    (at 130 8 0)
+    (uuid "34880daf-6e7c-4309-8da1-409239630788")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 6) (xy 130 6))
+    (uuid "064357f8-1a01-492d-9ffa-6d50236889eb"))
+  (label "GND"
+    (at 130 6 0)
+    (uuid "8a9ef0c7-1a32-45cf-8217-3a10a827d665")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:SWITCH")
+    (at 180 20 0)
+    (uuid "29eb4066-e681-4507-b299-74872392b378")
+    (property "Reference" "SW3"
+      (at 180 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "SW3"
+      (at 180 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 180 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 20) (xy 170 20))
+    (uuid "bca75f7e-315a-4a1b-984f-2fe634653502"))
+  (label "NetR125_2"
+    (at 170 20 0)
+    (uuid "c39c7ee0-1f0b-4793-8913-ddb4e4dd4787")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 18) (xy 170 18))
+    (uuid "addaf5e0-4d15-4f52-89e8-1c03f19f92b4"))
+  (label "NetR111_1"
+    (at 170 18 0)
+    (uuid "a13bda75-57d4-4b41-9082-c6b45ad0aa78")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 20 40 0)
+    (uuid "b49eec41-bd46-474b-b487-a9bda0d61651")
+    (property "Reference" "TP10"
+      (at 20 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP10"
+      (at 20 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 20 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 40) (xy 10 40))
+    (uuid "5d271fbf-b0c5-4db3-801b-17b4729b05eb"))
+  (label "NetR27_2"
+    (at 10 40 0)
+    (uuid "8a362f1f-3a89-4b1b-bd22-a4c8040afa9c")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 60 40 0)
+    (uuid "5e83115f-0ec8-4c11-8c8f-47e2b9df4c9c")
+    (property "Reference" "TP11"
+      (at 60 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP11"
+      (at 60 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 60 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 40) (xy 50 40))
+    (uuid "f5ed18da-2a24-487c-9bab-ba0433fb2768"))
+  (label "NetTP11_1"
+    (at 50 40 0)
+    (uuid "20bc2d81-243f-4493-b768-7e9db73ca02b")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 100 40 0)
+    (uuid "4a5416b5-1c49-4c59-be50-ac309fd98264")
+    (property "Reference" "TP12"
+      (at 100 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP12"
+      (at 100 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 100 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 40) (xy 90 40))
+    (uuid "9de326cf-09d4-4f72-81df-58cd072fdef8"))
+  (label "GND"
+    (at 90 40 0)
+    (uuid "d9e8772c-c4cc-405a-b491-9ddc553194fa")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 140 40 0)
+    (uuid "ae93f5ab-62e7-4931-912c-38aaed9e3478")
+    (property "Reference" "TP13"
+      (at 140 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP13"
+      (at 140 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 140 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 40) (xy 130 40))
+    (uuid "c4c74976-d320-41dd-aefb-794addf3f66c"))
+  (label "VCC_BA_3V3"
+    (at 130 40 0)
+    (uuid "91df6ddd-4b04-409b-851e-96728f70ba65")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 180 40 0)
+    (uuid "155d8675-e40c-4173-b83f-70440bd5d41e")
+    (property "Reference" "TP15"
+      (at 180 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP15"
+      (at 180 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 180 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 40) (xy 170 40))
+    (uuid "054cc0e6-43ea-467c-bc3e-b5c6611e5c2d"))
+  (label "GND"
+    (at 170 40 0)
+    (uuid "cfd70e18-f5ed-4022-973c-65f734dcfc74")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 20 60 0)
+    (uuid "2c0cfe53-4bd9-4403-962e-72ed6a258a07")
+    (property "Reference" "TP16"
+      (at 20 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP16"
+      (at 20 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 20 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 60) (xy 10 60))
+    (uuid "0eca8fda-c774-4b41-ab5d-2ec78199f465"))
+  (label "MRDY"
+    (at 10 60 0)
+    (uuid "6cd34a97-ae64-4f2b-ae31-400643abbd11")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 60 60 0)
+    (uuid "0fa76cc7-37cb-4140-bfea-2bc63717bc91")
+    (property "Reference" "TP18"
+      (at 60 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP18"
+      (at 60 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 60 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 60) (xy 50 60))
+    (uuid "57ec7d35-3004-4a27-95ac-f83f674ec193"))
+  (label "BREAK_RS232TX"
+    (at 50 60 0)
+    (uuid "188ea485-1be8-45aa-8554-8d7cc6056dcd")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 100 60 0)
+    (uuid "82aa2f8f-728f-49ec-9b83-c4f076449bca")
+    (property "Reference" "TP19"
+      (at 100 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP19"
+      (at 100 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 100 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 60) (xy 90 60))
+    (uuid "3468a332-eb58-4428-ba36-036b7371ed8a"))
+  (label "BREAK_RS232RX"
+    (at 90 60 0)
+    (uuid "e259f886-2899-4179-bc14-21cf1a832a16")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 140 60 0)
+    (uuid "0b4727e9-7a4b-4095-b82d-4bb9dce90aaa")
+    (property "Reference" "TP2"
+      (at 140 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP2"
+      (at 140 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 140 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 60) (xy 130 60))
+    (uuid "18d36a2f-9243-4ab8-aea6-e984c5d816ca"))
+  (label "NetTP2_1"
+    (at 130 60 0)
+    (uuid "be267d99-cf85-4ffd-8c7b-87cce4ee6c87")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 180 60 0)
+    (uuid "29c9c8e3-afd5-478c-bef9-70439b34eadf")
+    (property "Reference" "TP20"
+      (at 180 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP20"
+      (at 180 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 180 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 60) (xy 170 60))
+    (uuid "3de4b7e1-2352-45d3-bf44-5aeb38dcf6ae"))
+  (label "GND"
+    (at 170 60 0)
+    (uuid "daf046a3-50f7-44fa-9fcd-1202a54ab2e0")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 20 80 0)
+    (uuid "bf96d688-9fe1-4c8a-b78d-6cf9d7bce89d")
+    (property "Reference" "TP26"
+      (at 20 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP26"
+      (at 20 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 20 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 80) (xy 10 80))
+    (uuid "403ac292-2221-444a-96fa-3f5373a03cee"))
+  (label "NetTP26_1"
+    (at 10 80 0)
+    (uuid "c66e6af4-774b-457a-888c-87fabb0ed7ff")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 60 80 0)
+    (uuid "577d5a89-235b-4fc1-97e0-b74fc4a1a326")
+    (property "Reference" "TP27"
+      (at 60 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP27"
+      (at 60 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 60 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 80) (xy 50 80))
+    (uuid "e9f469c7-ffbe-4a6a-bc94-b3cb4a9fd379"))
+  (label "SRDY"
+    (at 50 80 0)
+    (uuid "861c973f-efc5-4ab2-9bd1-68b1e1079b1b")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 100 80 0)
+    (uuid "0058d48a-6a9d-4640-853c-7e4a3bb0e4e7")
+    (property "Reference" "TP3"
+      (at 100 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP3"
+      (at 100 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 100 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 80) (xy 90 80))
+    (uuid "e6243018-36d3-4171-99a4-c17291018094"))
+  (label "NetTP3_1"
+    (at 90 80 0)
+    (uuid "1e19a90a-a6c9-4cdf-88e1-21e57cc92731")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 140 80 0)
+    (uuid "427b0748-4d3e-4e1f-b0b4-0f22bdd1ba4b")
+    (property "Reference" "TP4"
+      (at 140 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP4"
+      (at 140 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 140 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 80) (xy 130 80))
+    (uuid "9688c701-022c-4e26-97b3-87925e650ccd"))
+  (label "5V_IN_B"
+    (at 130 80 0)
+    (uuid "37935685-549e-4c4a-b667-aedd69be7944")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 180 80 0)
+    (uuid "739699a1-884b-46e1-88d3-3749d1ec46ce")
+    (property "Reference" "TP46"
+      (at 180 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP46"
+      (at 180 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 180 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 80) (xy 170 80))
+    (uuid "951271a4-c707-48b2-9e5a-9d592f3950b3"))
+  (label "INTN"
+    (at 170 80 0)
+    (uuid "1e85f470-336a-4074-b0ef-685a4dcc5a5d")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 20 100 0)
+    (uuid "44ed1e1f-fa44-4a69-8dc0-7838460098b0")
+    (property "Reference" "TP6"
+      (at 20 98 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP6"
+      (at 20 102 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 20 104 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 100) (xy 10 100))
+    (uuid "516c4a5e-0b1b-4c38-829e-16087d532cd9"))
+  (label "NetTP6_1"
+    (at 10 100 0)
+    (uuid "93abb152-d880-4fcd-93a6-0fde06c7d55f")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 60 100 0)
+    (uuid "3412a226-cc87-47f4-b1ce-c5190da5d7f3")
+    (property "Reference" "TP7"
+      (at 60 98 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP7"
+      (at 60 102 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 60 104 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 100) (xy 50 100))
+    (uuid "dc58df83-16f1-4dfc-899e-e95e1d5a2de0"))
+  (label "NetTP7_1"
+    (at 50 100 0)
+    (uuid "12bd3315-263d-4c14-a16f-be7629729c75")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 100 100 0)
+    (uuid "dc63cef6-cefe-4463-86e9-ab10b9947e65")
+    (property "Reference" "TP8"
+      (at 100 98 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP8"
+      (at 100 102 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 100 104 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 100) (xy 90 100))
+    (uuid "bf666368-5cd6-429a-a2e6-ec2006c1bb53"))
+  (label "NetTP8_1"
+    (at 90 100 0)
+    (uuid "a0a8aa75-0441-4947-bad7-5feeebea9072")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:TP")
+    (at 140 100 0)
+    (uuid "c5e63ba0-db23-4f60-9fd0-48ac73959308")
+    (property "Reference" "TP9"
+      (at 140 98 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "TP9"
+      (at 140 102 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 140 104 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 100) (xy 130 100))
+    (uuid "3ed0d991-0e51-4562-8ef1-16d67041ca97"))
+  (label "NetTP9_1"
+    (at 130 100 0)
+    (uuid "dd58ebdc-d1cf-4a0a-9e25-550f1cfa631a")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 20 260 0)
+    (uuid "f4ab0ca3-5515-4f19-a8c8-6334ae24a9d6")
+    (property "Reference" "#PWR000"
+      (at 20 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 20 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "5V_IN_B"
+    (at 24 260 0)
+    (uuid "5f3290d7-efd2-4b36-91de-0c5351cd9d89")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 35 260 0)
+    (uuid "29db63dc-290d-4b4b-b41e-a2024e2e7144")
+    (property "Reference" "#PWR001"
+      (at 35 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 35 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "GND"
+    (at 39 260 0)
+    (uuid "81144f7c-cd05-4d56-9463-b2e2bfa0b6f6")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 50 260 0)
+    (uuid "974ef099-d0d3-435b-907b-e472f6412f68")
+    (property "Reference" "#PWR002"
+      (at 50 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 50 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "VCC_BA_3V3"
+    (at 54 260 0)
+    (uuid "29e167fa-38cc-4e46-aeb8-e6a339fbe6d3")
+    (effects (font (size 1.27 1.27))))
+
+  (symbol_instances
+    (path "/3ddb0082-5efb-4136-9a30-751dad1a3026"
+      (reference "R81")
+      (unit 1)
+      (value "10k")
+      (footprint "open_mmwave:0201"))
+    (path "/4b44e2f8-f26c-4d56-a726-0c442b3fe868"
+      (reference "R94")
+      (unit 1)
+      (value "10k")
+      (footprint "open_mmwave:0201"))
+    (path "/bf6fd356-d7c0-470a-9ae1-ce3e270a06d7"
+      (reference "R97")
+      (unit 1)
+      (value "0R")
+      (footprint "open_mmwave:0201"))
+    (path "/325143e1-186a-40a0-80e7-98818b75069a"
+      (reference "S1")
+      (unit 1)
+      (value "S1")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/29eb4066-e681-4507-b299-74872392b378"
+      (reference "SW3")
+      (unit 1)
+      (value "SW3")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/b49eec41-bd46-474b-b487-a9bda0d61651"
+      (reference "TP10")
+      (unit 1)
+      (value "TP10")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/5e83115f-0ec8-4c11-8c8f-47e2b9df4c9c"
+      (reference "TP11")
+      (unit 1)
+      (value "TP11")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/4a5416b5-1c49-4c59-be50-ac309fd98264"
+      (reference "TP12")
+      (unit 1)
+      (value "TP12")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/ae93f5ab-62e7-4931-912c-38aaed9e3478"
+      (reference "TP13")
+      (unit 1)
+      (value "TP13")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/155d8675-e40c-4173-b83f-70440bd5d41e"
+      (reference "TP15")
+      (unit 1)
+      (value "TP15")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/2c0cfe53-4bd9-4403-962e-72ed6a258a07"
+      (reference "TP16")
+      (unit 1)
+      (value "TP16")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/0fa76cc7-37cb-4140-bfea-2bc63717bc91"
+      (reference "TP18")
+      (unit 1)
+      (value "TP18")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/82aa2f8f-728f-49ec-9b83-c4f076449bca"
+      (reference "TP19")
+      (unit 1)
+      (value "TP19")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/0b4727e9-7a4b-4095-b82d-4bb9dce90aaa"
+      (reference "TP2")
+      (unit 1)
+      (value "TP2")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/29c9c8e3-afd5-478c-bef9-70439b34eadf"
+      (reference "TP20")
+      (unit 1)
+      (value "TP20")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/bf96d688-9fe1-4c8a-b78d-6cf9d7bce89d"
+      (reference "TP26")
+      (unit 1)
+      (value "TP26")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/577d5a89-235b-4fc1-97e0-b74fc4a1a326"
+      (reference "TP27")
+      (unit 1)
+      (value "TP27")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/0058d48a-6a9d-4640-853c-7e4a3bb0e4e7"
+      (reference "TP3")
+      (unit 1)
+      (value "TP3")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/427b0748-4d3e-4e1f-b0b4-0f22bdd1ba4b"
+      (reference "TP4")
+      (unit 1)
+      (value "TP4")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/739699a1-884b-46e1-88d3-3749d1ec46ce"
+      (reference "TP46")
+      (unit 1)
+      (value "TP46")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/44ed1e1f-fa44-4a69-8dc0-7838460098b0"
+      (reference "TP6")
+      (unit 1)
+      (value "TP6")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/3412a226-cc87-47f4-b1ce-c5190da5d7f3"
+      (reference "TP7")
+      (unit 1)
+      (value "TP7")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/dc63cef6-cefe-4463-86e9-ab10b9947e65"
+      (reference "TP8")
+      (unit 1)
+      (value "TP8")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/c5e63ba0-db23-4f60-9fd0-48ac73959308"
+      (reference "TP9")
+      (unit 1)
+      (value "TP9")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/f4ab0ca3-5515-4f19-a8c8-6334ae24a9d6"
+      (reference "#PWR000")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+    (path "/29db63dc-290d-4b4b-b41e-a2024e2e7144"
+      (reference "#PWR001")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+    (path "/974ef099-d0d3-435b-907b-e472f6412f68"
+      (reference "#PWR002")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+  )
 )

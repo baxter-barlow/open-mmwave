@@ -5,5 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
       - name: Run baseline generator
         run: python tools/ci_pipeline.py --baseline data/ci_baseline.json
+      - name: Validate KiCad schematic hierarchy
+        run: python tools/kicad_sch_validate.py kicad/open_mmwave.kicad_sch --min-sheets 5

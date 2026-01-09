@@ -1,14 +1,27 @@
 #!/usr/bin/env python3
-"""Generate KiCad 7 hierarchical schematic with shared symbols."""
+"""Generate KiCad 8 hierarchical schematic with shared symbols.
+
+Outputs valid KiCad 6+ S-expression format with:
+- UUID on all elements (sheets, symbols, wires, labels)
+- Proper property syntax with position and effects
+- sheet_instances section for hierarchy resolution
+- symbol_instances section for annotation
+"""
 from __future__ import annotations
 
 import argparse
 import json
+import uuid
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
 import csv
 import re
+
+
+def _make_uuid() -> str:
+    """Generate a new UUID string for KiCad elements."""
+    return str(uuid.uuid4())
 
 
 SHEET_MAP = {
@@ -199,12 +212,21 @@ def _write_sheet(
     values: Dict,
     footprints: Dict[str, str],
 ) -> None:
+    """Write a child schematic sheet with valid KiCad 6+ format."""
     lines = [
-        "(kicad_sch (version 20231120) (generator codex))",
-        "  (paper \"A4\")",
+        '(kicad_sch',
+        '  (version 20231120)',
+        '  (generator "open_mmwave")',
+        '  (generator_version "8.0")',
+        '  (uuid "{}")'.format(_make_uuid()),
+        '  (paper "A4")',
+        '',
     ]
+
+    symbol_instances = []  # Track (path, reference, unit, value, footprint)
     x0, y0 = 20, 20
     dx, dy = 40, 20
+
     for idx, comp in enumerate(sorted(comps)):
         x = x0 + (idx % 5) * dx
         y = y0 + (idx // 5) * dy
@@ -212,34 +234,84 @@ def _write_sheet(
         sym_name = _symbol_name(comp, pins)
         val = values.get(comp, comp)
         footprint = footprints.get(comp, "")
-        lines.append(
-            f"  (symbol (lib_id \"open_mmwave:{sym_name}\") (at {x} {y})"
-            f" (property \"Reference\" \"{comp}\" (at {x} {y} 0))"
-            f" (property \"Value\" \"{val}\" (at {x} {y+2} 0))"
-            f" (property \"Footprint\" \"{footprint}\" (at {x} {y+4} 0)))"
-        )
+        sym_uuid = _make_uuid()
+
+        lines.append(f'  (symbol')
+        lines.append(f'    (lib_id "open_mmwave:{sym_name}")')
+        lines.append(f'    (at {x} {y} 0)')
+        lines.append(f'    (uuid "{sym_uuid}")')
+        lines.append(f'    (property "Reference" "{comp}"')
+        lines.append(f'      (at {x} {y-2} 0)')
+        lines.append(f'      (effects (font (size 1.27 1.27))))')
+        lines.append(f'    (property "Value" "{val}"')
+        lines.append(f'      (at {x} {y+2} 0)')
+        lines.append(f'      (effects (font (size 1.27 1.27))))')
+        lines.append(f'    (property "Footprint" "{footprint}"')
+        lines.append(f'      (at {x} {y+4} 0)')
+        lines.append(f'      (effects (font (size 1.27 1.27)) hide))')
+        lines.append(f'  )')
+
+        symbol_instances.append((sym_uuid, comp, 1, val, footprint))
+
+        # Add wires and labels for each pin
+        wire_y = y
         for pin in pins:
             net = comp_to_pins[comp][pin]
             x1 = x - 6
-            y1 = y
-            lines.append(f"  (wire (pts (xy {x1} {y1}) (xy {x1-4} {y1})))")
-            lines.append(f"  (label (at {x1-4} {y1}) (text \"{net}\"))")
-            y -= 2
-    # Add PWR_FLAG symbols for power nets in this sheet.
+            wire_uuid = _make_uuid()
+            label_uuid = _make_uuid()
+            lines.append(f'  (wire')
+            lines.append(f'    (pts (xy {x1} {wire_y}) (xy {x1-4} {wire_y}))')
+            lines.append(f'    (uuid "{wire_uuid}"))')
+            lines.append(f'  (label "{net}"')
+            lines.append(f'    (at {x1-4} {wire_y} 0)')
+            lines.append(f'    (uuid "{label_uuid}")')
+            lines.append(f'    (effects (font (size 1.27 1.27))))')
+            wire_y -= 2
+
+    # Add PWR_FLAG symbols for power nets in this sheet
     sheet_nets = []
     for comp in comps:
         sheet_nets.extend(comp_to_pins.get(comp, {}).values())
+
     for idx, net in enumerate(_power_nets(sheet_nets)):
         x = 20 + (idx % 6) * 15
         y = 260 + (idx // 6) * 10
-        ref = f"#PWR_{path.stem}_{idx}"
-        lines.append(
-            f"  (symbol (lib_id \"open_mmwave:PWR_FLAG\") (at {x} {y})"
-            f" (property \"Reference\" \"{ref}\" (at {x} {y} 0))"
-            f" (property \"Value\" \"PWR_FLAG\" (at {x} {y+2} 0)))"
-        )
-        lines.append(f"  (label (at {x+4} {y}) (text \"{net}\"))")
-    lines.append(")")
+        ref = f"#PWR{idx:03d}"
+        pwr_uuid = _make_uuid()
+
+        lines.append(f'  (symbol')
+        lines.append(f'    (lib_id "open_mmwave:PWR_FLAG")')
+        lines.append(f'    (at {x} {y} 0)')
+        lines.append(f'    (uuid "{pwr_uuid}")')
+        lines.append(f'    (property "Reference" "{ref}"')
+        lines.append(f'      (at {x} {y-2} 0)')
+        lines.append(f'      (effects (font (size 1.27 1.27)) hide))')
+        lines.append(f'    (property "Value" "PWR_FLAG"')
+        lines.append(f'      (at {x} {y+2} 0)')
+        lines.append(f'      (effects (font (size 1.27 1.27))))')
+        lines.append(f'  )')
+
+        label_uuid = _make_uuid()
+        lines.append(f'  (label "{net}"')
+        lines.append(f'    (at {x+4} {y} 0)')
+        lines.append(f'    (uuid "{label_uuid}")')
+        lines.append(f'    (effects (font (size 1.27 1.27))))')
+
+        symbol_instances.append((pwr_uuid, ref, 1, "PWR_FLAG", ""))
+
+    # Add symbol_instances section
+    lines.append('')
+    lines.append('  (symbol_instances')
+    for sym_uuid, ref, unit, val, fp in symbol_instances:
+        lines.append(f'    (path "/{sym_uuid}"')
+        lines.append(f'      (reference "{ref}")')
+        lines.append(f'      (unit {unit})')
+        lines.append(f'      (value "{val}")')
+        lines.append(f'      (footprint "{fp}"))')
+    lines.append('  )')
+
+    lines.append(')')
     path.write_text("\n".join(lines))
 
 
@@ -357,23 +429,54 @@ def main() -> int:
         ")\n"
     )
 
-    # Root schematic with sheets
+    # Root schematic with sheets - valid KiCad 6+ format
+    root_uuid = _make_uuid()
     root_lines = [
-        "(kicad_sch (version 20231120) (generator codex))",
-        "  (paper \"A4\")",
+        '(kicad_sch',
+        '  (version 20231120)',
+        '  (generator "open_mmwave")',
+        '  (generator_version "8.0")',
+        f'  (uuid "{root_uuid}")',
+        '  (paper "A4")',
+        '',
     ]
+
+    sheet_uuids = []  # Track (sheet_name, uuid) for sheet_instances
     x, y = 20, 20
+
     for sheet_name in [k for k in sheets.keys() if k != "misc.kicad_sch"]:
-        root_lines.append(
-            f"  (sheet (at {x} {y}) (size 60 20)"
-            f" (property \"Sheet name\" \"{Path(sheet_name).stem}\")"
-            f" (property \"Sheet file\" \"{sheet_name}\"))"
-        )
+        sheet_uuid = _make_uuid()
+        sheet_uuids.append((sheet_name, sheet_uuid))
+        display_name = Path(sheet_name).stem
+
+        root_lines.append(f'  (sheet')
+        root_lines.append(f'    (at {x} {y})')
+        root_lines.append(f'    (size 80 20)')
+        root_lines.append(f'    (uuid "{sheet_uuid}")')
+        root_lines.append(f'    (property "Sheetname" "{display_name}"')
+        root_lines.append(f'      (at {x+40} {y+5} 0)')
+        root_lines.append(f'      (effects (font (size 1.27 1.27)) (justify left bottom)))')
+        root_lines.append(f'    (property "Sheetfile" "{sheet_name}"')
+        root_lines.append(f'      (at {x+40} {y+17} 0)')
+        root_lines.append(f'      (effects (font (size 1.27 1.27)) (justify left top)))')
+        root_lines.append(f'  )')
+
         y += 30
         if y > 200:
             y = 20
-            x += 80
-    root_lines.append(")")
+            x += 100
+
+    # Add sheet_instances section for hierarchy resolution
+    root_lines.append('')
+    root_lines.append('  (sheet_instances')
+    root_lines.append(f'    (path "/"')
+    root_lines.append(f'      (page "1"))')
+    for idx, (sheet_name, sheet_uuid) in enumerate(sheet_uuids, 2):
+        root_lines.append(f'    (path "/{sheet_uuid}"')
+        root_lines.append(f'      (page "{idx}"))')
+    root_lines.append('  )')
+
+    root_lines.append(')')
     (out_dir / "open_mmwave.kicad_sch").write_text("\n".join(root_lines))
 
     # Footprint mapping

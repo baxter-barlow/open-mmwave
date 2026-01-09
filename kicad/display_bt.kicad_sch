@@ -1,238 +1,1167 @@
-(kicad_sch (version 20250114) (generator "open_mmwave") (generator_version "9.0"))
+(kicad_sch
+  (version 20231120)
+  (generator "open_mmwave")
+  (generator_version "8.0")
+  (uuid "2a4b0b64-8af9-4735-95af-dc818ac849b6")
   (paper "A4")
-  (symbol (lib_id "open_mmwave:CAP") (at 20 20) (property "Reference" "C114" (at 20 20 0)) (property "Value" "0.1uF" (at 20 22 0)) (property "Footprint" "open_mmwave:0201" (at 20 24 0)))
-  (wire (pts (xy 14 20) (xy 10 20)))
-  (label (at 10 20) (text "GND"))
-  (wire (pts (xy 14 18) (xy 10 18)))
-  (label (at 10 18) (text "DISP_T"))
-  (symbol (lib_id "open_mmwave:CAP") (at 60 20) (property "Reference" "C17" (at 60 20 0)) (property "Value" "8pF" (at 60 22 0)) (property "Footprint" "open_mmwave:0201" (at 60 24 0)))
-  (wire (pts (xy 54 20) (xy 50 20)))
-  (label (at 50 20) (text "X48M_P"))
-  (wire (pts (xy 54 18) (xy 50 18)))
-  (label (at 50 18) (text "GND"))
-  (symbol (lib_id "open_mmwave:CAP") (at 100 20) (property "Reference" "C18" (at 100 20 0)) (property "Value" "8pF" (at 100 22 0)) (property "Footprint" "open_mmwave:0201" (at 100 24 0)))
-  (wire (pts (xy 94 20) (xy 90 20)))
-  (label (at 90 20) (text "X48M_N"))
-  (wire (pts (xy 94 18) (xy 90 18)))
-  (label (at 90 18) (text "GND"))
-  (symbol (lib_id "open_mmwave:CAP") (at 140 20) (property "Reference" "C19" (at 140 20 0)) (property "Value" "12PF" (at 140 22 0)) (property "Footprint" "open_mmwave:0201" (at 140 24 0)))
-  (wire (pts (xy 134 20) (xy 130 20)))
-  (label (at 130 20) (text "X32K_Q1"))
-  (wire (pts (xy 134 18) (xy 130 18)))
-  (label (at 130 18) (text "GND"))
-  (symbol (lib_id "open_mmwave:CAP") (at 180 20) (property "Reference" "C20" (at 180 20 0)) (property "Value" "12PF" (at 180 22 0)) (property "Footprint" "open_mmwave:0201" (at 180 24 0)))
-  (wire (pts (xy 174 20) (xy 170 20)))
-  (label (at 170 20) (text "X32K_Q2"))
-  (wire (pts (xy 174 18) (xy 170 18)))
-  (label (at 170 18) (text "GND"))
-  (symbol (lib_id "open_mmwave:CAP") (at 20 40) (property "Reference" "C38" (at 20 40 0)) (property "Value" "12PF" (at 20 42 0)) (property "Footprint" "open_mmwave:0201" (at 20 44 0)))
-  (wire (pts (xy 14 40) (xy 10 40)))
-  (label (at 10 40) (text "XIN32"))
-  (wire (pts (xy 14 38) (xy 10 38)))
-  (label (at 10 38) (text "GND"))
-  (symbol (lib_id "open_mmwave:CAP") (at 60 40) (property "Reference" "C39" (at 60 40 0)) (property "Value" "12PF" (at 60 42 0)) (property "Footprint" "open_mmwave:0201" (at 60 44 0)))
-  (wire (pts (xy 54 40) (xy 50 40)))
-  (label (at 50 40) (text "XOUT32"))
-  (wire (pts (xy 54 38) (xy 50 38)))
-  (label (at 50 38) (text "GND"))
-  (symbol (lib_id "open_mmwave:CONN_10") (at 100 40) (property "Reference" "J7" (at 100 40 0)) (property "Value" "J7" (at 100 42 0)) (property "Footprint" "open_mmwave:CONN" (at 100 44 0)))
-  (wire (pts (xy 94 40) (xy 90 40)))
-  (label (at 90 40) (text "BT_UART_RX"))
-  (wire (pts (xy 94 38) (xy 90 38)))
-  (label (at 90 38) (text "BT_UART_TX"))
-  (wire (pts (xy 94 36) (xy 90 36)))
-  (label (at 90 36) (text "nRESET"))
-  (wire (pts (xy 94 34) (xy 90 34)))
-  (label (at 90 34) (text "JTAG_TDI"))
-  (wire (pts (xy 94 32) (xy 90 32)))
-  (label (at 90 32) (text "GND"))
-  (wire (pts (xy 94 30) (xy 90 30)))
-  (label (at 90 30) (text "JTAG_TDO"))
-  (wire (pts (xy 94 28) (xy 90 28)))
-  (label (at 90 28) (text "GND"))
-  (wire (pts (xy 94 26) (xy 90 26)))
-  (label (at 90 26) (text "JTAG_TCK"))
-  (wire (pts (xy 94 24) (xy 90 24)))
-  (label (at 90 24) (text "VCC_BA_3V3"))
-  (wire (pts (xy 94 22) (xy 90 22)))
-  (label (at 90 22) (text "JTAG_TMS"))
-  (symbol (lib_id "open_mmwave:RES") (at 140 40) (property "Reference" "R168" (at 140 40 0)) (property "Value" "0R" (at 140 42 0)) (property "Footprint" "open_mmwave:0201" (at 140 44 0)))
-  (wire (pts (xy 134 40) (xy 130 40)))
-  (label (at 130 40) (text "NetR168_1"))
-  (wire (pts (xy 134 38) (xy 130 38)))
-  (label (at 130 38) (text "DISP"))
-  (symbol (lib_id "open_mmwave:RES") (at 180 40) (property "Reference" "R180" (at 180 40 0)) (property "Value" "4k" (at 180 42 0)) (property "Footprint" "open_mmwave:0201" (at 180 44 0)))
-  (wire (pts (xy 174 40) (xy 170 40)))
-  (label (at 170 40) (text "GND"))
-  (wire (pts (xy 174 38) (xy 170 38)))
-  (label (at 170 38) (text "DISP_T"))
-  (symbol (lib_id "open_mmwave:RES") (at 20 60) (property "Reference" "R181" (at 20 60 0)) (property "Value" "4k" (at 20 62 0)) (property "Footprint" "open_mmwave:0201" (at 20 64 0)))
-  (wire (pts (xy 14 60) (xy 10 60)))
-  (label (at 10 60) (text "DISP_T"))
-  (wire (pts (xy 14 58) (xy 10 58)))
-  (label (at 10 58) (text "3V0"))
-  (symbol (lib_id "open_mmwave:RES") (at 60 60) (property "Reference" "R182" (at 60 60 0)) (property "Value" "0R" (at 60 62 0)) (property "Footprint" "open_mmwave:0201" (at 60 64 0)))
-  (wire (pts (xy 54 60) (xy 50 60)))
-  (label (at 50 60) (text "DISP_T"))
-  (wire (pts (xy 54 58) (xy 50 58)))
-  (label (at 50 58) (text "NetJ4_5"))
-  (symbol (lib_id "open_mmwave:RES") (at 100 60) (property "Reference" "R91" (at 100 60 0)) (property "Value" "0R" (at 100 62 0)) (property "Footprint" "open_mmwave:0201" (at 100 64 0)))
-  (wire (pts (xy 94 60) (xy 90 60)))
-  (label (at 90 60) (text "nRESET"))
-  (wire (pts (xy 94 58) (xy 90 58)))
-  (label (at 90 58) (text "BT_RST"))
-  (symbol (lib_id "open_mmwave:IC_16") (at 140 60) (property "Reference" "U10" (at 140 60 0)) (property "Value" "U10" (at 140 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 140 64 0)))
-  (wire (pts (xy 134 60) (xy 130 60)))
-  (label (at 130 60) (text "RESETN"))
-  (wire (pts (xy 134 58) (xy 130 58)))
-  (label (at 130 58) (text "DISP"))
-  (wire (pts (xy 134 56) (xy 130 56)))
-  (label (at 130 56) (text "BT_RST"))
-  (wire (pts (xy 134 54) (xy 130 54)))
-  (label (at 130 54) (text "ALERT"))
-  (wire (pts (xy 134 52) (xy 130 52)))
-  (label (at 130 52) (text "NetR100_2"))
-  (wire (pts (xy 134 50) (xy 130 50)))
-  (label (at 130 50) (text "GND"))
-  (wire (pts (xy 134 48) (xy 130 48)))
-  (label (at 130 48) (text "SENS_NRST"))
-  (wire (pts (xy 134 46) (xy 130 46)))
-  (label (at 130 46) (text "NetR112_2"))
-  (wire (pts (xy 134 44) (xy 130 44)))
-  (label (at 130 44) (text "NetR113_2"))
-  (wire (pts (xy 134 42) (xy 130 42)))
-  (label (at 130 42) (text "NetR30_2"))
-  (wire (pts (xy 134 40) (xy 130 40)))
-  (label (at 130 40) (text "INTN"))
-  (wire (pts (xy 134 38) (xy 130 38)))
-  (label (at 130 38) (text "NetR99_1"))
-  (wire (pts (xy 134 36) (xy 130 36)))
-  (label (at 130 36) (text "NetR101_1"))
-  (wire (pts (xy 134 34) (xy 130 34)))
-  (label (at 130 34) (text "VCC_BA_3V3"))
-  (wire (pts (xy 134 32) (xy 130 32)))
-  (label (at 130 32) (text "VCC_BA_3V3"))
-  (wire (pts (xy 134 30) (xy 130 30)))
-  (label (at 130 30) (text "GND"))
-  (symbol (lib_id "open_mmwave:IC_16") (at 180 60) (property "Reference" "U7" (at 180 60 0)) (property "Value" "U7" (at 180 62 0)) (property "Footprint" "open_mmwave:GENERIC" (at 180 64 0)))
-  (wire (pts (xy 174 60) (xy 170 60)))
-  (label (at 170 60) (text "GND"))
-  (wire (pts (xy 174 58) (xy 170 58)))
-  (label (at 170 58) (text "VCC_BA_3V3"))
-  (wire (pts (xy 174 56) (xy 170 56)))
-  (label (at 170 56) (text "BOOTN"))
-  (wire (pts (xy 174 54) (xy 170 54)))
-  (label (at 170 54) (text "PS1"))
-  (wire (pts (xy 174 52) (xy 170 52)))
-  (label (at 170 52) (text "PS0"))
-  (wire (pts (xy 174 50) (xy 170 50)))
-  (label (at 170 50) (text "NetC13_2"))
-  (wire (pts (xy 174 48) (xy 170 48)))
-  (label (at 170 48) (text "CLKSEL0"))
-  (wire (pts (xy 174 46) (xy 170 46)))
-  (label (at 170 46) (text "NetR97_1"))
-  (wire (pts (xy 174 44) (xy 170 44)))
-  (label (at 170 44) (text "SENS_INT"))
-  (wire (pts (xy 174 42) (xy 170 42)))
-  (label (at 170 42) (text "NetR72_2"))
-  (wire (pts (xy 174 40) (xy 170 40)))
-  (label (at 170 40) (text "NetR70_1"))
-  (wire (pts (xy 174 38) (xy 170 38)))
-  (label (at 170 38) (text "NetR71_1"))
-  (wire (pts (xy 174 36) (xy 170 36)))
-  (label (at 170 36) (text "GND"))
-  (wire (pts (xy 174 34) (xy 170 34)))
-  (label (at 170 34) (text "XOUT32"))
-  (wire (pts (xy 174 32) (xy 170 32)))
-  (label (at 170 32) (text "XIN32"))
-  (wire (pts (xy 174 30) (xy 170 30)))
-  (label (at 170 30) (text "VCC_BA_3V3"))
-  (symbol (lib_id "open_mmwave:IC_31") (at 20 80) (property "Reference" "U8" (at 20 80 0)) (property "Value" "U8" (at 20 82 0)) (property "Footprint" "open_mmwave:GENERIC" (at 20 84 0)))
-  (wire (pts (xy 14 80) (xy 10 80)))
-  (label (at 10 80) (text "RF_P"))
-  (wire (pts (xy 14 78) (xy 10 78)))
-  (label (at 10 78) (text "RF_N"))
-  (wire (pts (xy 14 76) (xy 10 76)))
-  (label (at 10 76) (text "X32K_Q1"))
-  (wire (pts (xy 14 74) (xy 10 74)))
-  (label (at 10 74) (text "X32K_Q2"))
-  (wire (pts (xy 14 72) (xy 10 72)))
-  (label (at 10 72) (text "BT_UART_RX"))
-  (wire (pts (xy 14 70) (xy 10 70)))
-  (label (at 10 70) (text "BT_UART_TX"))
-  (wire (pts (xy 14 68) (xy 10 68)))
-  (label (at 10 68) (text "DIO6_GLED"))
-  (wire (pts (xy 14 66) (xy 10 66)))
-  (label (at 10 66) (text "VDDS"))
-  (wire (pts (xy 14 64) (xy 10 64)))
-  (label (at 10 64) (text "NetR87_2"))
-  (wire (pts (xy 14 62) (xy 10 62)))
-  (label (at 10 62) (text "NetR86_2"))
-  (wire (pts (xy 14 60) (xy 10 60)))
-  (label (at 10 60) (text "NetR161_2"))
-  (wire (pts (xy 14 58) (xy 10 58)))
-  (label (at 10 58) (text "NET5"))
-  (wire (pts (xy 14 56) (xy 10 56)))
-  (label (at 10 56) (text "MRDY"))
-  (wire (pts (xy 14 54) (xy 10 54)))
-  (label (at 10 54) (text "VDDS"))
-  (wire (pts (xy 14 52) (xy 10 52)))
-  (label (at 10 52) (text "NetC24_1"))
-  (wire (pts (xy 14 50) (xy 10 50)))
-  (label (at 10 50) (text "JTAG_TMS"))
-  (wire (pts (xy 14 48) (xy 10 48)))
-  (label (at 10 48) (text "JTAG_TCK"))
-  (wire (pts (xy 14 46) (xy 10 46)))
-  (label (at 10 46) (text "JTAG_TDO"))
-  (wire (pts (xy 14 44) (xy 10 44)))
-  (label (at 10 44) (text "JTAG_TDI"))
-  (wire (pts (xy 14 42) (xy 10 42)))
-  (label (at 10 42) (text "NetR131_2"))
-  (wire (pts (xy 14 40) (xy 10 40)))
-  (label (at 10 40) (text "AR_CS1_BT"))
-  (wire (pts (xy 14 38) (xy 10 38)))
-  (label (at 10 38) (text "SRDY"))
-  (wire (pts (xy 14 36) (xy 10 36)))
-  (label (at 10 36) (text "DCDC_SW"))
-  (wire (pts (xy 14 34) (xy 10 34)))
-  (label (at 10 34) (text "VDDS"))
-  (wire (pts (xy 14 32) (xy 10 32)))
-  (label (at 10 32) (text "nRESET"))
-  (wire (pts (xy 14 30) (xy 10 30)))
-  (label (at 10 30) (text "VDDS"))
-  (wire (pts (xy 14 28) (xy 10 28)))
-  (label (at 10 28) (text "VDDR"))
-  (wire (pts (xy 14 26) (xy 10 26)))
-  (label (at 10 26) (text "X48M_N"))
-  (wire (pts (xy 14 24) (xy 10 24)))
-  (label (at 10 24) (text "X48M_P"))
-  (wire (pts (xy 14 22) (xy 10 22)))
-  (label (at 10 22) (text "VDDR"))
-  (wire (pts (xy 14 20) (xy 10 20)))
-  (label (at 10 20) (text "GND"))
-  (symbol (lib_id "open_mmwave:XTAL") (at 60 80) (property "Reference" "Y2" (at 60 80 0)) (property "Value" "Y2" (at 60 82 0)) (property "Footprint" "open_mmwave:XTAL_4P" (at 60 84 0)))
-  (wire (pts (xy 54 80) (xy 50 80)))
-  (label (at 50 80) (text "X48M_P"))
-  (wire (pts (xy 54 78) (xy 50 78)))
-  (label (at 50 78) (text "GND"))
-  (wire (pts (xy 54 76) (xy 50 76)))
-  (label (at 50 76) (text "X48M_N"))
-  (wire (pts (xy 54 74) (xy 50 74)))
-  (label (at 50 74) (text "GND"))
-  (symbol (lib_id "open_mmwave:XTAL") (at 100 80) (property "Reference" "Y3" (at 100 80 0)) (property "Value" "Y3" (at 100 82 0)) (property "Footprint" "open_mmwave:XTAL_4P" (at 100 84 0)))
-  (wire (pts (xy 94 80) (xy 90 80)))
-  (label (at 90 80) (text "X32K_Q1"))
-  (wire (pts (xy 94 78) (xy 90 78)))
-  (label (at 90 78) (text "X32K_Q2"))
-  (symbol (lib_id "open_mmwave:XTAL") (at 140 80) (property "Reference" "Y4" (at 140 80 0)) (property "Value" "Y4" (at 140 82 0)) (property "Footprint" "open_mmwave:XTAL_4P" (at 140 84 0)))
-  (wire (pts (xy 134 80) (xy 130 80)))
-  (label (at 130 80) (text "XIN32"))
-  (wire (pts (xy 134 78) (xy 130 78)))
-  (label (at 130 78) (text "XOUT32"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 20 260) (property "Reference" "#PWR_display_bt_0" (at 20 260 0)) (property "Value" "PWR_FLAG" (at 20 262 0)))
-  (label (at 24 260) (text "3V0"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 35 260) (property "Reference" "#PWR_display_bt_1" (at 35 260 0)) (property "Value" "PWR_FLAG" (at 35 262 0)))
-  (label (at 39 260) (text "GND"))
-  (symbol (lib_id "open_mmwave:PWR_FLAG") (at 50 260) (property "Reference" "#PWR_display_bt_2" (at 50 260 0)) (property "Value" "PWR_FLAG" (at 50 262 0)))
-  (label (at 54 260) (text "VCC_BA_3V3"))
+
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 20 20 0)
+    (uuid "5383476c-d261-47ec-a12c-362c80645dd7")
+    (property "Reference" "C114"
+      (at 20 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0.1uF"
+      (at 20 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 20 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 20) (xy 10 20))
+    (uuid "98298348-f922-4fbf-b515-4412dec1d258"))
+  (label "GND"
+    (at 10 20 0)
+    (uuid "14e7e8ac-7160-482a-8077-e180d5e6af02")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 18) (xy 10 18))
+    (uuid "5d1d0b74-3f18-413d-9d04-8294cac4e5c6"))
+  (label "DISP_T"
+    (at 10 18 0)
+    (uuid "21ea45d8-3e41-41af-8360-d04746f4a569")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 60 20 0)
+    (uuid "b5bbd264-c52c-4145-a2a9-91e7da92582b")
+    (property "Reference" "C17"
+      (at 60 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "8pF"
+      (at 60 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 60 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 20) (xy 50 20))
+    (uuid "26309732-af0c-426b-9d84-254fa1f81e31"))
+  (label "X48M_P"
+    (at 50 20 0)
+    (uuid "8d8f75d8-eb9f-49ce-9f82-3b3bd0e5b986")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 18) (xy 50 18))
+    (uuid "5b734795-1cb7-4202-8a9f-f91c9ab142b7"))
+  (label "GND"
+    (at 50 18 0)
+    (uuid "6f06c70d-be88-4cf0-9667-2679ca188492")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 100 20 0)
+    (uuid "603f78b4-243a-45bf-a8b4-e1f5d14858b2")
+    (property "Reference" "C18"
+      (at 100 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "8pF"
+      (at 100 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 100 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 20) (xy 90 20))
+    (uuid "e79290b1-ae0b-47d8-8075-72961fa1808b"))
+  (label "X48M_N"
+    (at 90 20 0)
+    (uuid "ef630349-2d64-418e-bd2e-20727347a603")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 18) (xy 90 18))
+    (uuid "164d0e89-4552-4054-a690-424590ed8381"))
+  (label "GND"
+    (at 90 18 0)
+    (uuid "104118aa-a359-497f-a386-01a119345819")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 140 20 0)
+    (uuid "604b5eb1-de19-43ba-ac7e-30e0fdb2189a")
+    (property "Reference" "C19"
+      (at 140 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "12PF"
+      (at 140 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 140 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 20) (xy 130 20))
+    (uuid "20e18608-4922-431e-bcb8-9060dd334782"))
+  (label "X32K_Q1"
+    (at 130 20 0)
+    (uuid "1e2eec07-b732-42e8-a2b8-d30ef9a6d3ec")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 18) (xy 130 18))
+    (uuid "c784e73d-d2af-4589-a304-f4c2c9d55148"))
+  (label "GND"
+    (at 130 18 0)
+    (uuid "308af5ef-bfed-4ebb-98d5-225fc3a9583d")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 180 20 0)
+    (uuid "fc2ec365-e711-47ee-b0f0-94f9a8e140a8")
+    (property "Reference" "C20"
+      (at 180 18 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "12PF"
+      (at 180 22 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 180 24 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 20) (xy 170 20))
+    (uuid "c10b1852-159e-4c0a-b87d-899b9f7ea8b9"))
+  (label "X32K_Q2"
+    (at 170 20 0)
+    (uuid "0cb4e924-eaa4-4940-ac73-bcb7810bed08")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 18) (xy 170 18))
+    (uuid "cce59402-7d32-4c19-9536-118808013d67"))
+  (label "GND"
+    (at 170 18 0)
+    (uuid "7832ad43-16a8-4f9c-9ab7-ca12ba6acd75")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 20 40 0)
+    (uuid "407142c9-965b-4954-af0c-a034ef58fbcc")
+    (property "Reference" "C38"
+      (at 20 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "12PF"
+      (at 20 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 20 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 40) (xy 10 40))
+    (uuid "0773a7cc-345d-421c-93c4-933063613b0f"))
+  (label "XIN32"
+    (at 10 40 0)
+    (uuid "c8695a79-fc1f-40e2-8237-41c1dcbc0c77")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 38) (xy 10 38))
+    (uuid "22f5dd33-6890-4c6d-a7c8-85d11a24207a"))
+  (label "GND"
+    (at 10 38 0)
+    (uuid "018dfb21-bee7-4f78-9678-c76a23a95980")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CAP")
+    (at 60 40 0)
+    (uuid "cf94f587-a012-49e1-85af-8aecb60f0c91")
+    (property "Reference" "C39"
+      (at 60 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "12PF"
+      (at 60 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 60 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 40) (xy 50 40))
+    (uuid "fab92442-85ab-462f-8679-a6e6d5a8d6ab"))
+  (label "XOUT32"
+    (at 50 40 0)
+    (uuid "b74437b5-ad92-40fe-942f-cb869a05393a")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 38) (xy 50 38))
+    (uuid "3a8c7d2d-4ab5-449c-9be7-5c5297d0f985"))
+  (label "GND"
+    (at 50 38 0)
+    (uuid "d55ee3e6-244b-408b-9252-44a2703a5c0e")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:CONN_10")
+    (at 100 40 0)
+    (uuid "723958e2-5504-46d6-9e11-23eb7ac0526d")
+    (property "Reference" "J7"
+      (at 100 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "J7"
+      (at 100 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:CONN"
+      (at 100 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 40) (xy 90 40))
+    (uuid "93b2af10-89d8-4873-9191-2a58f2fae7d5"))
+  (label "BT_UART_RX"
+    (at 90 40 0)
+    (uuid "5a80f3ea-3549-41b9-b9ec-7f57389eefe8")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 38) (xy 90 38))
+    (uuid "4c8bb805-9ce3-48a2-ba82-0d2b54be71d1"))
+  (label "BT_UART_TX"
+    (at 90 38 0)
+    (uuid "3ede6340-a34c-4f4c-bc1a-25d5bce5dc0e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 36) (xy 90 36))
+    (uuid "1a88b764-170e-4d9b-81bb-cc944d5fc666"))
+  (label "nRESET"
+    (at 90 36 0)
+    (uuid "b7dd54a6-901b-43e3-863e-edbb781dbeeb")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 34) (xy 90 34))
+    (uuid "2897a86a-6d1c-4003-9dfe-c4c8736ef877"))
+  (label "JTAG_TDI"
+    (at 90 34 0)
+    (uuid "0ef3b575-a268-417b-a5b9-8efc2c79b9ce")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 32) (xy 90 32))
+    (uuid "dc2a2e32-1fc4-4228-aaf4-0e71aaba44d2"))
+  (label "GND"
+    (at 90 32 0)
+    (uuid "0b0989a0-b29f-47a2-9560-c7e093944dd3")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 30) (xy 90 30))
+    (uuid "75bfb714-136d-4bbb-ae12-c5bb950ba820"))
+  (label "JTAG_TDO"
+    (at 90 30 0)
+    (uuid "f1ab7777-13fb-4bf0-8631-b1eec902d3b5")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 28) (xy 90 28))
+    (uuid "dcc6ecbf-8c09-4562-abf6-c965f1eb0142"))
+  (label "GND"
+    (at 90 28 0)
+    (uuid "8089c7f3-c105-410b-ba1b-1f7f95293baa")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 26) (xy 90 26))
+    (uuid "2297e4d9-118c-4c65-8f7e-9e0ac5c717c7"))
+  (label "JTAG_TCK"
+    (at 90 26 0)
+    (uuid "3ecb6878-d542-4379-a18c-af45756c4afb")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 24) (xy 90 24))
+    (uuid "3adb3af6-c87d-4cf2-b111-dbd8a2cebe3f"))
+  (label "VCC_BA_3V3"
+    (at 90 24 0)
+    (uuid "eebe8fc5-6892-49e0-97aa-657bc7b700ef")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 22) (xy 90 22))
+    (uuid "62b8e170-c655-46a7-8442-ae0328b49ff6"))
+  (label "JTAG_TMS"
+    (at 90 22 0)
+    (uuid "7f061d41-d7bd-47db-95f6-84c6fd083806")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 140 40 0)
+    (uuid "58b4cd99-542d-4ba4-820c-8bb5623385c2")
+    (property "Reference" "R168"
+      (at 140 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0R"
+      (at 140 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 140 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 40) (xy 130 40))
+    (uuid "be738e79-e35c-45f5-bdd5-afce8b8fb260"))
+  (label "NetR168_1"
+    (at 130 40 0)
+    (uuid "9609f1df-a95d-42d9-8b5c-091c38ea13a6")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 38) (xy 130 38))
+    (uuid "34deb7b6-3b04-46d4-ba2c-a97f29019837"))
+  (label "DISP"
+    (at 130 38 0)
+    (uuid "7d0f0c76-59f7-413d-88b8-fb210bdf6726")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 180 40 0)
+    (uuid "2cc793d1-1457-4c5b-91f6-0607556bef2e")
+    (property "Reference" "R180"
+      (at 180 38 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "4k"
+      (at 180 42 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 180 44 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 40) (xy 170 40))
+    (uuid "231a6777-16c7-4f77-9d1b-843e656c09e1"))
+  (label "GND"
+    (at 170 40 0)
+    (uuid "af79d726-3762-4bd4-bb6a-92445de5f38f")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 38) (xy 170 38))
+    (uuid "34a372e4-e04b-4a6d-84ab-8d4c90d7d7eb"))
+  (label "DISP_T"
+    (at 170 38 0)
+    (uuid "00a50d58-f840-41f0-863f-8a177cd0401a")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 20 60 0)
+    (uuid "e54dc3b0-6e0f-4e5b-b173-5193990dab57")
+    (property "Reference" "R181"
+      (at 20 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "4k"
+      (at 20 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 20 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 60) (xy 10 60))
+    (uuid "3fa3bc98-aaec-43a8-800d-c55ca8e0ddfb"))
+  (label "DISP_T"
+    (at 10 60 0)
+    (uuid "fce1fb5a-49e5-4635-9b6d-59f572ec80bf")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 58) (xy 10 58))
+    (uuid "79a09a16-4348-41d8-bb14-0935758b3f59"))
+  (label "3V0"
+    (at 10 58 0)
+    (uuid "9d17fd5b-f24d-4f5d-aa0f-34aa16db16b4")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 60 60 0)
+    (uuid "07accbca-332c-490b-a2ee-c52d1e1d9dcc")
+    (property "Reference" "R182"
+      (at 60 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0R"
+      (at 60 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 60 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 60) (xy 50 60))
+    (uuid "f9a80f16-9330-445f-ae7d-5fb670fe56d4"))
+  (label "DISP_T"
+    (at 50 60 0)
+    (uuid "5a35d948-d724-4b19-bdab-361f40d5f690")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 58) (xy 50 58))
+    (uuid "fd0b9744-d366-4cb4-89c0-bf13a8450504"))
+  (label "NetJ4_5"
+    (at 50 58 0)
+    (uuid "16829936-717c-474e-811c-82a37c521579")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:RES")
+    (at 100 60 0)
+    (uuid "ff0d8167-5c03-4339-8d37-add013cf1b37")
+    (property "Reference" "R91"
+      (at 100 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "0R"
+      (at 100 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:0201"
+      (at 100 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 60) (xy 90 60))
+    (uuid "5f92f8aa-4ece-4e41-adeb-b973f1e3e6fb"))
+  (label "nRESET"
+    (at 90 60 0)
+    (uuid "fdc21840-b940-45af-83eb-aac7342c3214")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 58) (xy 90 58))
+    (uuid "97d8277f-52bb-4e0c-95a5-d4b8d69606de"))
+  (label "BT_RST"
+    (at 90 58 0)
+    (uuid "7f439ed9-1342-4197-9aa0-7effb8724633")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:IC_16")
+    (at 140 60 0)
+    (uuid "2f8386a9-2ae6-4f7d-b003-374ce8575286")
+    (property "Reference" "U10"
+      (at 140 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "U10"
+      (at 140 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 140 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 60) (xy 130 60))
+    (uuid "bbf6969f-fd79-4fb2-a001-c029a73bdd90"))
+  (label "RESETN"
+    (at 130 60 0)
+    (uuid "561597fa-949e-4c6d-a0a6-5b4007ad4b18")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 58) (xy 130 58))
+    (uuid "5f38ebbb-60c1-46e2-8d03-5e26dbe1d264"))
+  (label "DISP"
+    (at 130 58 0)
+    (uuid "3d419b08-b9dc-40de-a75e-00b091483a16")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 56) (xy 130 56))
+    (uuid "08f53ecd-d79f-46e5-9d84-7664993008dd"))
+  (label "BT_RST"
+    (at 130 56 0)
+    (uuid "623a1294-e860-4456-bc3b-c95f3d0d366c")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 54) (xy 130 54))
+    (uuid "330c56fc-72d5-4f1b-86cf-4bdfbaf00d36"))
+  (label "ALERT"
+    (at 130 54 0)
+    (uuid "ae4211d5-3fee-4224-aed5-92844cfe32a0")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 52) (xy 130 52))
+    (uuid "52418699-7d2b-449f-a129-6da402adadf8"))
+  (label "NetR100_2"
+    (at 130 52 0)
+    (uuid "5be4a20e-44e6-497e-b9b2-f865343cfeb2")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 50) (xy 130 50))
+    (uuid "2273b808-d8ad-4d73-b383-a28ec558cede"))
+  (label "GND"
+    (at 130 50 0)
+    (uuid "46e3d1ec-f100-4787-818b-8b45ffd68083")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 48) (xy 130 48))
+    (uuid "5d63c2e4-1b5e-4884-9914-863d5113250b"))
+  (label "SENS_NRST"
+    (at 130 48 0)
+    (uuid "18ea7b70-64df-40a0-88d6-e3957d54e0e9")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 46) (xy 130 46))
+    (uuid "b1db0aa0-fc95-49b9-96e5-4ad0d3175358"))
+  (label "NetR112_2"
+    (at 130 46 0)
+    (uuid "8d641a4b-2fbc-4932-b4b7-b136c1ca0209")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 44) (xy 130 44))
+    (uuid "1b2162fb-9918-40f3-a6f3-0018a01817e7"))
+  (label "NetR113_2"
+    (at 130 44 0)
+    (uuid "cd242a10-9c6f-4e19-ae06-1b533fde5385")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 42) (xy 130 42))
+    (uuid "e8f77b75-48b8-45bc-8199-5da702e061f5"))
+  (label "NetR30_2"
+    (at 130 42 0)
+    (uuid "b63d6ea2-2b0f-4a75-a561-95c1c91f7d6e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 40) (xy 130 40))
+    (uuid "9148d7b7-bf7f-45c9-9d7d-b0bf2163341d"))
+  (label "INTN"
+    (at 130 40 0)
+    (uuid "95871c4b-3732-437f-905b-ef3976104d72")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 38) (xy 130 38))
+    (uuid "906eb10f-33f3-486a-b9ac-d7ed1c60fd9a"))
+  (label "NetR99_1"
+    (at 130 38 0)
+    (uuid "2e66be69-a97e-474b-8ea3-41af403c87ee")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 36) (xy 130 36))
+    (uuid "7b40714f-e74a-4f1d-8207-cf1462997972"))
+  (label "NetR101_1"
+    (at 130 36 0)
+    (uuid "bc5988aa-b134-4062-ac7e-4659aca089e0")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 34) (xy 130 34))
+    (uuid "7f71ea5b-93b2-4a75-9228-4f5fc8bd1128"))
+  (label "VCC_BA_3V3"
+    (at 130 34 0)
+    (uuid "0b6cef3f-a401-4e3e-bbb9-dca01880a439")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 32) (xy 130 32))
+    (uuid "e1edbd26-3bd2-4825-a505-590f910cbe4e"))
+  (label "VCC_BA_3V3"
+    (at 130 32 0)
+    (uuid "a9570cf2-d977-47df-b9fe-fc38dfc2f929")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 30) (xy 130 30))
+    (uuid "3366a9d7-9945-49a2-9a8f-bd4c1cb91dae"))
+  (label "GND"
+    (at 130 30 0)
+    (uuid "fd391729-1138-4ae6-8214-5b9ff39e5c46")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:IC_16")
+    (at 180 60 0)
+    (uuid "23e6a201-ac9c-401b-8e09-26e824e3306e")
+    (property "Reference" "U7"
+      (at 180 58 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "U7"
+      (at 180 62 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 180 64 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 174 60) (xy 170 60))
+    (uuid "589c84eb-40d6-4c22-9b96-8ba8922c2e6c"))
+  (label "GND"
+    (at 170 60 0)
+    (uuid "022ed3d4-d24d-463c-8afe-83f7e47d3fd8")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 58) (xy 170 58))
+    (uuid "0854c79a-b67f-40ba-897c-e0ba03568c02"))
+  (label "VCC_BA_3V3"
+    (at 170 58 0)
+    (uuid "bf9ca99b-4eb0-4322-804c-71e0b453999d")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 56) (xy 170 56))
+    (uuid "15cdd7b4-d98e-4246-8a36-ec265c64ed0e"))
+  (label "BOOTN"
+    (at 170 56 0)
+    (uuid "a911a896-5712-4771-9212-10f28053167f")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 54) (xy 170 54))
+    (uuid "842d7976-dd12-44f6-8a14-fdfdb152ada9"))
+  (label "PS1"
+    (at 170 54 0)
+    (uuid "a6a84034-4c73-4bd7-9773-11cc846a8001")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 52) (xy 170 52))
+    (uuid "edb1e02e-e1f2-4742-ba00-27066603fb92"))
+  (label "PS0"
+    (at 170 52 0)
+    (uuid "68f0de60-7641-4b46-91e6-d376b987d528")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 50) (xy 170 50))
+    (uuid "c85bce52-d9db-4db4-9071-38dd7f380945"))
+  (label "NetC13_2"
+    (at 170 50 0)
+    (uuid "aa3f962a-af67-441d-9fb1-cda4488f6880")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 48) (xy 170 48))
+    (uuid "1e4f6c1e-657a-4e7f-930b-e25be2ad5ab9"))
+  (label "CLKSEL0"
+    (at 170 48 0)
+    (uuid "7332ce89-cd71-4981-a3b1-0a744603cf12")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 46) (xy 170 46))
+    (uuid "979881c0-6271-4661-a9c0-07cb77cbf4a2"))
+  (label "NetR97_1"
+    (at 170 46 0)
+    (uuid "7bb67ab8-3410-4644-a339-a5d1d9d7d23b")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 44) (xy 170 44))
+    (uuid "c0848c2c-efd6-49e9-8c98-0a56992e0c4c"))
+  (label "SENS_INT"
+    (at 170 44 0)
+    (uuid "4ca21e09-d66b-44c7-b784-d658a585f344")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 42) (xy 170 42))
+    (uuid "582c6866-3f52-4663-9791-e8e5f5b0c6cf"))
+  (label "NetR72_2"
+    (at 170 42 0)
+    (uuid "c7896231-3970-42ba-95a7-f14d35a6655b")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 40) (xy 170 40))
+    (uuid "9a70ed3d-3a7c-4062-a5dc-b6769dc35162"))
+  (label "NetR70_1"
+    (at 170 40 0)
+    (uuid "24c4e34d-b7e4-41bd-a085-d02679622b93")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 38) (xy 170 38))
+    (uuid "25d480e1-449d-4d2f-b50d-cbe16c014be4"))
+  (label "NetR71_1"
+    (at 170 38 0)
+    (uuid "6d36882a-3305-4c2c-9277-9b3593cdf6ba")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 36) (xy 170 36))
+    (uuid "dcc4b39d-af30-433f-8488-2b2af1c8c8e2"))
+  (label "GND"
+    (at 170 36 0)
+    (uuid "c92c4b6c-c58f-4eb2-9b47-f2509bcc9d7e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 34) (xy 170 34))
+    (uuid "28cfe3e7-f21a-4b1a-bccd-3abd71ccda63"))
+  (label "XOUT32"
+    (at 170 34 0)
+    (uuid "9b5ee6ba-39d9-44c9-8ad1-fccf4c3b9020")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 32) (xy 170 32))
+    (uuid "2213ac41-5653-451a-bb5e-6b7c3df52084"))
+  (label "XIN32"
+    (at 170 32 0)
+    (uuid "dd096e54-f566-474d-9519-1e98f44004a1")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 174 30) (xy 170 30))
+    (uuid "dad7f578-8fa1-40b3-9694-73980d8e4494"))
+  (label "VCC_BA_3V3"
+    (at 170 30 0)
+    (uuid "34efa2e1-21e6-492c-8216-1be597514d8c")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:IC_31")
+    (at 20 80 0)
+    (uuid "e2b7ef23-24b7-4219-83a8-e3453028ecc0")
+    (property "Reference" "U8"
+      (at 20 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "U8"
+      (at 20 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:GENERIC"
+      (at 20 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 14 80) (xy 10 80))
+    (uuid "77e0e4f5-b27c-40f6-8859-333ffbc1c3b4"))
+  (label "RF_P"
+    (at 10 80 0)
+    (uuid "44c57f3a-f9d8-4b3d-a151-fb6a5c8a0fd1")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 78) (xy 10 78))
+    (uuid "da2dd309-4b73-4dfb-86b2-fa2439b5c135"))
+  (label "RF_N"
+    (at 10 78 0)
+    (uuid "d03af754-9d20-42b5-9f50-d0a0bf7b18e7")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 76) (xy 10 76))
+    (uuid "67644df2-e0bc-4778-86fa-d18aeb752ab0"))
+  (label "X32K_Q1"
+    (at 10 76 0)
+    (uuid "73a6fefa-4acc-4e0b-985d-b1365b7fad95")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 74) (xy 10 74))
+    (uuid "db4be774-90ad-4e5a-999c-b20501f2a37b"))
+  (label "X32K_Q2"
+    (at 10 74 0)
+    (uuid "4f40199d-305d-4e28-a3d5-c14b8166ff87")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 72) (xy 10 72))
+    (uuid "84f8b225-cc42-46bc-9d94-d5166d6b9a57"))
+  (label "BT_UART_RX"
+    (at 10 72 0)
+    (uuid "ade2bd71-dc87-4ff9-8f0d-2f085651bb33")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 70) (xy 10 70))
+    (uuid "b1083cdb-7022-4ced-9a40-adf87abd1e14"))
+  (label "BT_UART_TX"
+    (at 10 70 0)
+    (uuid "4b313554-c275-4f69-b59b-951c285d384b")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 68) (xy 10 68))
+    (uuid "660b278b-f6f0-49ee-b1dc-8566f3027ea5"))
+  (label "DIO6_GLED"
+    (at 10 68 0)
+    (uuid "075991d3-93da-4e26-9aeb-7a43f2daa203")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 66) (xy 10 66))
+    (uuid "52f05ea6-d9fc-45be-9e4b-9ce3c0381527"))
+  (label "VDDS"
+    (at 10 66 0)
+    (uuid "4f86bbf8-112e-4ab6-b02c-0c2409193d01")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 64) (xy 10 64))
+    (uuid "9ed44f9e-5026-40fd-9492-5822437932e3"))
+  (label "NetR87_2"
+    (at 10 64 0)
+    (uuid "631a5b42-1a82-4308-bfee-2b67cda3c6d3")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 62) (xy 10 62))
+    (uuid "1d4aefa7-8a3e-4461-b8ff-87d5fe58c74b"))
+  (label "NetR86_2"
+    (at 10 62 0)
+    (uuid "33841b87-bd92-4f35-bbd5-3adbc981c65a")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 60) (xy 10 60))
+    (uuid "7868f3cd-0aa2-49e2-927f-d71be53f8401"))
+  (label "NetR161_2"
+    (at 10 60 0)
+    (uuid "1310198a-ea42-4eb5-a8e2-d384f98886b4")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 58) (xy 10 58))
+    (uuid "f411f42b-c10f-4f87-ac5b-69cd7fb6e20e"))
+  (label "NET5"
+    (at 10 58 0)
+    (uuid "360777ff-b105-4d05-bf28-24c96ee2bf6b")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 56) (xy 10 56))
+    (uuid "0053e3b5-edfe-48f9-9401-eb1f79d0cdda"))
+  (label "MRDY"
+    (at 10 56 0)
+    (uuid "baf63983-e0eb-4786-8992-9da7c8eff4cc")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 54) (xy 10 54))
+    (uuid "ad200a61-6585-4c37-9394-947d42cb9950"))
+  (label "VDDS"
+    (at 10 54 0)
+    (uuid "f328ee06-71a0-4452-839c-d58aa058f511")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 52) (xy 10 52))
+    (uuid "c197bd57-2287-4262-b11b-ce5eb0497134"))
+  (label "NetC24_1"
+    (at 10 52 0)
+    (uuid "b16312a2-927f-4070-8ecd-e116808b93f4")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 50) (xy 10 50))
+    (uuid "07b07447-981f-490f-b89e-7e7b3575eb6a"))
+  (label "JTAG_TMS"
+    (at 10 50 0)
+    (uuid "39a2eb77-56c3-4256-93ad-ac19d142c12f")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 48) (xy 10 48))
+    (uuid "7ada7655-0f44-49c0-9be0-a8d3ad79a5ac"))
+  (label "JTAG_TCK"
+    (at 10 48 0)
+    (uuid "6cca5c54-f500-47a5-9e04-ecf22c78690f")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 46) (xy 10 46))
+    (uuid "4627eeb4-715b-4b3c-8470-f072ce9b2eb0"))
+  (label "JTAG_TDO"
+    (at 10 46 0)
+    (uuid "41be177f-d375-4a6f-9778-63f33d3927fd")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 44) (xy 10 44))
+    (uuid "8f811d41-09b7-428b-ac8d-1ddf06d38e53"))
+  (label "JTAG_TDI"
+    (at 10 44 0)
+    (uuid "e9a2558e-380a-47bf-b4b5-f198e0ee3400")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 42) (xy 10 42))
+    (uuid "bf4e93b1-45b9-43ad-81fe-1d2a45f74a5c"))
+  (label "NetR131_2"
+    (at 10 42 0)
+    (uuid "1b98e139-fb17-4d72-aa7f-b800c8a74fcb")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 40) (xy 10 40))
+    (uuid "7ff5a531-3187-4cc9-ab55-48a376b97eeb"))
+  (label "AR_CS1_BT"
+    (at 10 40 0)
+    (uuid "f03dce17-d1fd-478e-885e-52e4e48bcaa3")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 38) (xy 10 38))
+    (uuid "3f7aff7b-dc8e-4ad5-818e-320490f25f6b"))
+  (label "SRDY"
+    (at 10 38 0)
+    (uuid "41107ee1-b2f4-4737-aaec-a18dc062ef6e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 36) (xy 10 36))
+    (uuid "3dee7690-6a7d-4b53-b38f-70c4e180bf23"))
+  (label "DCDC_SW"
+    (at 10 36 0)
+    (uuid "2cd3189b-420c-4d21-bc79-e324aa14ba23")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 34) (xy 10 34))
+    (uuid "a6b1f391-a520-47dd-85e5-aece0e54263a"))
+  (label "VDDS"
+    (at 10 34 0)
+    (uuid "85bca27b-3612-47ac-a602-e15bb51a15e3")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 32) (xy 10 32))
+    (uuid "be853de5-92cb-4bc1-8f93-5fa4c39e6e3d"))
+  (label "nRESET"
+    (at 10 32 0)
+    (uuid "36ea165c-6d46-4465-a33a-7592fa14e38b")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 30) (xy 10 30))
+    (uuid "cd980479-6de2-4fc4-bfdb-4ab901a12ec6"))
+  (label "VDDS"
+    (at 10 30 0)
+    (uuid "4be9c236-5c09-4dc5-b115-bde90c6f121d")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 28) (xy 10 28))
+    (uuid "d7c37c58-7969-4259-b1e8-8a83c9c13f89"))
+  (label "VDDR"
+    (at 10 28 0)
+    (uuid "a6fb1581-c13b-495c-aff4-c098e6486f36")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 26) (xy 10 26))
+    (uuid "7097bb0b-b7a2-4b9c-b85a-d0444fe6fe9e"))
+  (label "X48M_N"
+    (at 10 26 0)
+    (uuid "91113814-c130-4b22-91ea-a4fa3f38e846")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 24) (xy 10 24))
+    (uuid "029b407b-b44e-4ab8-aab4-99925ae34e7b"))
+  (label "X48M_P"
+    (at 10 24 0)
+    (uuid "950cdd5e-3a67-41a5-95dd-8aa6e5f29c6c")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 22) (xy 10 22))
+    (uuid "7ccc19d0-90b5-4ce3-9654-d12b10625b2c"))
+  (label "VDDR"
+    (at 10 22 0)
+    (uuid "6e410439-134d-4d99-9588-d5ce988e6ceb")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 14 20) (xy 10 20))
+    (uuid "d2d5919f-8997-4c6a-ba14-b321e6e80f8c"))
+  (label "GND"
+    (at 10 20 0)
+    (uuid "0d5fd55c-d0ba-4248-b8f6-7b7e77bf0113")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:XTAL")
+    (at 60 80 0)
+    (uuid "fbe149c7-822c-4583-af24-535fbc184ef0")
+    (property "Reference" "Y2"
+      (at 60 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "Y2"
+      (at 60 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:XTAL_4P"
+      (at 60 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 54 80) (xy 50 80))
+    (uuid "5edc6dc8-9511-4bcf-adb3-685328bdfc6e"))
+  (label "X48M_P"
+    (at 50 80 0)
+    (uuid "5e950bee-fb3f-44a1-8a14-cfe9635dc12e")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 78) (xy 50 78))
+    (uuid "7741f715-3573-407a-a960-5726e08e547c"))
+  (label "GND"
+    (at 50 78 0)
+    (uuid "5f106a24-4dfc-48f2-a9fe-f36fd944e1dc")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 76) (xy 50 76))
+    (uuid "063ce6c0-fa96-4c99-98a5-e89eea0c31c8"))
+  (label "X48M_N"
+    (at 50 76 0)
+    (uuid "7ce29ef4-9ac1-40fc-be5e-88fc78d5948a")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 54 74) (xy 50 74))
+    (uuid "f8e4431e-e8ca-45f3-a4f8-611134899e37"))
+  (label "GND"
+    (at 50 74 0)
+    (uuid "939983bc-006f-4b47-9605-1db1012bb772")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:XTAL")
+    (at 100 80 0)
+    (uuid "ea536ff1-8d66-4b00-ad06-1c881a0a29c3")
+    (property "Reference" "Y3"
+      (at 100 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "Y3"
+      (at 100 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:XTAL_4P"
+      (at 100 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 94 80) (xy 90 80))
+    (uuid "cb3cef67-2f4b-4789-bc95-b0e6cb82f88c"))
+  (label "X32K_Q1"
+    (at 90 80 0)
+    (uuid "4a4838d2-d657-4568-a198-f2239688aa76")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 94 78) (xy 90 78))
+    (uuid "77095f07-4db3-413b-aa19-8ec8ea6e5511"))
+  (label "X32K_Q2"
+    (at 90 78 0)
+    (uuid "46818da9-8621-42df-92a6-36f844081ef6")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:XTAL")
+    (at 140 80 0)
+    (uuid "f4e0bedb-868c-4c04-98da-6b44c08cfa69")
+    (property "Reference" "Y4"
+      (at 140 78 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "Y4"
+      (at 140 82 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "open_mmwave:XTAL_4P"
+      (at 140 84 0)
+      (effects (font (size 1.27 1.27)) hide))
+  )
+  (wire
+    (pts (xy 134 80) (xy 130 80))
+    (uuid "ca3eeed5-9fdd-4cd5-9874-97c0bf2f88b1"))
+  (label "XIN32"
+    (at 130 80 0)
+    (uuid "66d0cd78-c9b3-4717-9a83-d84b9e0ed4f5")
+    (effects (font (size 1.27 1.27))))
+  (wire
+    (pts (xy 134 78) (xy 130 78))
+    (uuid "fac4aeb7-9af4-49ba-9aaf-319f1040ea88"))
+  (label "XOUT32"
+    (at 130 78 0)
+    (uuid "06ef6cf6-b464-40a0-9cd6-6ae9d4527ae4")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 20 260 0)
+    (uuid "a15f7c13-4c0b-4608-b521-1ab6e4c58c56")
+    (property "Reference" "#PWR000"
+      (at 20 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 20 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "3V0"
+    (at 24 260 0)
+    (uuid "5184fa32-d92c-44b0-872e-2d02445936d3")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 35 260 0)
+    (uuid "8ac9833b-ca31-4279-bae5-fb6bbea13219")
+    (property "Reference" "#PWR001"
+      (at 35 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 35 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "GND"
+    (at 39 260 0)
+    (uuid "325c0dd3-7336-4d18-93c6-fc20658f4e84")
+    (effects (font (size 1.27 1.27))))
+  (symbol
+    (lib_id "open_mmwave:PWR_FLAG")
+    (at 50 260 0)
+    (uuid "311cd028-6754-4c5b-b785-b9e8ad1e27dc")
+    (property "Reference" "#PWR002"
+      (at 50 258 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 50 262 0)
+      (effects (font (size 1.27 1.27))))
+  )
+  (label "VCC_BA_3V3"
+    (at 54 260 0)
+    (uuid "27e4a10e-0cfc-4f14-b8cf-38fd1a90a0a6")
+    (effects (font (size 1.27 1.27))))
+
+  (symbol_instances
+    (path "/5383476c-d261-47ec-a12c-362c80645dd7"
+      (reference "C114")
+      (unit 1)
+      (value "0.1uF")
+      (footprint "open_mmwave:0201"))
+    (path "/b5bbd264-c52c-4145-a2a9-91e7da92582b"
+      (reference "C17")
+      (unit 1)
+      (value "8pF")
+      (footprint "open_mmwave:0201"))
+    (path "/603f78b4-243a-45bf-a8b4-e1f5d14858b2"
+      (reference "C18")
+      (unit 1)
+      (value "8pF")
+      (footprint "open_mmwave:0201"))
+    (path "/604b5eb1-de19-43ba-ac7e-30e0fdb2189a"
+      (reference "C19")
+      (unit 1)
+      (value "12PF")
+      (footprint "open_mmwave:0201"))
+    (path "/fc2ec365-e711-47ee-b0f0-94f9a8e140a8"
+      (reference "C20")
+      (unit 1)
+      (value "12PF")
+      (footprint "open_mmwave:0201"))
+    (path "/407142c9-965b-4954-af0c-a034ef58fbcc"
+      (reference "C38")
+      (unit 1)
+      (value "12PF")
+      (footprint "open_mmwave:0201"))
+    (path "/cf94f587-a012-49e1-85af-8aecb60f0c91"
+      (reference "C39")
+      (unit 1)
+      (value "12PF")
+      (footprint "open_mmwave:0201"))
+    (path "/723958e2-5504-46d6-9e11-23eb7ac0526d"
+      (reference "J7")
+      (unit 1)
+      (value "J7")
+      (footprint "open_mmwave:CONN"))
+    (path "/58b4cd99-542d-4ba4-820c-8bb5623385c2"
+      (reference "R168")
+      (unit 1)
+      (value "0R")
+      (footprint "open_mmwave:0201"))
+    (path "/2cc793d1-1457-4c5b-91f6-0607556bef2e"
+      (reference "R180")
+      (unit 1)
+      (value "4k")
+      (footprint "open_mmwave:0201"))
+    (path "/e54dc3b0-6e0f-4e5b-b173-5193990dab57"
+      (reference "R181")
+      (unit 1)
+      (value "4k")
+      (footprint "open_mmwave:0201"))
+    (path "/07accbca-332c-490b-a2ee-c52d1e1d9dcc"
+      (reference "R182")
+      (unit 1)
+      (value "0R")
+      (footprint "open_mmwave:0201"))
+    (path "/ff0d8167-5c03-4339-8d37-add013cf1b37"
+      (reference "R91")
+      (unit 1)
+      (value "0R")
+      (footprint "open_mmwave:0201"))
+    (path "/2f8386a9-2ae6-4f7d-b003-374ce8575286"
+      (reference "U10")
+      (unit 1)
+      (value "U10")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/23e6a201-ac9c-401b-8e09-26e824e3306e"
+      (reference "U7")
+      (unit 1)
+      (value "U7")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/e2b7ef23-24b7-4219-83a8-e3453028ecc0"
+      (reference "U8")
+      (unit 1)
+      (value "U8")
+      (footprint "open_mmwave:GENERIC"))
+    (path "/fbe149c7-822c-4583-af24-535fbc184ef0"
+      (reference "Y2")
+      (unit 1)
+      (value "Y2")
+      (footprint "open_mmwave:XTAL_4P"))
+    (path "/ea536ff1-8d66-4b00-ad06-1c881a0a29c3"
+      (reference "Y3")
+      (unit 1)
+      (value "Y3")
+      (footprint "open_mmwave:XTAL_4P"))
+    (path "/f4e0bedb-868c-4c04-98da-6b44c08cfa69"
+      (reference "Y4")
+      (unit 1)
+      (value "Y4")
+      (footprint "open_mmwave:XTAL_4P"))
+    (path "/a15f7c13-4c0b-4608-b521-1ab6e4c58c56"
+      (reference "#PWR000")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+    (path "/8ac9833b-ca31-4279-bae5-fb6bbea13219"
+      (reference "#PWR001")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+    (path "/311cd028-6754-4c5b-b785-b9e8ad1e27dc"
+      (reference "#PWR002")
+      (unit 1)
+      (value "PWR_FLAG")
+      (footprint ""))
+  )
 )

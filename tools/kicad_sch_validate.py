@@ -47,8 +47,9 @@ def parse_sheets(content: str) -> List[Tuple[int, str, str, bool]]:
     sheetfile_pattern = re.compile(r'\(property\s+"(Sheet\s*file|Sheetfile)"\s+"([^"]+)"')
 
     for i, line in enumerate(lines, 1):
-        # Check if this line starts a sheet element
-        if "(sheet " in line and "(at " in line:
+        stripped = line.strip()
+        # Check if this line starts a sheet element (handles both single-line and multi-line)
+        if stripped == "(sheet" or stripped.startswith("(sheet "):
             # Collect the full sheet element (may span multiple lines)
             sheet_content = line
             paren_depth = line.count("(") - line.count(")")
